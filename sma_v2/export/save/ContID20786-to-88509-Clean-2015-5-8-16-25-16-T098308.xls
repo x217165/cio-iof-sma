@@ -1,0 +1,182 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>0&nbsp;</TD>
+
+<TD NOWRAP>FROM CONTACT ID:  000020786 - Smith, Geoff &nbsp;</TD>
+
+<TD NOWRAP>TO CONTACT ID  :  000088509 - Tosczak, Douglas &nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>ADDRESS_ID&nbsp;</TD>
+
+<TD NOWRAP>88509&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP> 000022117&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+
+<TD NOWRAP>20786&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>Amalgamated to Tosczak, Douglas  (88509) on MAY 08, 2015, 11:05 PM by T098308.  BN:( 000003502).  &nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>NAME_PREFIX&nbsp;</TD>
+
+<TD NOWRAP>88509&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>Mr.&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>POSITION_TITLE&nbsp;</TD>
+
+<TD NOWRAP>88509&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>Contracts Coordinator&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+
+<TD NOWRAP>20786&nbsp;</TD>
+
+<TD NOWRAP>A&nbsp;</TD>
+
+<TD NOWRAP>D&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CUSTOMER_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>32998&nbsp;</TD>
+
+<TD NOWRAP> 000020786&nbsp;</TD>
+
+<TD NOWRAP> 000088509&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SERVICE_ORDER&nbsp;</TD>
+
+<TD NOWRAP>PRIME_CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>7032&nbsp;</TD>
+
+<TD NOWRAP> 000020786&nbsp;</TD>
+
+<TD NOWRAP> 000088509&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_DETAIL_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>14450&nbsp;</TD>
+
+<TD NOWRAP> 000020786&nbsp;</TD>
+
+<TD NOWRAP> 000088509&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>3502&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_DETAIL_LOCATION_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>6072&nbsp;</TD>
+
+<TD NOWRAP> 000020786&nbsp;</TD>
+
+<TD NOWRAP> 000088509&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+</table>

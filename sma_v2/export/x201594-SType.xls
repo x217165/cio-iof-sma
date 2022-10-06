@@ -1,0 +1,3632 @@
+<TABLE border=1>
+<THEAD>
+<TH>LOB</TH>
+<TH>Line of Business</TH>
+<TH>Service Category</TH>
+<TH>Service Type</TH>
+<TH>Service Type (French)</TH>
+<TH>Start Date</TH>
+<TH>End Date</TH>
+<TH>Revenue Region</TH>
+<TH>Service Level Agreement</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>911 IRA N3 RVP T1 Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>911 IRA N3 RVP 10 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>911 IRA N3 RVP 100 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - 20 to 90 MBPS&nbsp;</TD>
+<TD NOWRAP>911 IRA N3 RVP 20 a 90 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - 200 to 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>911 IRA N3 RVP 200 a 1000 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>911 IRA N3 RVP 256K Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - 3 to 9 Mbps on fibre&nbsp;</TD>
+<TD NOWRAP>911 IRA N3 RVP 3 a 9 Mbps sur Fibre Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>911 TM-WAN L3 VPN Ver2 - ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP ASYMETRIQUE Gere&nbsp;</TD>
+<TD NOWRAP>FEB-02-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Additional VRF - Customer Managed&nbsp;</TD>
+<TD NOWRAP>VRF additionnel - Gere par le client&nbsp;</TD>
+<TD NOWRAP>JUL-29-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Additional VRF - TELUS managed&nbsp;</TD>
+<TD NOWRAP>VRF additionnel - Gere par TELUS&nbsp;</TD>
+<TD NOWRAP>SEP-22-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>BCLC Satellite WAN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-28-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>BCLC Satellite WAN maintenance&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-28-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>BVOIP-IP Trunking SBC Access - ADSL&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-22-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>BVOIP-IP Trunking SBC Access - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-22-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CCA Ethernet FDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-22-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CCA Ethernet HDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-23-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CCA Fast Ethernet FDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-22-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CCA Fast Ethernet HDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-22-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM WAN L3 - 100 Gbps Access&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM WAN L3 VPN - VDSL&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-05-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Standard SLA (Business Day)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-Custom Satellite WAN (dedicated hub)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-01-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-01-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 128 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>FEB-01-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 2 - 10 GBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-29-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 20 to 90 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 20 a 90 Mbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JAN-13-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 200 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 200 to 1000  MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-01-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 3 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 3 to 9 Mbps on fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-30-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 300 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 400 MBPS&nbsp;</TD>
+<TD NOWRAP>GPC-IRA N3 RVP 400 Mbps&nbsp;</TD>
+<TD NOWRAP>FEB-26-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 500 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 512 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-11-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 56 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-11-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - 6 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - ALT BANDWIDTH&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-05-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>FEB-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Core Availability 99.99% 7x24 On-Net&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN - GPON&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>FEB-19-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>CM-WAN L3 VPN Bonded T1&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-19-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Colocation CP Rail Bungaloos&nbsp;</TD>
+<TD NOWRAP>Colocation CP Rail Bungaloos&nbsp;</TD>
+<TD NOWRAP>DEC-02-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Command Line Simulator&nbsp;</TD>
+<TD NOWRAP>Simulateur de ligne de commande&nbsp;</TD>
+<TD NOWRAP>MAY-04-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Configuration Visibility&nbsp;</TD>
+<TD NOWRAP>Visibilite sur configuration&nbsp;</TD>
+<TD NOWRAP>MAY-04-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Content Delivery Network&nbsp;</TD>
+<TD NOWRAP>Reseau de distribution de contenu&nbsp;</TD>
+<TD NOWRAP>JUL-09-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom BCLC Bridged ADSL&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-10-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom BCLC Bridged Fiber&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-10-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom L2 MAN GW - 1000Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-07-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom L2 MAN GW - 100Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-07-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom L2 MAN GW - 200Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-07-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom L2 MAN GW - 300Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-07-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom L2 MAN GW - 400Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-07-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom L2 MAN GW - 500Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-07-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Custom LAN Extension&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-04-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Enhanced Packet Performance Reporting&nbsp;</TD>
+<TD NOWRAP>Rapport de Performance Ameliore&nbsp;</TD>
+<TD NOWRAP>AUG-14-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services / Site Survey&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-22-2018&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Eth FDX Bridged MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-25-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Eth FDX Routed MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-25-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Eth HDX Bridged MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Eth HDX Routed MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet ADSL Bridged&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet ADSL Premium&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet ADSL Routed&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet FDX Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA FDX Bridge-Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet FDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA FDX Route-Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet HDX Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Bridge-Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet HDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Route-Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Metro Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA FDX Bridge-Ethernet MAN Gere&nbsp;</TD>
+<TD NOWRAP>JAN-31-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Metro Routed - Copper&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-27-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Metro Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-31-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - BRI (Custom)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - DNA T1&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame 128K&nbsp;</TD>
+<TD NOWRAP>IRA Ethernet RT Route Gere 128 Kbps&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame 256K&nbsp;</TD>
+<TD NOWRAP>IRA Ethernet RT Route Gere 256 Kbps&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame 512K&nbsp;</TD>
+<TD NOWRAP>IRA Ethernet RT Route Gere 512 Kbps&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame 56k&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-25-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame Relay Gateway - 256K&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame Relay Gateway - 512K&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame Relay Gateway - T1&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Ethernet Routed - Frame T1&nbsp;</TD>
+<TD NOWRAP>IRA Ethernet RT Route Gere T1&nbsp;</TD>
+<TD NOWRAP>APR-28-2000&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Exchange/Core Connectivity - IPT Internet&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-22-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Extranet 10/100M Ether IP CollabSvcs Interface&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-08-2005&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy Default 24x7 *** do NOT delete ***&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Extranet Access&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-11-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Extranet Access - VoIP services&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-20-2020&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Extranet Access - additional unbilled&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-05-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Extranet Service&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-11-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Extranet Service - additional unbilled&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-05-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC No SLA (No SLM Reports)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Eth FDX Bridged MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-25-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Eth FDX Routed MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-25-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Eth HDX Bridged MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Eth HDX Routed MAN to WAN GTW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Ethernet FDX Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA FDX Bridge-Fast Ethernet Fibre Gere &nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Ethernet FDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA FDX Route-Fast Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Ethernet HDX Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Bridge-Fast Ethernet Fibre Gere &nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Ethernet HDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Route-Fast Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Ethernet Metro Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA FDX Bridge-Fast-Ethernet MAN Gere&nbsp;</TD>
+<TD NOWRAP>JAN-31-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Fast Ethernet Metro Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-31-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIBS-NAP-10G-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIBS-NAP-10G-01&nbsp;</TD>
+<TD NOWRAP>APR-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIBS-NAP-FE-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIBS-NAP-FE-01&nbsp;</TD>
+<TD NOWRAP>APR-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIBS-NAP-G-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIBS-NAP-G-01&nbsp;</TD>
+<TD NOWRAP>APR-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-Multicast&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-Multicast&nbsp;</TD>
+<TD NOWRAP>JUL-27-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-100G-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-100G-01&nbsp;</TD>
+<TD NOWRAP>JUL-27-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-100G-02&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-100G-02&nbsp;</TD>
+<TD NOWRAP>JUL-27-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-10G-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-10G-01&nbsp;</TD>
+<TD NOWRAP>APR-10-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-BB-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-BB-01&nbsp;</TD>
+<TD NOWRAP>APR-10-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-BB-02&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-BB-02&nbsp;</TD>
+<TD NOWRAP>APR-10-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-E-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-E-01&nbsp;</TD>
+<TD NOWRAP>APR-10-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-FE-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-FE-01&nbsp;</TD>
+<TD NOWRAP>APR-10-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-G-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-G-01&nbsp;</TD>
+<TD NOWRAP>APR-10-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-T1-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-T1-01&nbsp;</TD>
+<TD NOWRAP>APR-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-VPN-01&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-NAP-VPN-01&nbsp;</TD>
+<TD NOWRAP>APR-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-Power&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-Power&nbsp;</TD>
+<TD NOWRAP>APR-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-TM&nbsp;</TD>
+<TD NOWRAP>GCNet IBIS-TM&nbsp;</TD>
+<TD NOWRAP>APR-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBTNS Clocking&nbsp;</TD>
+<TD NOWRAP>GCNet IBTNS Clocking&nbsp;</TD>
+<TD NOWRAP>OCT-08-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBTNS SDP Parent&nbsp;</TD>
+<TD NOWRAP>GCNet IBTNS SDP Parent&nbsp;</TD>
+<TD NOWRAP>MAY-12-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet IBTNS-Power Backup&nbsp;</TD>
+<TD NOWRAP>GCNet IBTNS-Power Backup&nbsp;</TD>
+<TD NOWRAP>MAY-12-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-APL-01&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-APL-01&nbsp;</TD>
+<TD NOWRAP>MAY-12-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-DPL-01&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-DPL-01&nbsp;</TD>
+<TD NOWRAP>MAY-12-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-DPL-02&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-DPL-02&nbsp;</TD>
+<TD NOWRAP>MAY-12-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-DPL-03&nbsp;</TD>
+<TD NOWRAP>GCNet NAP-IBTNS-DPL-03&nbsp;</TD>
+<TD NOWRAP>MAY-12-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS ANM&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS BRIX&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS C Device (non-DNET)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-01-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS CDMS (DNET)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-18-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS CEM Clocking Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-28-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS CEM Serial Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-30-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS CEM-T1 Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-15-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS Dark Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-11-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS E&M Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-15-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS Equipment Installation&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-03-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS FXO Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-15-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS FXS Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-15-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS IEEE TOP Clocking Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-29-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS IP Multicast&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-18-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS IP SDP&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-18-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS IP SIP&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-18-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS Internet Direct Wholesale - 100 to 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-16-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS Internet Direct Wholesale - 200MBPS&nbsp;</TD>
+<TD NOWRAP>Vente de gros d&#39;Internet pour GDNS&nbsp;</TD>
+<TD NOWRAP>OCT-09-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS NSS (DNET)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-18-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS PRI Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-15-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS PWAN ADMIN TERM&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-22-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS PWAN Port Only&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS PWAN Port and LAN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS SDP PLS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-12-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS SDP Voice&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-20-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS SSN Termination Point&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-01-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS UPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 1000MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 100MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 10GBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-26-2013&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 10MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 200MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 20MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-23-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 300MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 30MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access (SDA) 50MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-11-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access 128kb (SDA)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-20-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GDNS WAN Access T1 (SDA)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-09-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOCWCS IPTEL SDP&nbsp;</TD>
+<TD NOWRAP>GOCWCS IPTEL SDP&nbsp;</TD>
+<TD NOWRAP>DEC-11-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GONet LAN HDD WLAN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-01-2018&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GONet LAN Port&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GONet LAN Port-based&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GONet LAN Service Request&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-16-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GONet LAN Switch-based&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GONet LAN WLAN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet  LAN - LAN MAC&nbsp;</TD>
+<TD NOWRAP>GOnet  LAN - LAN MAC&nbsp;</TD>
+<TD NOWRAP>AUG-17-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet AdHoc Report&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-28-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet Additional VRF&nbsp;</TD>
+<TD NOWRAP>GOnet Additional VRF&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet Consultant&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-28-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet LAN Extension&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-04-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Avail 7x24 4 Hr Response&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet RAS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-28-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet Security Service&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAY-05-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN - Dedicated Internet&nbsp;</TD>
+<TD NOWRAP>GOnet WAN - Dedicated Internet&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN - Internet CUG&nbsp;</TD>
+<TD NOWRAP>GOnet WAN - Internet CUG&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN DMZ&nbsp;</TD>
+<TD NOWRAP>GOnet WAN DMZ&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN ENA&nbsp;</TD>
+<TD NOWRAP>GOnet WAN ENA&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN Feature_Option&nbsp;</TD>
+<TD NOWRAP>GOnet WAN Feature_Option&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN HS L3 VPN&nbsp;</TD>
+<TD NOWRAP>GOnet WAN HS L3 VPN&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN HS L3 VPN Raw Wavelength&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-19-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN L2 ELINE EVC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-06-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Avail 7x24 4 Hr Response&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN L2 Ethernet Service&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-05-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Avail 7x24 4 Hr Response&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN LS Asymmetrical L3 VPN&nbsp;</TD>
+<TD NOWRAP>GOnet WAN LS Asymmetrical L3 VPN&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN LS Symmetrical L3 VPN&nbsp;</TD>
+<TD NOWRAP>GOnet WAN LS Symmetrical L3 VPN&nbsp;</TD>
+<TD NOWRAP>JUL-24-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>GOnet WAN WIRELESS L3 VPN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gigabit Ethernet Metro Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Bridge-Premium Fast Ethernet MAN Gere&nbsp;</TD>
+<TD NOWRAP>JAN-31-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gigabit Ethernet Metro Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-31-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gonet Core/MMP&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-23-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gonet LAN - LAN MAC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-28-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gonet Professional Services&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-30-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gonet Security Services - MAC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-23-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gonet WAN LS Asymmetrical Satellite L3 VPN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-22-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Gonet WLAN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-30-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>High Speed QoS to Non QoS Gateway&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-09-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>SLA Not Applicable&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IP Networks E-10 EF-3 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-11-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IP Trunking Internet - Dedicated Realm&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-03-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IP Trunking Internet - Shared Realm&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-03-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IP Trunking VRF - Customer Managed&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-28-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IP Trunking VRF - TELUS Managed&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-27-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IP Video Conferencing SNet&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-22-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IPM - WAN L3 VPN - 10MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-22-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>IoT WAN L3 Appl - Exchange/Core Connectivity&nbsp;</TD>
+<TD NOWRAP>IoT WAN L3 Appl - Exchange/Core Connectivity&nbsp;</TD>
+<TD NOWRAP>NOV-13-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Low Speed QoS to Non QoS Gateway&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-09-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>SLA Not Applicable&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L2 VPN - 1000MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L2 VPN - 1000MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L2 VPN - 100MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L2 VPN - 100MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 1000MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 1000MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 100MBPS&nbsp;</TD>
+<TD NOWRAP>IRA MAN N3 RVP FDX 100 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 100MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 10MBPS&nbsp;</TD>
+<TD NOWRAP>IRA MAN N3 RVP FDX 10 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 10MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>M/W N3 RVP HDX or FDX 10M-Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 200MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 200MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 20MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 300MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 300MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 30MBPS&nbsp;</TD>
+<TD NOWRAP>IRA MAN N3 RVP FDX 30 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 30MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 400MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 400MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 40MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 500MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-30-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 500MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 50MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 60MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 70MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 80MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN - 90MBPS GATEWAY&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN 10 MBPS - Converged Edge design&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-04-2013&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN 100 MBPS - Converged Edge design&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-04-2013&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN 20-90 MBPS - Converged Edge design&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-04-2013&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>METRO L3 VPN 200-1000 MBPS - Converged Edge design&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-04-2013&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>MPLS NNI&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>NNI ENHANCED AF Bandwidth&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>NNI PREMIUM EF Bandwidth&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-23-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>POS ADSL&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-20-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>SLA Not Applicable&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Packet Performance Reporting&nbsp;</TD>
+<TD NOWRAP>Rapports de performance des paquets&nbsp;</TD>
+<TD NOWRAP>AUG-29-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Prem Fast Eth HDX Bridged MANWAN GW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Prem Fast Eth HDX Routed MANWAN GW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Premium Fast Ethernet HDX Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Bridge-Premium Fast Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Premium Fast Ethernet HDX Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Route-Premium Fast Ethernet Fibre Gere&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Premium Fast Ethernet Metro Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>IRA HDX Bridge-Premium Fast Ethernet METRO Gere&nbsp;</TD>
+<TD NOWRAP>FEB-29-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>SIP Trunking R4 Internet&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-07-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>SIP Trunking R4 VRF - Customer Managed&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-07-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>SIP Trunking R4 VRF - TELUS Managed&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-07-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>SNMP Proxy Service&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-30-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>SNMP Read&nbsp;</TD>
+<TD NOWRAP>SNMP en lecture&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>SNMP Trap Forwarding&nbsp;</TD>
+<TD NOWRAP>Renvoi Trap SNMP&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Satellite Internet Access&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Secure Cloud Connect - 2 Gbps to 10 Gbps&nbsp;</TD>
+<TD NOWRAP>Connexion Sur en nuage 2Gbps a 10Gbps&nbsp;</TD>
+<TD NOWRAP>APR-25-2019&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.999% Available 24x7 2 Hr MTTR&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Secure Cloud Connect - 200M to 1G&nbsp;</TD>
+<TD NOWRAP>Connexion Sur en nuage 200M a 1G&nbsp;</TD>
+<TD NOWRAP>OCT-23-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.999% Available 24x7 2 Hr MTTR&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Secure Cloud Connect - Additional Peering&nbsp;</TD>
+<TD NOWRAP>Connexion Sure en nuage - Peering supplementaire&nbsp;</TD>
+<TD NOWRAP>JUN-16-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.999% Available 24x7 2 Hr MTTR&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Secure Cloud Connect 50M - 100M&nbsp;</TD>
+<TD NOWRAP>Connexion Sur en nuage 50M a 100M&nbsp;</TD>
+<TD NOWRAP>JUN-16-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.999% Available 24x7 2 Hr MTTR&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Special test service type&nbsp;</TD>
+<TD NOWRAP>Special test service type&nbsp;</TD>
+<TD NOWRAP>OCT-14-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Syslog Forwarding&nbsp;</TD>
+<TD NOWRAP>Renvoi Syslog&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TELUS Cloud Collector MPLS&nbsp;</TD>
+<TD NOWRAP>TELUS Cloud Collector MPLS&nbsp;</TD>
+<TD NOWRAP>AUG-04-2020&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM WAN L3 - 100 Gbps Access&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM WAN L3 VPN - VDSL&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-04-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-Custom Satellite WAN (dedicated hub)&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-15-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN - Satellite T1 SCPC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-14-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN 10 MBPS for CTIS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-16-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN 100 MBPS for CTIS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-16-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN 30 MBPS for CTIS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-16-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Bonded T1&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUL-22-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Satellite Asymmetric&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Satellite Symmetric&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 1.5 Mbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JUL-24-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 10 Mbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JUL-24-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 100 Mbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JUL-24-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 128 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 128 Kbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JUL-24-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 2 - 10 Gbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-29-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 20 to 90 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 20 a 90 Mbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JAN-13-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 200 to 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 200 a 1000 Mbps  IP/MPLS&nbsp;</TD>
+<TD NOWRAP>AUG-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 256 Kbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JUL-24-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 3 to 9 Mbps on fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-30-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - 512 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 512 Kbps IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JUL-24-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>TM-WAN L3 VPN Ver2 - ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP ASYMETRIQUE IP/MPLS&nbsp;</TD>
+<TD NOWRAP>JUL-24-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Test Service Type&nbsp;</TD>
+<TD NOWRAP>Test service type&nbsp;</TD>
+<TD NOWRAP>OCT-18-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Token Ring Bridged - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>Token Ring Routed - Fibre&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-01-2002&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>BC Premium SLA (24x7)&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 ANI Access&nbsp;</TD>
+<TD NOWRAP>IRA N2 ANI Acces&nbsp;</TD>
+<TD NOWRAP>JUN-12-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 ANI Subscriber EVC&nbsp;</TD>
+<TD NOWRAP>IRA N2 ANI abonne client ECV&nbsp;</TD>
+<TD NOWRAP>JUN-12-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 ELAN EVC&nbsp;</TD>
+<TD NOWRAP>IRA N2 ELAN ECV&nbsp;</TD>
+<TD NOWRAP>NOV-29-2013&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 ELINE EVC&nbsp;</TD>
+<TD NOWRAP>IRA N2 ELINE ECV&nbsp;</TD>
+<TD NOWRAP>APR-08-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 Ethernet Access 10G&nbsp;</TD>
+<TD NOWRAP>IRA N2 RPV Acces Ethernet 10G&nbsp;</TD>
+<TD NOWRAP>APR-08-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 Ethernet Access 10M - 10G NO NID&nbsp;</TD>
+<TD NOWRAP>IRA N2 RPV Acces Ethernet 10M-10G sans NID&nbsp;</TD>
+<TD NOWRAP>APR-08-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 INTERNET EVC NO CPE&nbsp;</TD>
+<TD NOWRAP>IRA N2 INTERNET ECV sans CPE&nbsp;</TD>
+<TD NOWRAP>APR-08-2014&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 VPN - 30MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 VPN Ethernet access - 1 to 1000 Mbps&nbsp;</TD>
+<TD NOWRAP>IRA N2 RPV Acces ethernet - 1 a 1000 Mbps&nbsp;</TD>
+<TD NOWRAP>MAY-04-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L2 VPN Ethernet access - 1.5 Mbps&nbsp;</TD>
+<TD NOWRAP>IRA N2 RPV Acces ethernet - 1.5 Mbps&nbsp;</TD>
+<TD NOWRAP>MAY-04-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 - GPON&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>FEB-19-2021&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 Appl - Exchange/Core Connectivity&nbsp;</TD>
+<TD NOWRAP>Acces a l&#39;echange pour IRA N3 RPV&nbsp;</TD>
+<TD NOWRAP>MAR-12-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 TM VPN 1 Mbps - 100 Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-10-2017&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 1.5 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 1.5 mbps Extension&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-21-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 10 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 128 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 256 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 30 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 512 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - Asymmetric&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Asymmetric Rate Limited Service&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-10-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Features&nbsp;</TD>
+<TD NOWRAP>Options pour IRA N3 RPV&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet GW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-08-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 100Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 10Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 200Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 30Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 1.5Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 10 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 100 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 128 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 to 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 3 to 9 MBPS on fibre&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 3 a 9 MBPS sur fibre&nbsp;</TD>
+<TD NOWRAP>JAN-13-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 30 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 30 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 300 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 400 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 500 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 512 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 512K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 56 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 56K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP ASYMETRIQUE Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 WLESS-WLINE ACCESS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-08-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 WLESS-WLINE VPN&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JAN-08-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>test by Leanne&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>NOV-13-2013&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+</TABLE>

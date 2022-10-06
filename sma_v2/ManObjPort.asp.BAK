@@ -1,0 +1,135 @@
+<%@ LANGUAGE=VBSCRIPT %>
+<%  
+OPTION EXPLICIT
+on error resume next
+%>
+<!-- #include file="smaConstants.inc" -->
+<!-- #include file="smaProcs.inc" -->
+<!-- #include file="databaseconnect.asp" -->
+<!--
+********************************************************************************************
+* Page name:	ManObjPort.asp
+*
+* Purpose:		To display Managed Object Port Name and LAN IP.
+*
+* Created by:	Dan S. Ty	03/13/2002
+*
+********************************************************************************************
+        Date		Author			Changes/enhancements made
+        -----		------		------------------------------------------------------
+	   15-Oct-03	DTy			Add field required for IP Mediation:
+								Customer Service ID & Name & Billable Port.
+***************************************************************************************************
+-->
+<%
+
+'get strNE_ID - Network Element ID
+dim strNE_ID
+strNE_ID = Request("ne_id")
+
+dim sql
+
+'get the Port Name and LAN IP recordset
+if strNE_ID <> "" then
+	dim rsPort
+	sql = "SELECT NE.NETWORK_ELEMENT_PORT_ID, NE.NETWORK_ELEMENT_PORT_NAME, NE.NETWORK_ELEMENT_PORT_IP, " &_
+          "  NE.BILLABLE_PORT, NE.CUSTOMER_SERVICE_ID, CS.CUSTOMER_SERVICE_DESC, NE.UPDATE_DATE_TIME, NE.REPORTABLE" &_
+          "  FROM CRP.NETWORK_ELEMENT_PORT NE, CRP.CUSTOMER_SERVICE CS" &_
+          "  WHERE NE.CUSTOMER_SERVICE_ID = CS.CUSTOMER_SERVICE_ID (+) AND NETWORK_ELEMENT_ID = " & strNE_ID &_
+		  "  ORDER BY NE.NETWORK_ELEMENT_PORT_NAME, NE.NETWORK_ELEMENT_PORT_IP "
+          
+
+	set rsPort=server.CreateObject("ADODB.Recordset")
+	rsPort.CursorLocation = adUseClient
+	rsPort.Open sql, objConn
+	if err then
+		DisplayError "BACK", "", err.Number, "CANNOT OPEN RECORDSET", err.Description
+	end if
+	set rsPort.ActiveConnection = nothing
+end if
+%>
+<HTML>
+<LINK href="stylesheets/styles.css" rel="stylesheet" type="text/css">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<TITLE>In-line Frame Page</TITLE>
+<STYLE>
+.regularItem {
+	cursor: hand;
+}
+.whiteItem {
+	cursor: hand;
+	background-color: white;
+}
+.Highlight {
+	cursor: hand; 
+	background-color: #00974f;
+	color: white;
+}
+</STYLE>
+
+<script type="text/javascript">
+var oldHighlightedElement;
+var oldHighlightedElementClassName;
+
+function cell_onClick(intPortID, strLastUpdate){
+	document.frmIFR2.hdnPortID.value = intPortID;
+	document.frmIFR2.hdnLastUpdate.value = strLastUpdate;
+	//highlight current record
+	if (oldHighlightedElement != null)
+	   {oldHighlightedElement.className = oldHighlightedElementClassName}
+	oldHighlightedElement = window.event.srcElement.parentElement;
+	oldHighlightedElementClassName = oldHighlightedElement.className;
+	oldHighlightedElement.className = "Highlight";
+}
+
+</script>
+
+<body>
+<form name="frmIFR2" action="ManObjPort.asp" method="POST">
+<input type="hidden" name="hdnPortID" value="">
+<input type="hidden" name="hdnLastUpdate" value="">
+
+<TABLE border=1 cellspacing=0 cellpadding=2 width="100%">
+	<thead>
+		<TR>
+		<th colspan=6 title="Port Information">Port Information</th></TR>
+		<TR>
+		<th nowrap title="Port Name">Port Name</th>
+		<th nowrap title="LAN IP">LAN IP</th>
+		<th nowrap title="Billable Port">Billable Port?</th>
+		<th nowrap title="Reportable Required">Reportable Required?</th>
+		<th nowrap title="CS ID">CS ID</th>
+		<th nowrap title="Customer Service Name">Customer Service Name</th></TR>
+	</thead>
+	<tbody>
+		<%
+		if strNE_ID <> "" then
+		dim k
+		k = 0
+		while not rsPort.EOF
+			if Int(k/2) = k/2 then
+				Response.Write "<tr class=""regularItem"">"
+			else
+				Response.Write "<tr class=""whiteItem"">"
+			end if
+			k = k+1
+		%>
+			<td nowrap onClick="cell_onClick(<%=rsPort(0)%>, '<%=rsPort(7)%>')"><%=rsPort(1)%>&nbsp;</td>
+			<td nowrap onClick="cell_onClick(<%=rsPort(0)%>, '<%=rsPort(7)%>')"><%=rsPort(2)%>&nbsp;</td>
+			<td nowrap onClick="cell_onClick(<%=rsPort(0)%>, '<%=rsPort(7)%>')"><%=rsPort(3)%>&nbsp;</td>
+			<td nowrap onClick="cell_onClick(<%=rsPort(0)%>, '<%=rsPort(7)%>')"><%=rsPort(7)%>&nbsp;</td>
+			<td nowrap onClick="cell_onClick(<%=rsPort(0)%>, '<%=rsPort(7)%>')"><%=rsPort(4)%>&nbsp;</td>
+			<td nowrap onClick="cell_onClick(<%=rsPort(0)%>, '<%=rsPort(7)%>')"><%=rsPort(5)%>&nbsp;</td>
+		</tr>
+		<%
+		rsPort.MoveNext
+		wend
+		rsPort.Close
+		end if
+		%>
+	</tbody>
+</TABLE>
+
+</FORM>
+</BODY>
+</HTML>

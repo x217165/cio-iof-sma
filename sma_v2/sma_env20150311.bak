@@ -1,0 +1,5 @@
+const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=ESDAT"    #Encrypt
+const strConstSConnectString ="Provider=MSDAORA;Data Source=ESDSAT;User Id=APP_SMA_ACCESS_AT;Password=gcnet;"   #Encrypt
+const APP_SMA_ALL_LCD="Provider=MSDAORA;Data Source=ESDSAT;User Id=APP_SMA_ALL_LCD_AT;Password=gcnet_all;"   #Encrypt
+const APP_SMA_GCNET="Provider=MSDAORA;Data Source=ESDSAT;User Id=APP_SMA_GCNET_AT;Password=gcnet;"   #Encrypt
+const APP_SMA_OPSNAS="Provider=MSDAORA;Data Source=ESDSAT;User Id=APP_SMA_OPSNAS_AT;Password=opsnas_sma;"   #Encrypt

@@ -1,0 +1,60 @@
+'********************************************************
+'	dim cmdObjSP_GET_LATEST_SERV_INST, servInstanceRs, strErrCode, strErrMsg
+'
+'	Set servInstanceRs = Server.CreateObject("ADODB.RecordSet")
+'
+'	set cmdObjSP_GET_LATEST_SERV_INST = server.CreateObject("ADODB.Command")
+'	set cmdObjSP_GET_LATEST_SERV_INST.ActiveConnection = objConn
+'	cmdObjSP_GET_LATEST_SERV_INST.CommandType = adCmdStoredProc
+'	cmdObjSP_GET_LATEST_SERV_INST.CommandText = "JAGORA.SP_GET_LATEST_SERV_INST" 
+'	
+'
+'	cmdObjSP_GET_LATEST_SERV_INST.Parameters.Append cmdObjSP_GET_LATEST_SERV_INST.CreateParameter("p_csid",adNumeric, adParamInput,9,strCustServID) 	
+'	cmdObjSP_GET_LATEST_SERV_INST.Parameters.Append cmdObjSP_GET_LATEST_SERV_INST.CreateParameter("p_err_code",adVarChar,adParamOutput,9)
+'	cmdObjSP_GET_LATEST_SERV_INST.Parameters.Append cmdObjSP_GET_LATEST_SERV_INST.CreateParameter("p_err_msg", adVarChar,adParamOutput,200)				
+'
+'
+'			'****************************
+			'check parameter values		
+  			'****************************
+  			
+  			'dim objparm
+  			''for each objparm in cmdObjSP_GET_LATEST_SERV_INST.Parameters
+  			'	  Response.Write "<b>" & objparm.name & "</b>"
+  			'	  Response.Write " has size:  " & objparm.Size & " "
+  			'	  Response.Write " and value:  " & objparm.value & " "
+  			'	  Response.Write " and datatype:  " & objparm.Type & "<br> "
+  			'next
+  									 
+  			'response.write (cmdObjSP_GET_LATEST_SERV_INST.CommandText)
+  			'response.write (cmdObjSP_GET_LATEST_SERV_INST.Parameters("p_err_msg"))
+  			
+
+'	set servInstanceRs = cmdObjSP_GET_LATEST_SERV_INST.Execute
+'	strErrCode = cmdObjSP_GET_LATEST_SERV_INST.Parameters("p_err_code")
+'	strErrMsg  = cmdObjSP_GET_LATEST_SERV_INST.Parameters("p_err_msg")
+'
+'	if objConn.Errors.Count <> 0 then
+'		DisplayError "BACK", "", objConn.Errors(0).NativeError, "CANNOT QUERY BACK RECORD STATUS DUE TO SRT2 DEPENDENCY", objConn.Errors(0).Description
+'		objConn.Errors.Clear
+'		servInstanceRs.Close
+'		Set servInstanceRs = Nothing 
+'	end if
+
+	'StrSql =" SELECT a.srvc_instnc_att_name, " &_
+	'			    "a.srvc_instnc_att_id, " &_
+	'			    "b.SRVC_instnc_att_val, " &_
+	'			    "b.SRVC_instnc_ATT_VAL_ID, " &_
+	'			    "c.srvc_instnc_att_xref_id, " &_
+	'			    "d.UPDATE_DATE_TIME, " &_
+	'			    "d.srvc_instnc_att_val_usage_id " &_
+	'		" FROM so.srvc_instnc_att a," &_
+	'			   "so.srvc_instnc_att_val b, " &_
+	'			   "so.srvc_instnc_att_xref c, " &_
+	'			   "so.srvc_instnc_att_val_usage d " &_
+	'		" WHERE a.srvc_instnc_att_id = c.srvc_instnc_att_id  AND " &_
+	'			   "d.srvc_instnc_att_xref_id = c.srvc_instnc_att_xref_id " &_
+	'		" AND  b.SRVC_instnc_ATT_VAL_ID = d.SRVC_INSTNC_ATT_VALUE_ID " &_
+	'		" and  d.RECORD_STATUS_IND ='A' " &_
+	'		" AND  c.service_type_id = " & strServTypeID 
+'********************************************************	

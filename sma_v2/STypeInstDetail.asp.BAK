@@ -1,0 +1,584 @@
+<%@ Language=VBScript %>
+<% Option Explicit 
+ on error resume next
+%>
+<% Response.Buffer = true %>
+<!--#include file="smaConstants.inc"-->
+<!--#include file="databaseconnect.asp"-->
+<!--#include file="smaProcs.inc"-->
+<%
+'************************************************************************************************
+'* Page name:	STypeInstDetail.asp																*
+'* Purpose:		To display the Service Type														*
+'*				Chosen via STypeInstList.asp													*
+'*																								*
+'* Created by:					Date															*
+'* Linda Chen					09/15/2008														*
+'*==============================================================================================*
+'* Modifications By				Date				Modifcations								*
+'*																								*		
+'* 																								*
+'************************************************************************************************
+
+Dim intAccessLevel, strRealUserID
+Dim strXRefID, strServiceTypeID, strInstID, strInstvID, strUsageID
+Dim strSQL, objRS, strWinMessage, objRsSTAtt, objRsSTAvalue
+Dim strAttID, strselInstID
+
+intAccessLevel = CInt(CheckLogon(strConst_ServiceCatalogue))
+strRealUserID = Request.Cookies("UserInformation")("username")
+strXRefID = Request("txtXRefID")
+strServiceTypeID = Request("hdnServiceTypeID")
+strInstID = Request("txtInstID")
+strInstvID = Request("txtInstvID")
+strUsageID = Request("hdnUsageID")
+
+strselInstID=Request("hdnselInstID")
+
+'response.write "strXRefID = " & strXRefID  & "<BR>"
+'response.write "strServiceTypeID = " & strServiceTypeID & "<BR>"
+'response.write "strInstID = " & strInstID  & "<BR>"
+'response.write "strInstvID = " & strInstvID & "<BR>"
+'response.write "strUsageID = " & strUsageID & "<BR>"
+'response.write "strselInstID=" & strselInstID 
+'response.end
+
+
+
+if (strXRefID <> 0) then
+   if (strUsageID <> "") then
+      strSQL = "SELECT RECORD_STATUS_IND, " &_
+		" CREATE_DATE_TIME, CREATE_REAL_USERID, " &_
+		" UPDATE_DATE_TIME, UPDATE_REAL_USERID " &_
+		" FROM SO.SRVC_INSTNC_ATT_VAL_USAGE " &_
+		" WHERE SRVC_INSTNC_ATT_VAL_USAGE_ID = " & strUsageID
+		'response.write strSQL
+		'response.end
+
+	set objRs = objConn.Execute(strSQL)
+	if err then
+		DisplayError "BACK", "", err.Number, "ERROR IN SELECTING SERVICE INSTANCE USAGE INFORMATION", err.Description
+	end if
+  end if	
+end if
+
+
+
+if intAccessLevel and intConst_Access_ReadOnly <> intConst_Access_ReadOnly then
+	DisplayError "BACK", "", 0, "ACCESS DENIED", "You don't have access Service Type. Please contact your system administrator"
+end if
+
+
+Select case Request("txtFrmAction")
+	
+	case "SAVE" 
+
+	 if (Request.Form("txtXRefID") <> "") then
+	
+		'The XRefID is not null i.e. it is an existing record. So call the update procedure to update the record
+		 if ((intAccessLevel and intConst_Access_Update) <> intConst_Access_Update) then
+		   DisplayError "BACK", "", 0, "UPDATE DENIED", "You don't have access to update this record. Please contact your system administrator"
+		 end if
+		 
+		 '   strUsageID = Request.Form("hdnUsageID")
+		   
+			dim cmdUpdateObj
+			set cmdUpdateObj = server.CreateObject("ADODB.Command")
+			set cmdUpdateObj.ActiveConnection = objConn
+			cmdUpdateObj.CommandType = adCmdStoredProc
+			cmdUpdateObj.CommandText = "sma_sp_userid.Sp_Srvinst_Val_Xrefusg_Update" 
+			
+			cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_user_id", adVarChar , adParamInput, 20, strRealUserID)  
+			cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_service_type_id",adNumeric , adParamInput,, Request("hdnServiceTypeID"))
+			cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_srvc_Inst_usage_id",adNumeric , adParamInput,, Request("hdnUsageID"))
+			cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_srvc_Inst_id",adNumeric , adParamInput,, Clng(Request("selSTInst")))					
+			cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_srvc_Inst_val_id",adNumeric , adParamInput,, Clng(Request("selSTInstv")))					
+	
+	
+			'****************************
+			'check parameter values		
+  			'****************************
+  			
+  			'dim objparm
+  			'for each objparm in cmdUpdateObj.Parameters
+  			'	  Response.Write "<b>" & objparm.name & "</b>"
+  			'	  Response.Write " has size:  " & objparm.Size & " "
+  			'	  Response.Write " and value:  " & objparm.value & " "
+  			'	  Response.Write " and datatype:  " & objparm.Type & "<br> "
+  			'next
+  									 
+  			'Response.Write "<b> count = " & cmdUpdateObj.Parameters.count & "<br>"
+  			'dim nx
+  			'for nx=0 to cmdUpdateObj.Parameters.count-1
+  			'   Response.Write nx+1 & " parm value= " & cmdUpdateObj.Parameters.Item(nx).Value  & "<br>"
+  			'next 
+  			'response.write (cmdUpdateObj.CommandText)
+			'response.end
+			
+			cmdUpdateObj.Execute		
+			if objConn.Errors.Count <> 0 then
+				DisplayError "BACK", "", objConn.Errors(0).NativeError, "CANNOT UPDATE RECORD", objConn.Errors(0).Description
+				objConn.Errors.Clear
+			else
+				strWinMessage = "Record Updated successfully. You can now see the changes you made."
+			end if
+			
+	else 'create a new record 
+      
+		   if ((intAccessLevel and intConst_Access_Create) <> intConst_Access_Create) then
+		     DisplayError "BACK", "", 0, "INSERT DENIED", "You don't have access to add Default Service Instance Attribute. Please contact your system administrator"
+		   end if		
+			
+			dim cmdInsertObj
+			set cmdInsertObj = server.CreateObject("ADODB.Command")
+			set cmdInsertObj.ActiveConnection = objConn
+			cmdInsertObj.CommandType = adCmdStoredProc
+			cmdInsertObj.CommandText = "sma_sp_userid.sp_SrvInst_Val_XrefUsg_Insert" 
+			
+			cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_user_id", adVarChar , adParamInput, 20, strRealUserID) 
+			cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_service_type_id",adNumeric , adParamInput,, Clng(Request("hdnServiceTypeID")))					
+ 			cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_srvc_inst_att_id",adNumeric , adParamInput,, Clng(Request("selSTInst")))					
+			cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_srvc_inst_att_val_id",adNumeric , adParamInput,, Clng(Request("selSTInstv")))					
+		
+			'****************************
+			'check parameter values		
+  			'****************************
+  			
+  			'dim objparm
+  			'for each objparm in cmdInsertObj.Parameters
+  			'	  Response.Write "<b>" & objparm.name & "</b>"
+  			'	  Response.Write " has size:  " & objparm.Size & " "
+  			'	  Response.Write " and value:  " & objparm.value & " "
+  			'	  Response.Write " and datatype:  " & objparm.type & "<br> "
+  			'next
+		 
+  			'Response.Write "<b> count = " & cmdInsertObj.Parameters.count & "<br>"
+  			'dim nx
+  			'for nx=0 to cmdInsertObj.Parameters.count-1
+  			'   Response.Write nx+1 & " parm value= " & cmdInsertObj.Parameters.Item(nx).Value  & "<br>"
+  			'next 	
+  			'response.write (cmdInsertObj.CommandText)
+			'response.end
+					
+				
+				
+			cmdInsertObj.Execute
+			
+			if objConn.Errors.Count <> 0 then
+				DisplayError "BACK", "", objConn.Errors(0).NativeError, "CANNOT ADD NEW RECORD", objConn.Errors(0).Description
+				objConn.Errors.Clear
+			'else
+			'	response.write("<script language=""javascript"">window.close();parent.opener.iSINSTFrame_display();</script>")
+			end if
+			strWinMessage = "Record created successfully. You can now see the new record."
+			
+	end if
+	     
+		
+ end select  
+		  
+ strSQL = "SELECT SRVC_INSTNC_ATT_NAME, " &_
+				  "SRVC_INSTNC_ATT_ID " &_
+		  "FROM   SO.SRVC_INSTNC_ATT " &_
+		  "WHERE  RECORD_STATUS_IND = 'A' " &_
+		  "ORDER BY SRVC_INSTNC_ATT_NAME" 
+
+ 'Create Recordset object  
+ set objRsSTAtt = objConn.Execute(strSQL)
+	
+ strSQL = "SELECT V.SRVC_INSTNC_ATT_VAL, " &_
+	  "v.SRVC_INSTNC_ATT_VAL_ID	" &_
+	  "FROM   SO.SRVC_INSTNC_ATT_VAL v  "
+ if (strselInstID <> 0 OR strAttID <> 0) then
+ 	strSQL = strSQL + ", SO.SRVC_INSTNC_ATT_VAL_RULE r, " &_
+		  "SO.srvc_INST_att_val_rule_stat rs " &_
+		  "WHERE  v.record_status_ind = 'A' "&_
+		  "AND v.SRVC_INSTNC_ATT_VAL_ID=r.SRVC_INSTNC_ATT_VAL_ID " &_
+		  "AND r.srvc_INSTNC_att_val_rule_id = rs.srvc_INSTNC_att_val_rule_id " &_
+		  "AND rs.srvc_INST_att_val_rule_stat_cd ='A' " &_
+ 		  "AND (rs.eff_stop_ts>sysdate or rs.eff_stop_ts = NULL) "
+ 	if ( strselInstID <> 0 ) then
+ 	   strSQL= StrSQL & " AND r.SRVC_instnc_ATT_ID = " & strselInstID
+        else
+    	   strSQL= StrSQL & " AND r.SRVC_instnc_ATT_ID = " & strAttID
+	end if
+ end if
+ strSQL = strSQL & " ORDER BY SRVC_INSTNC_ATT_VAL"
+'response.write(strSQL)
+'response.end
+
+		  
+ set objRsSTAvalue = objConn.Execute(strSQL)
+		
+%>
+
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<LINK REL="stylesheet" TYPE="text/css" HREF="stylesheets/styles.css">
+<script type="text/javascript" SRC="GeneralJavaFunctions.js"></script>
+<script type="text/javascript" SRC="AccessLevels.js"></script>
+<TITLE>Default Service Instance Attribute</TITLE>
+<SCRIPT LANGUAGE=javascript>
+<!--
+
+var bolSaveRequired = false;
+var intAccessLevel=<%=intAccessLevel%>;
+var intConst_MessageDisplay=<%=intConst_MessageDisplay%>;
+
+
+function fct_clearStatus() {
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		clear the message from window status bar.
+//
+// Creaded By:	Ian Harriott	
+//**********************************************************************************************
+	window.status = "" ;
+}
+
+function fct_displayStatus(strMessage){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		display a message in window status bar and then clear it after the set minutes.
+//
+// Creaded By:	Ian Harriott
+//**********************************************************************************************
+	window.status = strMessage;
+	setTimeout('fct_clearStatus()',intConst_MessageDisplay);
+}
+
+function body_onLoad(strWinStatus){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		Whenever the page is loaded it displays a message in window status bar.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+	var strWinStatus='<%=strWinMessage%>';
+	fct_displayStatus(strWinStatus);
+}
+
+function body_onUnload(){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		Refresh contents of iFrame in the base window.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+	opener.document.frmSTypeDetail.btn_iSINSFrameRefresh.click();
+//  opener.document.frmSTypeDetail.btn_iSINSFrameRefresh.click();
+
+
+}
+
+
+function btnClose_onclick(){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		close the pop up window and Refresh the contents of iFrame in the base window.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+	
+	window.close();
+	parent.opener.iSINSTFrame_display();
+
+}
+
+function frmInstDetail_onsubmit() {
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		set the frmAction to SAVE if the user has access to save the record.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+
+if	(((intAccessLevel & intConst_Access_Create == intConst_Access_Create) && (document.frmInstDetail.txtXRefID.value == "")) 
+		|| ((intAccessLevel & intConst_Access_Update == intConst_Access_Update) && (document.frmInstDetail.txtXRefID.value != ""))) {
+		
+			document.frmInstDetail.txtFrmAction.value = "SAVE";
+			bolSaveRequired = false;
+			return(true);
+		}	
+   else {
+		alert('Access denied. Please contact your system administrator.'); 
+		return(false);
+	}
+}
+
+
+function btnSave_onclick() {
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		close the pop up window and Refresh the iFrame in the base window.
+//
+// Creaded By:	Ian Harriott		Feb. 15th, 2001
+//**********************************************************************************************
+var bolretval
+	
+	bolretval= frmInstDetail_onsubmit();
+	
+	if(bolretval)
+		document.frmInstDetail.submit();
+	
+//	window.close();
+//	parent.opener.iSINSTFrame_display();
+
+}
+
+function fct_onChange(){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		set the bolSaveRequired flag if anything changes on the screen.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+var v_selSTInst = document.frmInstDetail.selSTInst;
+var v_hdnInst = document.frmInstDetail.hdnselInstID;
+v_hdnInst.value = v_selSTInst.value;
+var strURL 
+    strURL = 'STypeInstDetail.asp?hdnServiceTypeID=' + document.frmInstDetail.hdnServiceTypeID.value;
+	strURL = strURL + '&txtXRefID=' + document.frmInstDetail.txtXRefID.value;
+	strURL = strURL + '&txtInstID=' + document.frmInstDetail.txtInstID.value;
+	strURL = strURL + '&txtInstvID=' + document.frmInstDetail.txtInstvID.value;
+	strURL = strURL + '&hdnUsageID=' + document.frmInstDetail.hdnUsageID.value;
+	strURL = strURL + '&hdnselInstID=' + document.frmInstDetail.hdnselInstID.value;
+	
+//if (intAccessLevel >= intConst_Access_Create){
+//if (document.frmInstDetail.txtXRefID.value != "") 
+ //    {
+  //   bolSaveRequired = true;
+ //    }
+     
+ //   } 
+self.document.location.href=strURL;
+}
+
+
+function btnNew_click(){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		if the user has access to add new records then submit the page to itself with 
+//				XRefID = 0 so that it will display a blank page.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+var strURL ;
+
+	if ((intAccessLevel & intConst_Access_Create) != intConst_Access_Create) {
+		alert('Access denied. Please contact your system administrator.');
+	    return;
+	}
+	
+	strURL = 'STypeInstDetail.asp?XRefID=0&ServiceTypeID=' + document.frmInstDetail.hdnServiceTypeID.value ;  
+	self.document.location.href = strURL ;
+}
+
+
+function fct_onDelete(){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		if the user has access to delete a record then set frmAction = 'DELETE' and pass in
+//				in the required parameterst to delete a record
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+var strURL ;
+
+	if (document.frmInstDetail.txtXRefID.value != "") {
+		if (((intAccessLevel & intConst_Access_Delete) != intConst_Access_Delete) || (document.frmInstDetail.txtRecordStatusInd.value == "D")){ 
+			alert('Access denied. Please contact your system administrator.');
+			return;
+		}
+		
+		if (confirm('Do you really want to delete this object?')){
+			
+			strURL = 'STypeInstDetail.asp?txtFrmAction=DELETE&XRefID=' 
+					+ document.frmInstDetail.txtXRefID.value + '&UpdateDateTime=' 
+					+ document.frmInstDetail.hdnUpdateDateTime.value + '&ServiceTypeID=' 
+					+ document.frmInstDetail.hdnServiceTypeID.value;
+					
+			document.location = strURL ;
+		}
+		 
+	else {
+		fct_displayStatus('Unable to Delete the record. No Record ID provided.');
+		return(false);
+	}	
+  }	
+}
+
+
+function body_onBeforeUnload(){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		Give a warrening message is there is unsaved data on the screen.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+
+    document.frmInstDetail.btnSave.focus();
+	if (bolSaveRequired) {
+		if	(((intAccessLevel & intConst_Access_Create == intConst_Access_Create) && (document.frmInstDetail.txtcktalias.value == "")) || ((intAccessLevel & intConst_Access_Update == intConst_Access_Update) && (document.frmInstDetail.txtcktalias.value != ""))) {
+			event.returnValue = "There is unsaved data on the screen. To save changes, click CANCEL below then click SAVE on the main form.";
+		}
+	}
+}
+
+
+function fct_onReset(){
+//**********************************************************************************************
+// Function:	btnClose_onclick()
+//
+// Purpose:		Refresh the contents on the screen from databaase.
+//
+// Creaded By:	Sara Sangha		Feb. 15th, 2001
+//**********************************************************************************************
+   	bolSaveRequired = false;
+	//When reset screen for Update
+    if (document.frmInstDetail.txtXRefID.value != "")  {
+	    document.frmInstDetail.selSTInst.value = document.frmInstDetail.txtInstID.value;
+		document.frmInstDetail.selSTInstv.value = document.frmInstDetail.txtInstvID.value;
+	}
+	//When reset screen for New
+	else {
+		
+		document.frmInstDetail.selSTInstv.value="";
+		document.frmInstDetail.selSTInst.value="";
+	}
+}
+
+
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY onLoad="body_onLoad();" onBeforeUnload="body_onBeforeUnload();" onUnload="body_onUnload();" >
+<FORM  name=frmInstDetail action="STypeInstDetail.asp" method="POST" onsubmit="return frmInstDetail_onsubmit()">
+	<INPUT  name=txtFrmAction type=hidden value="" >
+	<INPUT  name=txtXRefID type=hidden value= <%if strXRefID <> 0 then  Response.Write strXRefID else Response.Write """""" end if%> >
+	<INPUT  name=hdnServiceTypeID type=hidden value= <% =strServiceTypeId %>>
+	<INPUT  name=txtInstID type=hidden  value= <%if strInstID <> 0 then  Response.Write strInstID else Response.Write """"""  end if%> >
+	<INPUT  name=txtInstvID type=hidden value= <%if strInstvID <> 0 then  Response.Write strInstvID else Response.Write """""" end if%> >
+	<INPUT  name=hdnUsageID type=hidden value= <%if strUsageID <> 0 then  Response.Write strUsageID else Response.Write """""" end if%> >
+	<input  name=hdnselInstID type=hidden value= <%if strselInstID <> "" then  Response.Write strselInstID else Response.Write """""" end if%> >
+
+
+<TABLE>
+<thead>
+	<TR ><TD colspan=2>Service Instance Attribute</td></tr>
+</thead>
+
+<tbody>
+<TR>
+	<TD ALIGN=RIGHT width=20% NOWRAP>Attribute<font color=red>*</font></TD> 
+	<TD width=80%>
+		<SELECT id=selSTInst name=selSTInst style="HEIGHT: 20px; WIDTH: 400px" onchange ="fct_onChange();">
+		<OPTION ></OPTION>
+		<%Do while Not objRsSTAtt.EOF %>
+		   <option  <% if strselInstID <> "" then
+		   				  if clng(strselInstID)= clng(objRsSTAtt(1)) then
+		   					response.write "selected"
+		   				  end if
+		   			   else
+		   			      if (strInstID <> 0 ) then
+		   				  	if clng(strInstID) = clng(objRsSTAtt(1)) then 
+		              			response.write "selected "
+		              	  	end if
+		              	  end if
+		               end if
+		           %>
+           value = <% =objRsSTAtt(1) %>
+		   > <% =objRsSTAtt(0)%> </option>
+		<%  objRsSTAtt.MoveNext   
+		Loop
+		%>
+	
+		</SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD ALIGN=RIGHT width=20% NOWRAP>Attribute Value<font color=red> *</font></TD> 
+	<TD width=80%>
+		<SELECT id=selSTInstv name=selSTInstv style="HEIGHT: 20px; WIDTH: 400px">
+		<OPTION></OPTION>
+		<%Do while Not objRsSTAvalue.EOF %>
+		 <option <% if strXRefID <> "" then
+		               if clng(strInstvID) = clng(objRsSTAvalue(1)) then 
+		           			response.write "selected "
+		           	   end if
+		           end if %>
+		  value= <% =objRsSTAvalue(1)%>
+		 > <% =objRsSTAvalue(0) %></option> 
+		<%
+		 objRsSTAvalue.MoveNext   
+		 Loop
+		%>
+		</SELECT>
+	</TD>
+</TR>
+</tbody>
+</TABLE>
+
+<TABLE>
+	  <TR><TD align=right>
+			<INPUT id=btnClose   name=btnClose  type=button style="width:2cm" value=Close  LANGUAGE=javascript onclick="return btnClose_onclick()"> &nbsp;&nbsp;
+			<INPUT id=btnReset   name=btnReset  type=button style="width:2cm" value=Reset  LANGUAGE=javascript onClick="return fct_onReset();" >           &nbsp;&nbsp;
+			<INPUT id=btnSave    name=btnSave   type=button style="width:2cm" value=Save   LANGUAGE=javascript onclick="return btnSave_onclick();">        &nbsp;&nbsp;
+	  </TD></TR>
+</table>
+
+<FIELDSET >
+	<LEGEND ALIGN=RIGHT><B>Audit Information</B></LEGEND>
+	<Div SIZE=8pt ALIGN=RIGHT>
+		Record Status Indicator: 
+		<INPUT align = left name=txtRecordStatusInd type=text style="HEIGHT: 20px; WIDTH: 18px"disabled value=<%if  strXRefID <> 0 then  Response.Write """"&objRS("RECORD_STATUS_IND")&"""" else Response.Write """""" end if%>  >&nbsp;&nbsp;&nbsp;
+		Create Date:&nbsp;&nbsp;
+		<INPUT align = center name=txtcrdate type=text style="HEIGHT: 20px; WIDTH: 140px"disabled value=<%if  strXRefID <> 0 then  Response.Write """"&objRS("CREATE_DATE_TIME")&"""" else Response.Write """""" end if%> >&nbsp;
+		&nbsp;
+		Created By:
+		<INPUT align = right name=txtcrby type=text style="HEIGHT: 20px; WIDTH: 100px"disabled value=<%if  strXRefID <> 0 then  Response.Write """"&routineHtmlString(objRS("CREATE_REAL_USERID"))&"""" else Response.Write """""" end if%> ><BR>
+		Update Date:
+		<INPUT align= center name=txtupdate type=text style="HEIGHT: 20px; WIDTH: 140px"disabled value=<%if  strXRefID <> 0 then  Response.Write """"&objRS("UPDATE_DATE_TIME")&"""" else Response.Write """""" end if%>  >&nbsp;&nbsp;
+		Updated By:
+		<INPUT align=right name=txtupby type=text style="HEIGHT: 20px; WIDTH: 100px"disabled value=<%if  strXRefID <> 0 then  Response.Write """"&routineHtmlString(objRS("UPDATE_REAL_USERID"))&"""" else Response.Write """""" end if%>  >
+	</DIV>
+</FIELDSET>	
+	
+</FORM>
+<%
+   
+ 'Clean up our ADO objects
+ if strXRefID <> 0 then
+    objRS.close
+    set objRS = Nothing
+ end if
+
+ objRsSTAtt.close
+ set objRsSTAtt = Nothing
+
+ objRsSTAvalue.close
+ set objRsSTAvalue = Nothing
+
+    objConn.close
+    set ObjConn = Nothing    
+       
+      
+%>
+
+
+</BODY>
+</HTML>

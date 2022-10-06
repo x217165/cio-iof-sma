@@ -1,0 +1,128 @@
+<%
+'database related
+const intRowsReturned = 501                                                     'number of rows returned by a query
+
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=esdst1"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=welc0me;server=ASF1.world"    'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=te9670nbn;server=ASF1.world"    'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=te9670nbn;server=ESDD1-1330"		'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=ESDD1-1330"		'connection string
+const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=ESDAT.WORLD"		'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=te9670nbn;server=ASF2"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma2;server=esdd1.world"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=te9670nbn;server=esdd1-1330.world"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=te9670nbn;server=esdd1.world"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=esdd2"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=esdst1"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=te9670nbn;server=esdst2"        'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=esdtr1"       'connection string
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=sma_userid;Password=sma;server=orap1"        'connection string
+
+'const strConstConnectString = "DSN=ESDD1;Password=sma2;User ID=sma_userid"     'connection string
+'const strConstConnectString = "DSN=ESDD2;Password=sma;User  ID=sma_userid"     'connection string
+'const strConstConnectString = "DSN=ESDST1;Password=sma;User ID=sma_userid"     'connection string
+'const strConstConnectString = "DSN=ESDTR1;Password=sma;User ID=sma_userid"     'connection string
+'const strConstConnectString = "DSN=ORAP1;Password=sma;User  ID=sma_userid"     'connection string
+
+const intConstDisplayPageSize = 10                                              'the number of records displayed in a html page at a time (page size)
+const strDelimiter = "¿"                                                        'delimiter used in complex strings
+const strTelus = "TELUS"                                                        'used for hard coding of TELUS in queries
+
+const intConst_CustShortNameLength = 5                                          'number of characters allowed for customer short name (database field = 15)
+const intConst_MessageDisplay = 5000                                            'period of time status bar displays message before cleared
+const intBaseYear = 1990                                                        'Base year for generating pulldown year select
+
+const strConst_ServiceTypeEmailTo = "Mark Kuziej <mark.kuziej@telus.com>; Kevin Flemming <kevin.flemming@telus.com>; Steve Mullen <steve.mullen@telus.com>; Phil Brien <phil.brien@telus.com>"
+'const strConst_ServiceTypeEmailTo = "Winnie Yue <winnie.yue@telus.com>; Gilles Archer <gilles.archer@telus.com>"
+
+const strConst_NamePrefix = "Miss¿Mrs.¿Ms.¿Mr.¿Dr.¿Capt.¿Prof."
+
+'Business Function Name/ID
+const strConst_Logon = "Access_Granted"
+const strConst_Customer = "100"
+const strConst_CustomerName = "101"
+const strConst_CustomerNameAlias = "102"
+const strConst_Address = "110"
+const strConst_ServiceLocation = "120"
+const strConst_ServiceLocationContact = "121"
+const strConst_Contact = "130"
+const strConst_ContactRole = "131"
+const strConst_CustomerService = "140"
+const strConst_CustomerServiceContact = "141"
+const strConst_CustomerServiceEmailSetup = "142"
+const strConst_Facilities = "150"
+const strConst_PVC = "160"
+const strConst_Asset = "170"
+const strConst_AssetAdditionalCosts = "171"
+const strConst_AssetCatalogue = "172"
+const strConst_AssetTypeClassification = "173"
+const strConst_ManagedObjects = "180"
+const strConst_CorrelationCustomer = "190"
+const strConst_CorrelationElements = "191"
+const strConst_Security = "300"
+const strConst_ServiceCatalogue = "200"
+const strConst_CityProvinceCountry = "220"
+const strConst_RSAS = "210454"
+const strConst_ESDCleanup = "220000"
+const strConst_HolidayDefinition = "SMA - Holiday Definition"
+const strConst_LOB = "SMA - Line of Business"
+const strConst_ScheduleDefinition = "SMA - Schedule Definition"
+const strConst_ServiceType = "SMA - Service Type"
+const strConst_ServiceDefinition = "SMA - Service Definition"
+const strConst_ServiceLevelAgreement = "SMA - Service Level Agreements"
+const strConst_StaffManagement = "SMA - Staff Management"
+const strConst_UsageCalculation = "SMA - Usage Calculation"
+'please see Winnie before adding/changing these codes
+
+'Access Levels
+const intConst_Access_ReadOnly = 1
+const intConst_Access_Create = 2
+const intConst_Access_Update = 4
+const intConst_Access_Delete = 8
+
+dim arrRegionXRef(2, 5)
+arrRegionXRef(0,0) = "AB"
+arrRegionXRef(1,0) = "Alberta"
+arrRegionXRef(0,1) = "BC"
+arrRegionXRef(1,1) = "BC"
+arrRegionXRef(0,2) = "EAST"
+arrRegionXRef(1,2) = "National"
+arrRegionXRef(0,3) = "QUEBEC"
+arrRegionXRef(1,3) = "National"
+arrRegionXRef(0,4) = "EAST"
+arrRegionXRef(1,4) = "US / Int'l"
+
+'const strConstNetcrackerURL = "http://ln98485.ent.agt.ab.ca:23102/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'AT
+const strConstNetcrackerURL = "http://ln98485.ent.agt.ab.ca:23122/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'AT new
+'const strConstNetcrackerURL = "http://ln98485.ent.agt.ab.ca:23122/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'PT
+
+' LDAP Parameters (New)
+Const BypassLDAP = False
+'Const propLDAPURL = "LDAP://ldap-pr.tsl.telus.com:636/"
+'Const propLDAPURL = "LDAP://ldap-pr.tsl.telus.com:389/"
+Const propLDAPURL = "LDAP://ldap-pr.tsl.telus.com:389/"
+Const propLDAPPeoplePath = "ou=people,ou=teamMembers,ou=internal,o=telus"
+Const propLDAPApplicationsPath = "ou=people,ou=systems,ou=internal,o=telus"
+
+Const SXH_OPTION_IGNORE_SERVER_SSL_CERT_ERROR_FLAGS = 2
+Const SXH_SERVER_CERT_IGNORE_ALL_SERVER_ERRORS = 13056
+Const strcpwsid = "APP_SMA2"
+Const strcppw = "soaorgid"
+
+'Customer Profile Web Service
+'Const strCPURL = "http://cm-smbsvc-west-st02.tsl.telus.com/CMO/InformationMgmt/CustomerMgmtSvc/CustomerManagementService_v2_2?wsdl"
+'Const strCPURL = "http://cm-smbsvc-west-pr.tsl.telus.com/CMO/InformationMgmt/CustomerMgmtSvc/CustomerManagementService_v2_2?wsdl"
+Const strCPURL = "https://servicemngr-st01.tsl.telus.com:443/CMO/InformationMgmt/CustomerMgmtSvc/CustomerManagementService_v2_2_vs0?wsdl"
+
+'NC Web Service
+'Const strNCWSURL = "http://L032310.corp.ads:7001/VPNInventoryService_v1_0_VPNInventoryServicePortImpl/VPNInventoryService_v1_0?WSDL"
+'Const strNCWSURL = "http://ln98485.corp.ads:23062/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0?wsdl" ' pre-AT
+'Const strNCWSURL = "http://ln98485.corp.ads:23102/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0?wsdl" ' AT
+'Const strNCWSURL = "http://ln98486.corp.ads:23112/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0?wsdl" ' AT01
+'Const strNCWSURL = "https://servicemngr-dv03.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' DV
+Const strNCWSURL = "https://servicemngr-pt61.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' AT01 virtual
+'Const strNCWSURL = "https://servicemngr-pt41.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' AT06 virtual
+'Const strNCWSURL = "https://servicemngr-st01.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' ST01 virtual
+Const int_max_vpnpercustomer = 300                                         'Maximum number of vpns/customer records returned from the NC web service call (getVPNListByCustomer)
+Const int_max_csidpervpn = 300	
+%>

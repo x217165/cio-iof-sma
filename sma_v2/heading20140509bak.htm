@@ -1,0 +1,182 @@
+﻿<!--
+*************************************************************************************
+* File Name:	Heading.htm
+*
+* Purpose:
+*
+* In Param:
+*
+* Out Param:
+*
+* Created By:
+* Edited by:
+**************************************************************************************
+
+        Date		Author			Changes/enhancements made
+        -----		------		------------------------------------------------------
+       10-09-01	     DTy		Direct '?' icon to point to the latest documentation at
+								  help/SMA2 User Guide v2-3.doc.
+       23-Oct-01	 DTy		Update RSAS POS pointers
+       28-Jan-02     DTy		Add IP Admin menu item.
+       23-Mar-02     DTy		Add Cleanup Functions.
+       24-May-13	ACheung		Add Customer Profile info on Customer and Customer Service Search.
+**************************************************************************************
+-->
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<TITLE>SMA2 - Header Page</TITLE>
+<SCRIPT language="javascript" type="text/javascript" src="GeneralJavaFunctions.js"></SCRIPT>
+<SCRIPT language="javascript" type="text/javascript">
+<!--hide the script from old browsers
+function fct_selApp() {
+//***************************************************************************************************
+// Function:	fct_selApp															                *
+// Purpose:		To open a new browser window with the selected application							*
+//																									*
+// Created By:	Gilles Archer 09/19/2000															*
+//																									*																				*
+//***************************************************************************************************
+	var strAppName = document.frmPageTitle.selApps.value;
+
+	switch (strAppName){
+		case 'SRTII':
+			document.frmPageTitle.selApps.selectedIndex = 0;
+			//window.open('http://tacjagr3/srt2');
+			window.open('http://abvdev023/srt2');
+			break;
+		case 'ESDReports':
+			document.frmPageTitle.selApps.selectedIndex = 0;
+			window.open('http://tacjagr2/esdreports');
+			//window.open ('http://tacabcbrs01/esdreports');
+			break;
+		case 'SMA2':
+			//do nothing
+	}
+}
+//--> End hide script
+</SCRIPT>
+</HEAD>
+<BODY bgcolor="#50197b" bottommargin="0" leftmargin="0" rightmargin="0" topmargin="0">
+<FORM id="frmPageTitle" name="frmPageTitle">
+<TABLE border="0" cellpadding="0" cellspacing="0" width="100%">
+	<TR>
+		<TD width="150"><IMG height="49" src="images/top1a.gif" width="165"></TD>
+		<TD width="100%" colspan="2" align="right" nowrap>
+		<INPUT id="PageTitle" name="PageTitle" value="Service Management Application" style="BACKGROUND-COLOR: #50197b; BORDER-BOTTOM: #50197b; BORDER-LEFT: #50197b; BORDER-RIGHT: #50197b; BORDER-TOP: #50197b; COLOR: white; CURSOR: default; FONT-FAMILY: ; FONT-SIZE: large; FONT-WEIGHT: bold; height: 32px; TEXT-ALIGN: right; width: 613px" align="right" border="0" readOnly size="100">&nbsp;
+		</TD>
+	</TR>
+	<TR>
+		<TD width="150" valign=top>
+		<P align="center">
+		<SELECT id="selApps" name="selApps" onchange="fct_selApp();" style="BACKGROUND-COLOR: #50197b; COLOR: white; CURSOR: hand; FONT-WEIGHT: bold">
+			<OPTION selected value="SMA2">SMA 2</OPTION>
+			<OPTION value="SRTII">SRT II</OPTION>
+			<OPTION value="ESDReports">ESD Reports</OPTION>
+		</SELECT></P></TD>
+    <TD width="100%" valign=top>
+		<P align="center">
+		<APPLET code="DJTextmenu.class" height="30" id="DJTextmenu_Dispatch1" width="600" viewastext archive="djmenuarchive.zip">
+		<PARAM name="bordersize"                  value="0">
+		<PARAM name="appletfontsize"              value="12">
+		<PARAM name="panelbackgroundcolor"        value="0x50197b">
+		<PARAM name="textoffset"                  value="15">
+		<PARAM name="threed"                      value="true">
+		<PARAM name="direction"                   value="0">
+		<PARAM name="statusbartextcolor"          value="0xFFFFFF">
+		<PARAM name="backgroundcolor"             value="0x000000">
+		<PARAM name="underlinetext"               value="false">
+		<PARAM name="statusbarmouseovertextcolor" value="0xFF000F">
+		<PARAM name="canvasbackgroundcolor"       value="0x50107b">
+		<PARAM name="underlinetextcolor"          value="0xFFFFFF">
+		<PARAM name="frame"                       value="text">
+
+		<PARAM name="menuitem0"       value="Customer">
+		<PARAM name="item0menu0item0" value="Search|SearchFrame.asp?fraSrc=Cust">
+		<PARAM name="item0menu0item1" value="Address|SearchFrame.asp?fraSrc=Address">
+		<PARAM name="item0menu0item2" value="Service Location|SearchFrame.asp?fraSrc=ServLoc">
+		<PARAM name="item0menu0item3" value="Contact|SearchFrame.asp?fraSrc=Contact">
+		<PARAM name="item0menu0item4" value="Contact Role|SearchFrame.asp?fraSrc=ContactRole">
+		<PARAM name="item0menu0item5" value="Customer Profile and VPN info|SearchFrame.asp?fraSrc=Cust_CP">
+
+		<PARAM name="menuitem1"       value="Customer Service">
+		<PARAM name="item1menu0item0" value="Search|SearchFrame.asp?fraSrc=CustServ">
+		<PARAM name="item1menu0item1" value="Email Setup|EmailSetUpList.asp">
+		<PARAM name="item1menu0item2" value="Customer Profile and VPN info|SearchFrame.asp?fraSrc=CustServ_CP">
+
+		<PARAM name="menuitem2"       value="Facility">
+		<PARAM name="item2menu0item0" value="Search|SearchFrame.asp?fraSrc=Facility">
+
+		<PARAM name="menuitem3"       value="Asset">
+		<PARAM name="item3menu0item0" value="Search|SearchFrame.asp?fraSrc=Asset">
+		<PARAM name="item3menu0item1" value="item3menu1">
+		<PARAM name="item3menu0item2" value="item3menu2">
+
+
+		<PARAM name="item3menu1"      value="Asset Catalogue">
+		<PARAM name="item3menu1item0" value="Asset Catalogue|SearchFrame.asp?fraSrc=AssetCatalogue">
+		<PARAM name="item3menu1item1" value="Make|SearchFrame.asp?fraSrc=Make">
+		<PARAM name="item3menu1item2" value="Model|SearchFrame.asp?fraSrc=Model">
+		<PARAM name="item3menu1item3" value="Part Number|SearchFrame.asp?fraSrc=PartNum">
+
+
+		<PARAM name="item3menu2"      value="Asset Classification">
+		<PARAM name="item3menu2item0" value="Asset Class|SearchFrame.asp?fraSrc=AssetClass">
+		<PARAM name="item3menu2item1" value="Asset Subclass|SearchFrame.asp?fraSrc=AssetSubclass">
+		<PARAM name="item3menu2item2" value="Asset Type|SearchFrame.asp?fraSrc=AssetType">
+
+		<PARAM name="menuitem4"       value="Managed Objects">
+		<PARAM name="item4menu0item0" value="Search|SearchFrame.asp?fraSrc=ManagedObjects">
+
+		<PARAM name="menuitem5"       value="PVC">
+		<PARAM name="item5menu0item0" value="Search|SearchFrame.asp?fraSrc=FacilityPVC">
+
+		<PARAM name="menuitem6"       value="Correlation">
+		<PARAM name="item6menu0item0" value="Search|SearchFrame.asp?fraSrc=Correlation">
+
+		<PARAM name="menuitem7"       value="Administration">
+		<PARAM name="item7menu0item0" value="item7menu1">
+		<PARAM name="item7menu0item1" value="item7menu2">
+		<PARAM name="item7menu0item2" value="item7menu3">
+		<PARAM name="item7menu0item3" value="Staff Maintenance|SearchFrame.asp?fraSrc=Staff">
+		<PARAM name="item7menu0item4" value="Staff Security|SearchFrame.asp?fraSrc=StaffRole">
+		<PARAM name="item7menu0item5" value="Security Matrix|SecurityMatrix.asp">
+		<PARAM name="item7menu0item6" value="item7menu4">
+
+		<PARAM name="item7menu1"      value="Service Catalogue">
+		<PARAM name="item7menu1item0" value="Service Type|SearchFrame.asp?fraSrc=ServiceType">
+		<PARAM name="item7menu1item1" value="Service Type Attributes|SearchFrame.asp?fraSrc=ServiceTypeA">
+		<PARAM name="item7menu1item2" value="Service Instance Attributes|SearchFrame.asp?fraSrc=ServiceInstA">
+		<PARAM name="item7menu1item3" value="Kenan Package Component Search|SearchFrame.asp?fraSrc=ServiceTypeKA">
+		<PARAM name="item7menu1item4" value="Service Level Agreement |SearchFrame.asp?fraSrc=SLA">
+		<PARAM name="item7menu1item5" value="Service Category|SearchFrame.asp?fraSrc=ServiceCategory">
+		<PARAM name="item7menu1item6" value="Line of Business|SearchFrame.asp?fraSrc=LOB">
+		<PARAM name="item7menu1item7" value="Schedule Definition|SearchFrame.asp?fraSrc=Schedule">
+		<PARAM name="item7menu1item8" value="Holiday Definition|SearchFrame.asp?fraSrc=Holiday">
+
+		<PARAM name="item7menu2"      value="Municipalities">
+		<PARAM name="item7menu2item0" value="City|SearchFrame.asp?fraSrc=City">
+		<PARAM name="item7menu2item1" value="Province|SearchFrame.asp?fraSrc=Province">
+		<PARAM name="item7menu2item2" value="Country|SearchFrame.asp?fraSrc=Country">
+
+		<PARAM name="item7menu3"      value="POS PLUS">
+		<PARAM name="item7menu3item0" value="Tier 3|SearchFrame.asp?fraSrc=RSAST3Tier3">
+
+		<PARAM name="item7menu4"      value="Cleanup Functions">
+		<PARAM name="item7menu4item0" value="Validation Spreadsheets|SearchFrame.asp?fraSrc=XLSEntry">
+		<PARAM name="item7menu4item1" value="Customer Cleanup|SearchFrame.asp?fraSrc=CustClean">
+		<PARAM name="item7menu4item2" value="Contact Cleanup|SearchFrame.asp?fraSrc=ContactClean">
+		<PARAM name="item7menu4item3" value="Smart Data Fix|SearchFrame.asp?fraSrc=SmartDataFix">
+
+		</APPLET></P></TD>
+	<TD width="150" align="right" valign=top nowrap>
+		<P align="right">
+		<IMG src="images/back_002.gif"    alt="Go Back"        onclick="parent.text.history.go(-1);                          " width="31" height="31">&nbsp;
+		<IMG src="images/forward_002.gif" alt="Go Forward"     onclick="parent.text.history.go(1);                           " width="31" height="31">&nbsp;
+		<IMG src="images/help.gif"        alt="SMA User Guide" onclick="window.open('help/SMA2 User Guide v2-3.doc', 'Help');" width="31" height="31">
+		</P></TD></TR>
+</TABLE>
+</FORM>
+</BODY>
+</HTML>

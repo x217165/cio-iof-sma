@@ -1,0 +1,475 @@
+<%@ Language=VBScript %>
+<% option explicit %>
+<%on error resume next%>
+
+<!--
+********************************************************************************************
+* Page name:	ContactList.asp
+* Purpose:		To display the results of a contact role search.
+*				Search criteria are chosen via ContactRoleCriteria.asp
+*
+* Created by: Shawn Myers
+********************************************************************************************
+
+        Date		Author			Changes/enhancements made
+        -----		------		------------------------------------------------------
+       03-Feb-01	 DTy	  bolActiveOnly should be check for 'yes' and not 'on'.
+                                    Exclude contact roles that are:
+                                  - Marked as deleted in CONTACT, i.e.,
+                                    RECORD_STATUS_IND='D' or STAFF_STATUS_LCODE<>'Departed'.
+                                  - Marked as deleted in CUSTOMER_CONTACT, i.e.,
+                                    RECORD_STATUS_IND='D'.
+                                  In export file, correct the Contact Priority header field.
+                                  Replace /TD> with /TH> to make the file EXCEL 2000-compatible.
+                                  Add 'Active Status' when 'Active Only' is unselected.
+       20-Jul-01	 DTy	  When 'Active Only' is selected, exclude customers that are
+                                  marked as soft deleted.
+       18-Feb-02	 DTy	  Active customers are those whose status is either
+                                  'Prospect', 'OnHold' or 'Current'.
+       03-Oct-07        ACheung	  Add Area_of_Reponsibility (50 chars) field to the customer_contact table
+********************************************************************************************
+
+-->
+<!--#include file="smaConstants.inc"-->
+<!--#include file="smaProcs.inc"-->
+<!--#include file="databaseconnect.asp"-->
+<%
+
+dim strCustomerName, strRoleLong, strRole,intLen, intDelimiter, strSort, strRegion, bolActiveOnly
+dim rsRoleList, aList
+dim strLName, strFName, strWorkFor, strWinName
+dim strSQL, strSelectClause, strFromClause, strWhereClause, strRecordStatus, strOrderBy
+dim intPageNumber, intPageCount
+
+'get search criteria
+	strCustomerName = UCase(trim(routineOraString(Request("txtCustomerName"))))
+	strRoleLong = Request("selContactRole")
+
+	If (strRoleLong <> "All" and strRoleLong <> "" ) then
+		intLen = len(strRoleLong)
+		intDelimiter = Instr(strRoleLong,strDelimiter)
+		strRole = Left(strRoleLong,intDelimiter-1)
+		strRole = UCase(strRole)
+	else
+		strRole = strRoleLong
+	end if
+	strLName = UCase(routineOraString(trim(Request("txtLName"))))
+	strFName = UCase(routineOraString(trim(Request("txtFName"))))
+	strRegion = Request("selRegion")
+	strSort = Request("radSort")
+	bolActiveOnly = Request("chkActiveOnly")
+
+'get window name and WorkFor name
+	strWinName = Request("hdnWinName")
+	'Response.Write strWinName
+
+'build query
+'no criteria selected - display all
+'"substr" function parses whole number, gets relevant data
+'"decode" and "nvl" replaces any empty values with a non-breaking space
+
+	strSelectClause = "select distinct " & _
+				"t1.customer_contact_id, " & _
+				"t1.customer_contact_type_lcode," & _
+				"t1.contact_priority," & _
+				"t1.customer_id," & _
+				"t1.contact_id," & _
+				"t1.record_status_ind," & _
+				"t2.customer_contact_type_desc, " & _
+				"t3.last_name, " & _
+				"t3.first_name, " & _
+				"t3.contact_name, " & _
+				"decode(t3.work_number, null, '&nbsp;', '(' || substr(t3.work_number,1,3) || ') ' || substr(t3.work_number,4,3) || '-' || substr(t3.work_number,7,4)) as work_phone_number, " & _
+				"nvl(t3.work_number_ext, '&nbsp;') work_number_ext, " & _
+				"decode(t3.cell_number, null, '&nbsp;', '(' || substr(t3.cell_number,1,3) || ') ' || substr(t3.cell_number,4,3) || '-' || substr(t3.cell_number,7,4)) as cell_phone_number, " & _
+				"decode(t3.pager_number, null, '&nbsp;', '(' || substr(t3.pager_number,1,3) || ') ' || substr(t3.pager_number,4,3) || '-' || substr(t3.pager_number,7,4)) as pager_phone_number, " & _
+				"decode(t3.fax_number, null, '&nbsp;', '(' || substr(t3.fax_number,1,3) || ') ' || substr(t3.fax_number,4,3) || '-' || substr(t3.fax_number,7,4)) as fax_number, " & _
+				"nvl(t3.email_address, '&nbsp;'), " & _
+				"t4.customer_name, " & _
+				"t4.noc_region_lcode, " & _
+				"t1.area_of_responsibility "
+
+	strFromClause = " from " & _
+				"crp.customer_contact t1,  " &_
+				"crp.lcode_customer_contact_type t2," &_
+				"crp.contact t3," & _
+				"crp.customer t4 "
+
+	strWhereClause = " where " & _
+				"t1.customer_contact_type_lcode = t2.customer_contact_type_lcode and " & _
+				"t1.contact_id = t3.contact_id and " & _
+				"t1.customer_id = t4.customer_id "
+
+	'customer name entered
+	If strCustomerName <> "" then
+		'include alias table
+		strFromClause = strFromClause &  _
+				", crp.customer_name_alias t0 "
+
+		'join alias table to customer table and specify customer search string
+		strWhereClause = strWhereClause &  " and " & _
+				"t0.customer_id = t1.customer_id and " & _
+				"t0.customer_name_alias_upper like '" & strCustomerName & "%'"
+	End If
+
+	'Role entered
+	If strRole <> "All" then
+		strWhereClause = strWhereClause & " and " & _
+			"Upper(t1.customer_contact_type_lcode) like '" & strRole & "%'"
+	End If
+
+	'contact name(s) entered
+	If len(strLName) > 0 then
+		strWhereClause = strWhereClause & " and " & _
+			"Upper(t3.last_name) like '" & strLName & "%'"
+	End If
+
+	If len(strFName) > 0 then
+		strWhereClause = strWhereClause & " and " & _
+			"Upper(t3.first_name) like '" & strFName & "%'"
+	End If
+
+	'region picked
+	If strRegion <> "All" then
+		strWhereClause = strWhereClause & " and " & _
+			"t4.noc_region_lcode = '" & strRegion & "'"
+	End If
+
+	'see all records?
+	If bolActiveOnly = "on" then
+		strRecordStatus = " and t4.customer_status_lcode IN ('Prospect', 'Current', 'OnHold') and " & _
+		   "t1.record_status_ind = 'A' and t3.record_status_ind = 'A' and " & _
+		   "t4.record_status_ind = 'A' and " & _
+		   "(t3.staff_status_lcode is null or " & _
+		   "(t3.staff_status_lcode is not null and t3.staff_status_lcode <> 'Departed'))"
+	Else 'no
+		strRecordStatus = " "
+	End If
+
+	'order by what?
+	strOrderBy =  " order by upper(t4.customer_name)"
+	select case strSort
+		case  "Role"
+			strOrderBy = strOrderBy & " , upper(t1.customer_contact_type_lcode), t1.contact_priority "
+		case "Contact"
+			strOrderBy = strOrderBy & " , upper(t3.contact_name)"
+	end select
+
+	'join all pieces to make a complete query
+	strSQL = strSelectClause & strFromClause & strWhereClause  & strRecordStatus & strOrderBy
+
+	'Response.Write strSQL	'show SQL for debugging
+	'Response.end
+
+	'get the recordset
+	set rsRoleList=server.CreateObject("ADODB.Recordset")
+	rsRoleList.Open strSQL, objConn
+	If err then
+		DisplayError "BACK", "", err.Number, "ContactRoleList.asp - Cannot open database" , err.Description
+	End if
+
+	'put recordset into array
+	if not rsRoleList.EOF then
+		aList = rsRoleList.GetRows
+	else
+		Response.Write "0 Records Found"
+		Response.End
+	end if
+
+	'release and kill the recordset and the connection objects
+	rsRoleList.Close
+	set rsRoleList = nothing
+	objConn.Close
+	set objConn = nothing
+
+	'calculate page number
+	intPageCount = Int(UBound(aList,2) / intConstDisplayPageSize) + 1
+	select case Request("Action")
+		case "<<"	intPageNumber = 1
+		case "<"	intPageNumber = Request("txtPageNumber")-1
+					if intPageNumber < 1 then intPageNumber = 1
+		case ">"	intPageNumber = Request("txtPageNumber") + 1
+					if intPageNumber > intPageCount then intPageNumber = intPageCount
+		case ">>"	intPageNumber=intPageCount
+		case else	if Request("hdnExport") <> "" then
+
+							  'get real userid
+
+                              dim strRealUserID
+                              strRealUserID =Session("username")
+
+                              'determine export path
+
+                              dim strExportPath, liLength
+                              strExportPath =Request.ServerVariables("PATH_TRANSLATED")
+                              While (Right(strExportPath, 1) <> "\" And Len(strExportPath) <> 0)
+                                   liLength = Len(strExportPath) - 1
+                                   strExportPath = Left(strExportPath, liLength)
+                              Wend
+                              strExportPath = strExportPath & "export\"
+
+                              'create the scripting object
+
+                              dim objFSO, objTxtStream
+                              set objFSO = server.CreateObject("Scripting.FileSystemObject")
+
+                              'create the export text file (overwrite if it already exists)
+
+                              set objTxtStream = objFSO.CreateTextFile(strExportPath&strRealUserID&"-contactrole.xls", true,false)
+
+								if err then
+										DisplayError "CLOSE", "", err.Number, "ContactRoleList.asp - Cannot create Excel spreadsheet file due to the following reasons.  Please contact your website administrator.", err.Description
+								end if
+
+							  with objTxtStream
+
+                                   .WriteLine "<table border=1>"
+
+                                   'export the table header
+                                   .WriteLine "<TR>"
+
+                                   .WriteLine "<TH>Customer</TH>"
+                                   .WriteLine "<TH>Role</TH>"
+                                   .WriteLine "<TH>Role Desc</TH>"
+                                   .WriteLine "<TH>Priority</TH>"
+                                   .WriteLine "<TH>Contact</TH>"
+                                   .WriteLine "<TH>AOR</TH>"
+                                   .WriteLine "<TH>Work #</TH>"
+                                   .WriteLine "<TH>Ext</TH>"
+                                   .WriteLine "<TH>Cell #</TH>"
+                                   .WriteLine "<TH>Pager #</TH>"
+                                   .WriteLine "<TH>Fax #</TH>"
+                                   .WriteLine "<TH>Email</TH>"
+
+                                   	If bolActiveOnly <> "on" then
+	                                   .WriteLine "<TH>Active Status</TH>"
+	                                end if
+
+								   'end the table header
+                                   .WriteLine "</TR>"
+
+                                   'export the body
+                                   for k = 0 to UBound(aList, 2)
+                                         'Alternate row background colour
+                                         if Int(k/2) = k/2 then
+'                                             .WriteLine "<TR bgcolor=#ffffcc>"
+                                              .WriteLine "<TR>"
+                                         else
+'                                             .WriteLine "<TR bgcolor=#ffffff>"
+                                              .WriteLine "<TR>"
+                                         end if
+
+
+                                         'fill the table with data
+
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(16,k))&"</TD>"
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(1,k))&"</TD>"
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(6,k))&"</TD>"
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(2,k))&"</TD>"
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(9,k))&"</TD>"
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(18,k))&"</TD>" 'AOR
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(10,k))&"</TD>" 'work phone
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(11,k))&"</TD>" 'extension
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(12,k))&"</TD>" 'cell phone
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(13,k))&"</TD>" 'pager
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(14,k))&"</TD>" 'fax
+                                         .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(15,k))&"</TD>" 'email
+
+			                           	 If bolActiveOnly <> "on" then
+                                            .WriteLine "<TD NOWRAP>"&routineHtmlString(aList(5,k))&"</TD>" 'status
+					                     end if
+
+                                         .WriteLine "</TR>"
+                                   next
+                                   .WriteLine "</table>"
+
+                              end with
+
+                              objTxtStream.Close
+							strsql = "<script type=""text/javascript"">document.location=""export/"&strRealUserID&"-contactrole.xls"";</script>"
+							Response.Write strsql
+							Response.End
+'                              Response.redirect "export/"&strRealUserID&"-contactrole.xls"
+
+
+					elseif Request("txtGoToPageNo") <> "" then
+						intPageNumber=CInt(Request("txtGoToPageNo"))
+					else
+						intPageNumber=1
+					end if
+	end select
+
+	if intPageNumber < 1 then intPageNumber = 1
+	if intPageNumber > intPageCount then intPageNumber = intPageCount
+
+	dim k,m,n
+	m = (intPageNumber - 1) * intConstDisplayPageSize
+	n = (intPageNumber) * intConstDisplayPageSize - 1
+	if n > UBound(aList,2) then
+		n=UBound(aList,2)
+	end if
+
+	'check if the client is still connected just before sending any html to the browser
+	if Response.IsClientConnected = false then
+		Response.End
+	end if
+
+	'catch any unexpected error
+	if err then
+		DisplayError "BACK", "", err.Number, "Unexpected error.", err.Description
+	end if
+%>
+
+<HTML>
+<HEAD>
+	<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+	<LINK rel="stylesheet" type="text/css" href="stylesheets/styles.css" type="text/css">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" SRC="GeneralJavaFunctions.js"></script>
+  <script ID=clientEventHandlersJS type="text/javascript">
+	<!--
+
+setPageTitle("SMA - Contact Roles");
+
+	function btnEdit_onclick(lngCustomerContactID){
+	var url ;
+
+		url = 'ContactRoleDetail.asp?CustomerContactID=' + lngCustomerContactID;
+		self.open(url,'Popup','top=50, left=100, height=600, width=800' );
+	}
+
+
+	//need to complete this function if this screen is used as a lookup
+
+	/*
+
+	function go_back(lngCustomerContactID, , ,)
+	{
+		parent.opener.document.forms[0].hdnCustomerContactID.value = lngCustomerContactID;
+		--
+		--
+		parent.window.close ();
+	}
+
+	**/
+
+	//-->
+</SCRIPT>
+</head>
+<body>
+<form name=frmContactRoleList action="ContactRoleList.asp" method=post>
+
+<!-- hidden variables -->
+	<input type=hidden name=txtCustomerName value="<%=strCustomerName%>">
+	<input type=hidden name=selContactRole value="<%=strRoleLong%>">
+	<input type=hidden name=txtLName value="<%=strLName%>">
+	<input type=hidden name=txtFName value="<%=strFName%>">
+	<input type=hidden name=radSort value="<%=strSort%>">
+	<input type=hidden name=selRegion value="<%=strRegion%>">
+	<input type=hidden name=chkActiveOnly value="<%=bolActiveOnly%>">
+	<input type=hidden name=hdnWinName value="<%=strWinName%>">
+    <input type="hidden" name="hdnExport" value>
+
+
+<TABLE border="1" width=100% cellspacing=0 cellpadding=2 >
+	<THEAD>
+		<tr><th align=left colspan=12>Contact Role Results</th></tr>
+		<TR>
+		    <TH align=left nowrap>Customer  </TH>
+		    <TH align=left nowrap>Role  </TH>
+		    <TH align=left nowrap>Role Desc  </TH>
+		    <TH align=center nowrap> Priority </TH>
+		    <TH align=left nowrap>Contact  </TH>
+		    <TH align=left nowrap>Area of Responsibility</TH>
+		    <TH align=left nowrap>Work #  </TH>
+		    <TH align=left nowrap>Ext  </TH>
+		    <TH align=left nowrap>Cell #  </TH>
+		    <TH align=left nowrap>Pager #  </TH>
+		    <TH align=left nowrap>Fax #  </TH>
+		    <TH align=left nowrap>Email  </TH>
+		    <%if bolActiveOnly = "" then
+				Response.Write ("<TH align=left nowrap>Active Status </TH>")
+			end if%>
+		</TR>
+	</THEAD>
+	<TBODY>
+	<%
+	'display the table
+		for k = m to n
+			'alternate row background color
+			if Int(k/2) = k/2 then
+				Response.Write "<tr bgcolor=White>"
+			else
+				Response.Write "<tr>"
+			end if
+
+
+
+			'if strWinName = "Popup" then
+				'sample only; currently this screen is never called as a lookup
+				'Response.Write "<td><a href=""#"" onClick=""return go_back('"&aList(0,k)& "', '" &routineJavascriptString(aList(1,k))& "','" &routineJavascriptString(aList(2,k))& "')"">" &aList(1,k)& "</a></td>"&vbCrLf
+				'Response.Write "</tr>"
+			'else
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"& aList(16,k)& "</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(1,k)& "</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(6,k)& "</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap align=center><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(2,k)&"</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(9,k)&"</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(18,k)& "</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(10,k)&"</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(11,k)&"</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(12,k)&"</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(13,k)&"</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(14,k)&"</a>&nbsp;</td>"&vbCrLf
+				Response.Write "<td nowrap><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(15,k)& "</a>&nbsp;</td>"&vbCrLf
+				if bolActiveOnly = "" then
+					Response.Write "<td nowrap align=center><a target=""_parent"" href=""ContactRoleDetail.asp?hdnCustomerContactID="&aList(0,k)&""">"&aList(5,k)& "</a>&nbsp;</td>"&vbCrLf
+				end if
+				Response.Write "</tr>"
+			'end if
+	   next
+		%>
+	</TBODY>
+	<TFOOT>
+	<TR>
+		<TD align=left colSpan=12 >
+			<input type=hidden name=txtPageNumber value=<%=intPageNumber%>>
+			<input type="submit" name="action" value="&lt;&lt;">
+			<input type="submit" name="action" value="&lt;">
+			<input type="text" name="txtGoToPageNo" onClick="document.frmContactRoleList.txtGoToPageNo.value=''" title="You can jump to a specific page by typing the page number in this box" value="page <%=intPageNumber%> of <%=intPageCount%>" style="HEIGHT: 22px; WIDTH: 150px">
+			<input type="submit" name="action" value="&gt;">
+			<input type="submit" name="action" value="&gt;&gt;">
+			<img SRC="images/excel.gif" onclick="document.frmContactRoleList.target='new';document.frmContactRoleList.hdnExport.value='xls';document.frmContactRoleList.submit();document.frmContactRoleList.hdnExport.value='';document.frmContactRoleList.target='_self';"
+
+WIDTH="32" HEIGHT="32">
+		</TD>
+	</TR>
+	</TFOOT>
+	<CAPTION>Records <%=m+1%> to <%=n+1%> of <%=UBound(aList, 2)+1 & " records"%></CAPTION>
+</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

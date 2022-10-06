@@ -1,0 +1,199 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>0&nbsp;</TD>
+
+<TD NOWRAP>FROM CONTACT ID:  000221588 - Miklosi, Chantal CM&nbsp;</TD>
+
+<TD NOWRAP>TO CONTACT ID  :  000175633 - Amalgamation, Employee F&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+
+<TD NOWRAP>221588&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>Amalgamated to Amalgamation, Employee F (175633) on FEB 12, 2019, 02:02 PM by T068206.  BN:( 000008652).  &nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+
+<TD NOWRAP>221588&nbsp;</TD>
+
+<TD NOWRAP>A&nbsp;</TD>
+
+<TD NOWRAP>D&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SERVICE_ORDER&nbsp;</TD>
+
+<TD NOWRAP>PRIME_CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>390841&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SERVICE_ORDER&nbsp;</TD>
+
+<TD NOWRAP>PRIME_CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>408289&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_DETAIL_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>883783&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_DETAIL_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>920539&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_DETAIL_LOCATION_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>780752&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_DETAIL_LOCATION_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>816094&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_HEADER_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>1809409&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8652&nbsp;</TD>
+
+<TD NOWRAP>SO&nbsp;</TD>
+
+<TD NOWRAP>SO_HEADER_CONTACT&nbsp;</TD>
+
+<TD NOWRAP>CONTACT_ID&nbsp;</TD>
+
+<TD NOWRAP>1892652&nbsp;</TD>
+
+<TD NOWRAP> 000221588&nbsp;</TD>
+
+<TD NOWRAP> 000175633&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+</table>

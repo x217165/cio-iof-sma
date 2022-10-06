@@ -1,0 +1,167 @@
+<table border=2>
+<TR>
+<TH>CSID</TD>
+<TH>CS Name</TD>
+<TH>Service Type Description</TD>
+<TH>Customer Name</TD>
+<TH>Customer Short Name</TD>
+<TH>Customer ID</TD>
+<TH>Service Instance Attribute</TD>
+<TH>Value</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>Is IPv6 required?&nbsp;</TD>
+<TD NOWRAP colspan=1>IPv4 only&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>(If IPv6) What LAN routing protocol is required?&nbsp;</TD>
+<TD NOWRAP colspan=1>NA - no IPv6&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>(If IPv6) What type of LAN IPv6 addr is req&#39;d?&nbsp;</TD>
+<TD NOWRAP colspan=1>NA - no IPv6&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>Is usage billing required?&nbsp;</TD>
+<TD NOWRAP colspan=1>Not usage billed&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>What is the contract length?&nbsp;</TD>
+<TD NOWRAP colspan=1>5 year&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>What bandwidth is required for this access?&nbsp;</TD>
+<TD NOWRAP colspan=1>100 Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>Is OSPF required between CIU and customer LAN?&nbsp;</TD>
+<TD NOWRAP colspan=1>OSPF not required&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>Is RIP required between  CIU and the customer LAN?&nbsp;</TD>
+<TD NOWRAP colspan=1>RIP not required&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>Is ISIS required between CIU and customer LAN?&nbsp;</TD>
+<TD NOWRAP colspan=1>ISIS not required&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>Is eBGP required between CIU and customer LAN?&nbsp;</TD>
+<TD NOWRAP colspan=1>eBGP not required&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>Is NAT required? &nbsp;</TD>
+<TD NOWRAP colspan=1>NAT is not required&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>How many registered IP addresses(if any) required?&nbsp;</TD>
+<TD NOWRAP colspan=1>One /29 only (default)&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>What is the customer&#39;s minimum commitment?&nbsp;</TD>
+<TD NOWRAP colspan=1>Not Applicable&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP colspan=1>1532679&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN_VANCBC_240 1050 W PENDER ST_Business Internet 20-100 Mbps_0001&nbsp;</TD>
+<TD NOWRAP colspan=1>Business Internet 20-100 Mbps&nbsp;</TD>
+<TD NOWRAP colspan=1>FIRSTGROUP AMERICA INC&nbsp;</TD>
+<TD NOWRAP colspan=1>FGAIN&nbsp;</TD>
+<TD NOWRAP colspan=1>147297&nbsp;</TD>
+<TD NOWRAP colspan=1>What DNS services will TELUS provide?&nbsp;</TD>
+<TD NOWRAP colspan=1>No TELUS-provided DNS&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+</table>

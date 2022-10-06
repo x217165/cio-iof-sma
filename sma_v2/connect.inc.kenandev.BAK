@@ -1,0 +1,12 @@
+<%
+'Dim smaConnKenan
+'Set smaConnKenan = Server.CreateObject("ADODB.Connection")
+
+'smaConnKenan.CursorLocation = 3
+
+const strKenanConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=readall;Password=readall;server=KFXDV"		'connection string
+'const ConnKenan.Provider = "MSDAORA;Data Source=KFXDV;Password=readall;User ID=readall"
+'const strConstConnectString = "DRIVER={Microsoft ODBC for Oracle};UID=jagora;Password=te9670nbn;server=ESDD1-1330"		'connection string
+
+'smaConnKenan.Open
+%>

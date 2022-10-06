@@ -1,0 +1,11 @@
+<%
+const strConstConnectString = "Provider=MSDAORA;Data Source=ESDSPT;User Id=SMA_USERID;Password=SMA_USERID;"    #Encrypt
+const strConstSConnectString ="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_ACCESS_PT;Password=gcnet;"   #Encrypt
+const APP_SMA_ALL_LCD="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_ALL_LCD_PT;Password=gcnet_all;"   #Encrypt
+const APP_SMA_GCNET="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_GCNET_PT;Password=gcnet;"   #Encrypt
+const APP_SMA_OPSNAS="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_OPSNAS_PT;Password=opsnas_sma;"   #Encrypt
+const APP_SMA_GOCWCS="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_GOCWCS_PT;Password=gocwcs_sma;"   #Encrypt
+const APP_SMA_GCGONET="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_GCGONET_PT;Password=gcnet#gonetPT;"   #Encrypt
+const APP_SMA_WCSGONET="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_WCSGONET_PT;Password=gocwcs#gonetPT;"   #Encrypt
+const APP_SMA_WCSGCNET="Provider=MSDAORA;Data Source=ESDSPT;User Id=APP_SMA_WCSGCNET_PT;Password=gocwcs#gcnetPT;"   #Encrypt
+%>

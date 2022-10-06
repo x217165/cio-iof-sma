@@ -1,0 +1,1498 @@
+<TABLE border=1>
+<THEAD>
+<TH>LOB</TH>
+<TH>Line of Business</TH>
+<TH>Service Category</TH>
+<TH>Service Type</TH>
+<TH>Service Type (French)</TH>
+<TH>Start Date</TH>
+<TH>End Date</TH>
+<TH>Revenue Region</TH>
+<TH>Service Level Agreement</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enhanced LAN/WAN Service Options&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Wireless Primary&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>No SLA 8x5 AB&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enhanced LAN/WAN Service Options&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Wireless Primary&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 8x5 BC&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enhanced LAN/WAN Service Options&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Wireless Primary&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-14-2016&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>No SLA 8x5 EAST&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 1.5 Mbps backup&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 10 Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 10 Mbps backup&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 1000 Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 256 Kbps to 1.5 Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 30/100 Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 30/100 Mbps backup&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 50 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators 500 Mbps backup&nbsp;</TD>
+<TD NOWRAP>JUL-15-2015&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators ADSL&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators ADSL backup&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators analog backup&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators digital dial backup&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN - LCD&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Cooperators dual ADSL&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>APR-13-2010&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 1.5 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 1.5 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 1.5 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 1.5 mbps Extension&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-21-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 1.5 mbps Extension&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>JUN-21-2007&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 10 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 10 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 10 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 128 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 128 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 128 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 256 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 256 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 256 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 30 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 30 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 30 mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 512 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 512 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - 512 kbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - Asymmetric&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - Asymmetric&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN (Wireless) - Asymmetric&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>DEC-06-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>Remedy ** No SLA **&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Asymmetric Rate Limited Service&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-10-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Asymmetric Rate Limited Service&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-10-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Features&nbsp;</TD>
+<TD NOWRAP>Options pour IRA N3 RPV&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Features&nbsp;</TD>
+<TD NOWRAP>Options pour IRA N3 RPV&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Features&nbsp;</TD>
+<TD NOWRAP>Options pour IRA N3 RPV&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Features&nbsp;</TD>
+<TD NOWRAP>Options pour IRA N3 RPV&nbsp;</TD>
+<TD NOWRAP>MAY-14-2012&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Quebec&nbsp;</TD>
+<TD NOWRAP>No SLA 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet GW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-08-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet GW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-08-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet GW&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAR-08-2006&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 100Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 100Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 100Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 10Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 10Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 10Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 200Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 200Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 200Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 30Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 30Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN SuperNet to IDC - 30Mbps&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-30-2004&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 1.5Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 1.5Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 1.5Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 1.5 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 1.5Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>No Rebate SLA&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 10 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 10 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 10 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 10 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 10 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>No Rebate SLA&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 100 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 100 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 100 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 100 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 100 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>No Rebate SLA&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 128 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 128 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 128 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 128 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>No Rebate SLA&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 to 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 to 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 200 to 1000 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>AUG-07-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 256 KBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>No Rebate SLA&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 3 to 9 MBPS on fibre&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 3 a 9 MBPS sur fibre&nbsp;</TD>
+<TD NOWRAP>JAN-13-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 3 to 9 MBPS on fibre&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 3 a 9 MBPS sur fibre&nbsp;</TD>
+<TD NOWRAP>JAN-13-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 3 to 9 MBPS on fibre&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV 3 a 9 MBPS sur fibre&nbsp;</TD>
+<TD NOWRAP>JAN-13-2011&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 30 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 30 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 30 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 30 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 30 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 30 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 30 MBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP HDX 30 Mbps Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>No Rebate SLA&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 300 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 300 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 300 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 400 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 400 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 400 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 500 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 500 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 500 MBPS&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 512 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 512K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 512 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 512K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 512 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 512K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 512 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 512K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>US / Int&#39;l&nbsp;</TD>
+<TD NOWRAP>No Rebate SLA&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 56 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 56K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 56 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 56K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - 56 KBPS&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP 56K Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP ASYMETRIQUE Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP ASYMETRIQUE Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP ASYMETRIQUE Gere&nbsp;</TD>
+<TD NOWRAP>SEP-29-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN Services&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Ver1 - Dual ASYMMETRIC&nbsp;</TD>
+<TD NOWRAP>IRA N3 RVP ASYMETRIQUE Double Gere v1&nbsp;</TD>
+<TD NOWRAP>FEB-20-2008&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.9% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>Enterprise WAN for TQ primed only&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN offnet single ADSL&nbsp;</TD>
+<TD NOWRAP>IRA N3 RPV asymetrique hors de net&nbsp;</TD>
+<TD NOWRAP>NOV-24-2009&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>VPN Gateway&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Gateway Authentication Option&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>VPN Gateway&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Gateway Authentication Option&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>VPN Gateway&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN Gateway Authentication Option&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>VPN Gateway&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN&Firewall Gateway Add-on&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Alberta&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>VPN Gateway&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN&Firewall Gateway Add-on&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>INTER&nbsp;</TD>
+<TD NOWRAP>Internetworking Services&nbsp;</TD>
+<TD NOWRAP>VPN Gateway&nbsp;</TD>
+<TD NOWRAP>WAN L3 VPN&Firewall Gateway Add-on&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>OCT-15-2003&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>National&nbsp;</TD>
+<TD NOWRAP>99.7% Available 7x24&nbsp;</TD>
+</TR>
+</TABLE>

@@ -1,0 +1,142 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>0&nbsp;</TD>
+<TD NOWRAP>FROM CUSTOMER ID:  000146532 - MOWI CANADA WEST INC&nbsp;</TD>
+<TD NOWRAP>TO CUSTOMER ID  :  000132893 - MARINE HARVEST CANADA INC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+<TD NOWRAP>146532&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Amalgamated to MARINE HARVEST CANADA INC (132893) on APR 11, 2019, 12:04 PM by T066729.  BN:( 000008662).  &nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>146532&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_CONTACT&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>211964&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_CONTACT&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>211963&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>302562&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP> 000132893&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>302563&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP> 000132893&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>302545&nbsp;</TD>
+<TD NOWRAP> 000146532&nbsp;</TD>
+<TD NOWRAP> 000132893&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS_UPPER&nbsp;</TD>
+<TD NOWRAP>302562&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MARINE HARVEST CANADA INC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS_UPPER&nbsp;</TD>
+<TD NOWRAP>302563&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>MAHCI&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>302563&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>302562&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8662&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>302544&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+</table>

@@ -1,0 +1,199 @@
+<%@ Language=VBScript %>
+<%  
+OPTION EXPLICIT
+on error resume next
+%>
+<!-- #include file="smaConstants.inc" -->
+<!-- #include file="smaProcs.inc" -->
+<!-- #include file="databaseconnect.asp" -->
+<!--        
+  ***************************************************************************************************
+  * Name:		CorrUsage.asp
+  * Purpose:	This page list the service usage information.
+  * Created By:	?
+  ***************************************************************************************************
+
+        Date		Author			Changes/enhancements made
+        -----		------		------------------------------------------------------
+       02-Aug-07	ACheung		Provide service usage information and technical questions & answers
+                                    - LCODE_ SERVICE_BASE and LCODE_SERVICE_CONCENTRATION are new tables that 
+				      contain the service usage info. 
+                                    - SO_ELEMENT and SO_DETAIL_ELEMENT are the technical questions & answers
+				      related tables.	
+. 
+  ***************************************************************************************************
+-->
+<%
+Const ASP_NAME = "CorrUsage.asp" 'only need to change this value when changing the filename
+
+dim strCustServID, objRsServiceContact, strServTypeID, StrSql
+Dim intAccessLevel, bolActiveOnly
+
+intAccessLevel = CInt(CheckLogon(strConst_CustomerServiceContact))
+
+strServTypeID = Request("ServTypeID")
+strCustServID = Request("CustServID")
+bolActiveOnly = Request("ActiveOnly")
+
+if strCustServID <> "" then
+  strSQL =  "select sd.SO_DETAIL_ID," &_ 
+			"     se.SO_ELEMENT_DESCRIPTION," &_
+			"     sde.DETAIL_ELEMENT_TEXT," &_
+			"     SE.ELEMENT_TYPE_LCODE," &_
+			"     sde.SO_ELEMENT_ID," &_
+			"     se.SO_ELEMENT_SMA_DISPLAY," &_
+			"     st.SERVICE_TYPE_ID," &_
+			"     sc.SERVICE_CONCENTRATION_NAME," &_
+			"     sb.SERVICE_BASE_NAME" &_
+			"from so.so_detail sd," &_
+			"     so.so_detail_element sde," &_
+	                "     so.so_element se," &_
+                        "     crp.service_type st," &_
+                        "     crp.service_con_base_xref scbx," &_
+                        "     crp.lcode_service_concentration sc," &_
+			"     crp.lcode_service_base sb" &_
+			"where sd.SO_DETAIL_ID = sde.SO_DETAIL_ID," &_
+			"and   sde.SO_ELEMENT_ID = se.SO_ELEMENT_ID," &_
+			"and   st.service_type_id = scbx.service_type_id," &_
+			"and   scbx.SERVICE_CONCENTRATION_LCODE = sc.SERVICE_CONCENTRATION_LCODE," &_
+			"and scbx.SERVICE_BASE_LCODE = sb.SERVICE_BASE_LCODE," &_
+			"and se.SO_ELEMENT_SMA_DISPLAY = 'Y' " &_
+			"and st.service_type_id = "& strServTypeID
+			"and sd.CUSTOMER_SERVICE_ID = "& strCustServID
+	
+	set objRsServiceOrderInfo = objConn.Execute(StrSql)
+	if  objRsServiceContact.EOF then
+		strCustServID = ""
+	end if
+
+	if err then
+		DisplayError "BACK", "", err.Number, "CANNOT CREATE RECORDSET 32132", err.Description
+	end if
+
+end if
+
+%>
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<LINK href="stylesheets/styles.css" rel="stylesheet" type="text/css">
+<STYLE>
+.regularItem {
+	cursor: hand;
+}
+.whiteItem {
+	cursor: hand;
+	background-color: white;
+}
+.Highlight {
+	cursor: hand; 
+	background-color: #00974f;
+	color: white;
+}
+</STYLE>
+
+<script type="text/javascript">
+
+var oldHighlightedElement;
+var oldHighlightedElementClassName;
+
+</script>
+
+</HEAD>
+<BODY>
+<form name="frmIFR" action="<%=ASP_NAME%>" method="POST">
+<input type="hidden" name="hdnServTypeID" value="">
+<input type="hidden" name="hdnCustServID" value="">
+<input type="hidden" name="hdnUpdateDateTime" value="">
+
+<TABLE border=1 cellspacing=0 cellpadding=2 width="100%">
+	<thead>
+		<th nowrap>Service Concentration</th>
+		<th nowrap>Service Base</th>
+		<th nowrap>Technical Question</th>
+		<th nowrap>Technical Answer</th>
+	</thead>
+	<tbody>
+		<%
+		Dim strWPArea,strWPMid,strWPEnd,strWP
+		Dim strCPArea,strCPMid,strCPEnd,strCP
+		Dim strPPArea,strPPMid,strPPEnd,strPP
+		Dim strFPArea,strFPMid,strFPEnd,strFP
+		
+		dim k
+		k = 0
+		if strCustServID <> "" then
+			while not objRsServiceContact.EOF 
+				if Int(k/2) = k/2 then
+					Response.Write "<tr class=""regularItem"">"
+				else
+					Response.Write "<tr class=""whiteItem"">"
+				end if
+				k = k+1
+	
+		
+				'format the work phone number
+	 			strWPArea = mid(objRsServiceContact("work_number"),1,3)
+	 			strWPMid = mid(objRsServiceContact("work_number"),4,3)
+	 			strWPEnd = mid(objRsServiceContact("work_number"),7,4)
+	 			strWP = "(" & strWPArea & ") " & strWPMid & "-" & strWPEnd
+	 			If strWP = "() -" then
+	 				strWP = ""
+	 			End If
+	
+				'format the cell phone number
+				strCPArea = mid(objRsServiceContact("cell_number"),1,3)
+	 			strCPMid = mid(objRsServiceContact("cell_number"),4,3)
+	 			strCPEnd = mid(objRsServiceContact("cell_number"),7,4)
+	 			strCP = "(" & strCPArea & ") " & strCPMid & "-" & strCPEnd
+	 			If strCP = "() -" then
+	 				strCP = ""
+	 			End If
+
+	
+				'format the pager number
+				strPPArea = mid(objRsServiceContact("pager_number"),1,3)
+	 			strPPMid = mid(objRsServiceContact("pager_number"),4,3)
+	 			strPPEnd = mid(objRsServiceContact("pager_number"),7,4)
+	 			strPP = "(" & strPPArea & ") " & strPPMid & "-" & strPPEnd
+	 			If strPP = "() -" then
+	 				strPP = ""
+	 			End If
+					
+				'format the fax number
+	 			strFPArea = mid(objRsServiceContact("fax_number"),1,3)
+	 			strFPMid = mid(objRsServiceContact("fax_number"),4,3)
+	 			strFPEnd = mid(objRsServiceContact("fax_number"),7,4)
+	 			strFP = "(" & strFPArea & ") " & strFPMid & "-" & strFPEnd
+	 			If strFP = "() -" then
+	 				strFP = ""
+	 			End If
+					
+			%>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(objRsServiceContact("cust_serv_contact_type_lcode"))%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(objRsServiceContact("cust_serv_contact_type_desc"))%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(objRsServiceContact("contact_priority"))%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(objRsServiceContact("contact_name"))%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(strWP)%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(objRsServiceContact("work_number_ext"))%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(strCP)%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(strPP)%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(strFP)%>&nbsp;</td>
+					<td nowrap onClick="cell_onClick('<%=objRsServiceContact("UPDATE_DATE_TIME")%>',<%=strCustServID%>, <%=objRsServiceContact("CUSTOMER_SERVICE_CONTACT_ID")%>);"><%=routineHTMLString(objRsServiceContact("email_address"))%>&nbsp;</td>
+				</tr>
+			<%
+				objRsServiceContact.MoveNext
+			wend
+			objRsServiceContact.Close
+			set objRsServiceContact = Nothing
+		end if
+		%>
+	</tbody>
+</table>
+</FORM>
+</BODY>
+</HTML>
+
+

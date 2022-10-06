@@ -1,0 +1,118 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>0&nbsp;</TD>
+<TD NOWRAP>FROM CUSTOMER ID:  000000123 - Eecol Electric Ltd.&nbsp;</TD>
+<TD NOWRAP>TO CUSTOMER ID  :  000144462 - EECOL ELECTRIC ULC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+<TD NOWRAP>123&nbsp;</TD>
+<TD NOWRAP>Amalgamated to EECOL ELECTRIC ULC (144462) on MAY 29, 2017, 01:05 PM by T068206.  BN:( 000008593).  Intelliden Realm = Y
+Customer Prime from Version 1 Sales Funnel is Duncan Scott
+
+NetHealth access ecol/y3b8r5&nbsp;</TD>
+<TD NOWRAP>Amalgamated to EECOL ELECTRIC ULC (144462) on MAY 29, 2017, 01:05 PM by T068206.  BN:( 000008594).  Amalgamated to EECOL ELECTRIC ULC (144462) on MAY 29, 2017, 01:05 PM by T068206.  BN:( 000008593).  Intelliden Realm = Y
+Customer Prime from Version 1 Sales Funnel is Duncan Scott
+
+NetHealth access ecol/y3b8r5&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>288364&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP> 000144462&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>288365&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP> 000144462&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS_UPPER&nbsp;</TD>
+<TD NOWRAP>288364&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>EECOL ELECTRIC ULC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS_UPPER&nbsp;</TD>
+<TD NOWRAP>288365&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>EEU&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>288365&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>288364&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>288354&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8594&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>288355&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+</table>

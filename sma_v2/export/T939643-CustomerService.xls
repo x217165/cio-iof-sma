@@ -1,0 +1,3272 @@
+<table border=1>
+<TR>
+<TH>Customer Service Name</TD>
+<TH>Status</TD>
+<TH>Service ID</TD>
+<TH>Service Type</TD>
+<TH>Language Code</TD>
+<TH>Service Location</TD>
+<TH>Customer Name</TD>
+<TH>CSN</TD>
+<TH>CID</TD>
+<TH>Region</TD>
+<TH>Support Group</TD>
+<TH>VPN name</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-ARDR-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084676</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>208 Allen St S, Airdrie AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-ARDR-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084677</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>208 Allen St S, Airdrie AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CCHR-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084678</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>111 1 Ave W, Cochrane AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CCHR-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084679</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>111 1 Ave W, Cochrane AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Abbeydale-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069434</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6060 Memorial Drive NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Abbeydale-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068845</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6060 Memorial Drive NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Airport-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068850</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2000 Airport Road NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Airport-xDSL VPOP Line Service&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068851</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2000 Airport Road NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Airways-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068811</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2432 42 Ave NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Airways-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068846</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2432 42 Ave NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Bonavista-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068812</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>907 Lake Bonavista Drive SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Bonavista-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068847</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>907 Lake Bonavista Drive SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Bowness-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068843</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6207 Bow Crescent NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Bowness-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068848</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6207 Bow Crescent NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Burns Ind Pk-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068844</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5980 Centre St SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Burns Ind Pk-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068849</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5980 Centre St SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Canyon Meadows-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068854</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1061 Canyon Meadows Drive SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Canyon Meadows-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068855</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1061 Canyon Meadows Drive SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Capitol Hill-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068856</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1739 18 Ave NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Capitol Hill-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068857</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1739 18 Ave NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Country Hills-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068886</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>34 Harvest Oak Crescent NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Country Hills-xDSL VPOP Line Service&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068887</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>34 Harvest Oak Crescent NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Crescent Heights-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068858</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>132 15 Ave NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Crescent Heights-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068859</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>132 15 Ave NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Crowchild-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068861</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>890 85 St NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Crowchild-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068862</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>890 85 St NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Deer Run-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068865</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>193 Deerfield Drive SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Deer Run-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068866</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>193 Deerfield Drive SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Deerfoot Ind Pk-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068863</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6815 8 St NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Deerfoot Ind Pk-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068864</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6815 8 St NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Douglasdale-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068867</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3007 Douglasdale Boulevard SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Douglasdale-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068868</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3007 Douglasdale Boulevard SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Edgemont-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068869</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>132 45 Edenwold Drive NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Edgemont-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068872</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>132 45 Edenwold Drive NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Elbow Park-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068880</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3601 7A St SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Elbow Park-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068881</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3601 7A St SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Foothills-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068882</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3664 61 Ave SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Foothills-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068883</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3664 61 Ave SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Forestlawn-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068884</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1724 36 St SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Forestlawn-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068885</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1724 36 St SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Highfield-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068951</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>808 42 Ave SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Highfield-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068955</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>808 42 Ave SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Hillhurst-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068888</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>102 15 St NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Hillhurst-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068889</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>102 15 St NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Huntington Hills-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068957</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1027 72 Ave NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Huntington Hills-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068964</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1027 72 Ave NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Killarney-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068965</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3203 25 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Killarney-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068966</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3203 25 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Kingsland-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068967</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>534 Heritage Drive SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Kingsland-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068968</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>534 Heritage Drive SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-MacEwan-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068970</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10-16 MacEwan Drive NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-MacEwan-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068971</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10-16 MacEwan Drive NW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Main-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068852</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>120 7 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-MAIN-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068853</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>120 7 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Mayland Heights-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069001</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2225 3 Ave NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Mayland Heights-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069002</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2225 3 Ave NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-McKenzie-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069003</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>15499 McKenzie Lake Boulevard SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-McKenzie-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069004</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>15499 McKenzie Lake Boulevard SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Mount Royal-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069005</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1419 17 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Mount Royal-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069006</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1419 17 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Oakridge-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069007</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2631 106 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Oakridge-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069008</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2631 106 Ave SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Ogden-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069009</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>9216 40 St SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Ogden-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069010</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>9216 40 St SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Prominence Point-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069011</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6450 Old Banff Coach Road SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Prominence Point-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069012</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6450 Old Banff Coach Road SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Richmond Hill-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069013</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>133 Stewart Green SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Richmond Hill-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069014</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>133 Stewart Green SW Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Riverbend-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069015</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>224 Riverwood Circle SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Riverbend-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069016</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>224 Riverwood Circle SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Shawnessy-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069017</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>35 Shawglen Rise SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Shawnessy-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069018</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>35 Shawglen Rise SE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Temple-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069019</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>22 Templeby Lane NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-CLGR-Temple-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1069020</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>22 Templeby Lane NE Calgary AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Beverly-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068972</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3412 121 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Beverly-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068973</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3412 121 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Bonnie Doon-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068974</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>8807 85 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Bonnie Doon-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068975</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>8807 85 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Cannell-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068976</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>13167 159 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Cannell-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068977</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>13167 159 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Castle Downs-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068978</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>16215 Castle Downs Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Castle Downs-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068979</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>16215 Castle Downs Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Clover Bar-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068980</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1810 Yellowhead Trail NE Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Clover Bar-xDSL VPOP Line Service&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068981</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1810 Yellowhead Trail NE Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Eastgate-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068948</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4830 92 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Eastgate-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068949</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4830 92 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-EMAN-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068950</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10405 104 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-EMAN-xDSL VPOP Line Service&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068952</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10405 104 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Evergreen-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068953</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>16630 6 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Evergreen-xDSL VPOP Line Service&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068954</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>16630 6 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Jasper Place-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068956</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>15751 Stony Plain Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Jasper Place-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068958</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>15751 Stony Plain Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Kaskitayo-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068960</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3540 101 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Kaskitayo-ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068962</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3540 101 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Stone-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086448</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11304 178 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-EDTN-Stone-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086449</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11304 178 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-FTMM-Gregoire-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084680</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>139 Gregoire Drive Fort McMurray AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-FTMM-Gregoire-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084681</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>139 Gregoire Drive Fort McMurray AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-FTMM-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084682</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>9716 Hardin St Fort McMurray AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-FTMM-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084683</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>9716 Hardin St Fort McMurray AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-FTMM-Timberlea-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084684</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>400 Brett Drive Fort McMurray AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-FTMM-Timberlea-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084685</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>400 Brett Drive Fort McMurray AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-GDCT-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084707</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99999 SW  4 63 2 W4 Grand Centre AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-GDCT-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084708</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99999 SW  4 63 2 W4 Grand Centre AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-GDCT-Medley-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084709</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4424 50 Ave Grand Centre AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-GDCT-Medley-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084710</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4424 50 Ave Grand Centre AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-GDPR-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084723</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10103 99 Ave Grande Prairie AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-GDPR-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084724</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10103 99 Ave Grande Prairie AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Battle Heights-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084646</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99999 Jerry Potts Blvd  Whoop Up Dr Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Battle Heights-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084647</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99999 Jerry Potts Blvd  Whoop Up Dr Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Fairview-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084648</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2 Ave and 44 St Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Fairview-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084649</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2 Ave and 44 St Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Lake View-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084650</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99998 Highway 4 South, Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Lake View-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084651</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99998 Highway 4 South, Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084652</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>808 4 St S, Lethbridge AB &nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084653</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>808 4 St S, Lethbridge AB &nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Uplands-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084654</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1702 23 St N, Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-LTBR-Uplands-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084655</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1702 23 St N, Lethbridge AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-MDHT-Briar Park-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084727</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1 1 9510217 Medicine Hat AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-MDHT-Briar Park-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084728</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1 1 9510217 Medicine Hat AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-MDHT-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084729</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>456 5 St SE Medicine Hat AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-MDHT-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084730</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>456 5 St SE Medicine Hat AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-MDHT-Ross Glen-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084731</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3915 17 Ave SE Medicine Hat AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-MDHT-Ross Glen-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084732</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3915 17 Ave SE Medicine Hat AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Blindman-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084725</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99999 Landry Ave and Charles St Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Blindman-ADSL-VPOP-Line-Svcs&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084726</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>99999 Landry Ave and Charles St Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Deer Park-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084686</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>130 Dixon Crescent Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Deer Park-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084687</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>130 Dixon Crescent Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Golden West-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084688</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6759 65 Ave Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Golden West-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084689</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6759 65 Ave Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Kentwood-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084690</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>18F-7727 50 Ave Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Kentwood-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084692</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>18F-7727 50 Ave Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084694</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4831 51 St Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084696</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4831 51 St Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Petrolia-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084698</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1750 49 Ave Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-RDDR-Petrolia-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084699</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1750 49 Ave Red Deer AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SPGV-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084733</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>324 McLeod Ave Spruce Grove AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SPGV-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084734</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>324 McLeod Ave Spruce Grove AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-STAL-Campbell Park-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084737</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>25 Corriveau Ave St Albert AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-STAL-Campbell Park-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084738</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>25 Corriveau Ave St Albert AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-STAL-Lacombe Park-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084741</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>171 Liberton Drive St Albert AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-STAL-Lacombe Park-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084742</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>171 Liberton Drive St Albert AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-STAL-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084739</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>35 St Michael St, St Albert AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-STAL-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084740</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>35 St Michael St, St Albert AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SWPK-Bremner-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084713</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1 43 8922894 Sherwood Park AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SWPK-Bremner-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084714</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1 43 8922894 Sherwood Park AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SWPK-Industrial-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084715</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>91 Ave and 18 St Sherwood Park AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SWPK-Industrial-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084716</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>91 Ave and 18 St Sherwood Park AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SWPK-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084711</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>990 Alder Ave Sherwood Park AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SWPK-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084712</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>990 Alder Ave Sherwood Park AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SYPL-Main-ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084735</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5200 47 St Stony Plain AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS-SYPL-Main-ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1084736</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5200 47 St Stony Plain AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_ABFDBC-ABBOTSFORD CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068784</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>33905 Essendene Ave Abbotsford BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_ABFDBC-CLEARBROOK  CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068785</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2736 Clearbrook Rd Abbotsford BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_ARGVBC-ALDERGROVE CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068786</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>27172 Fraser Highway Aldergrove BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_BNBYBC-Big Bend-Co-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068817</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5954 Marine Drive Burnaby BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_BNBYBC-CYPRESS-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068801</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1001 Delta Ave Burnaby BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_BNBYBC-LAKE CITY-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068822</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2671 Lake City Way Burnaby BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_CLWKBC-Chiliwack CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068795</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>46037 Yale Road W, Chilliwack BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_DELTBC-BEACH GROVE CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068805</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1128 56th St Delta BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXE_2920-66-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086426</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2920 66 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXE_2920-66-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086427</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2920 66 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXG_3811-Riverbend-Road-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086452</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3811 Riverbend Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXG_3811-Riverbend-Road-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086453</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3811 Riverbend Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXP_21720-103-Ave-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086475</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>21720 103 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXP_21720-103-Ave-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086476</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>21720 103 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXQ_6203-17-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086442</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6203 17 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXQ_6203-17-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086443</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6203 17 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXR_11404-60-Ave-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086418</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11404 60 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXR_11404-60-Ave-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086419</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11404 60 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXR_11745-89-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086434</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11745 89 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXR_11745-89-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086435</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11745 89 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXS_10449-83-Ave-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086450</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10449 83 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXS_10449-83-Ave-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086451</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10449 83 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXT_11460-Groat-Road-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086473</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11460 Groat Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXT_11460-Groat-Road-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086474</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11460 Groat Road NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXU_4090-30-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086424</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4090 30 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXU_4090-30-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086425</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4090 30 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXV_12019-102-Ave-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086436</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>12019 102 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXV_12019-102-Ave-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086437</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>12019 102 Ave NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXW_6303-184-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086471</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6303 184 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXW_6303-184-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086472</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6303 184 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXY_15751-Stoney-Plain-Road-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086420</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>15751 Stony Plain Road Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXY_15751-Stony-Plain-Road-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086421</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>15751 Stony Plain Road Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXZ_9004-178-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086456</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>9004 178 ST NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABXZ_9004-178-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086457</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>9004 178 ST NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABYL_11940-23-Ave-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086454</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11940 23 Av NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABYL_11940-23-Ave-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086455</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11940 23 Av NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABZA_5907-83-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086440</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5907 83 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABZA_5907-83-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086441</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5907 83 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABZS_20620-Whitemud-Drive-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086422</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>20620 Whitemud Drive NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABZS_20620-Whitemud-Drive-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086423</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>20620 Whitemud Drive NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABZY_16695-66-St-NW-Edmonton-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086438</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>16695 66 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_EDTNABZY_16695-66-St-NW-Edmonton-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1086439</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>16695 66 St NW Edmonton AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_FRVWAB01_10211-110-St-Fairview-AB_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1087171</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10211 110 St Fairview AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_FRVWAB01_10211-110-St-Fairview-AB_ADSL-VPOP-Line-Services&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1087172</TD>
+<TD NOWRAP>ADSL VPOP Line Services&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>10211 110 St Fairview AB&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_HANYBC-HANEY CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068815</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>11778 224th St Maple Ridge BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_LDNRBC-LADNER-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068820</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>4827 Elliott St Ladner BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_LNGLBC-LNGL/Langley CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068904</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5500 204 St Langley City BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_LNLYBC-PORT KELLS CO (FT  LANGLEY)-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068809</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>21585 88th Ave Langley BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_MSSNBC-MISSION-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068906</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>33067 2nd Ave Mission BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_NVCVBC-DEEP COVE CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068803</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3535 Mt Seymour Parkway North Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_NWMRBC-ANNICIS ISLAND CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068793</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>720 Derwent Way Annacis Island BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_NWMRBC-FRASER MILLS CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068912</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1510 Brunette St New Westminster BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_NWMRBC-NEW WESTMINSTER CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068911</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>611 6th St New Westminster BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_PTMSBC01_12439-Harris-Road-Pitt-Meadows-BC_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1087991</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>12439 Harris Road Pitt Meadows BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_SRRYBC-CLOVERDALE CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068799</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5623 176th St Surrey BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_SRRYBC-FORT LANGLEY CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068807</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>21585 88th Ave Langley B.C.&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_SRRYBC02_7191-128-St-Surrey-BC_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1087989</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>7191 128 St Surrey BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_SRRYBC06_7191-128-St-Surrey-BC_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1087990</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>7191 128 St Surrey B.C.&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_VANCBC-ALPINE CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068788</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>624 Victoria Drive Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_VANCBC-AMHERST-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068790</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2008 West 41st Ave Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_VANCBC-Castle-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068794</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>2608 Tolmie St Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_VANCBC-Fairfax CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068806</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>6486 Chester St Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_VANCBC-Hemlock CO-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068818</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>3696 Kingsway Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_VANCBC-MUTUAL-ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1068908</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>5E 768 Seymour St Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>VPNSS_WVCRBC01_1651-Inglewood-Ave-West-Vancouver-BC_ADSL-CO-Access&nbsp;</TD>
+<TD NOWRAP>OPER&nbsp;</TD>
+<TD NOWRAP>1087992</TD>
+<TD NOWRAP>ADSL CO Access&nbsp;</TD>
+<TD NOWRAP>EN</TD>
+<TD NOWRAP>1651 Inglewood Ave West Vancouver BC&nbsp;</TD>
+<TD NOWRAP>BELL WEST INC/VPNSSWEST&nbsp;</TD>
+<TD NOWRAP>VPNSS&nbsp;</TD>
+<TD NOWRAP>132127</TD>
+<TD NOWRAP>BC&nbsp;</TD>
+<TD NOWRAP>TELUS.NET Tier 2&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+</table>

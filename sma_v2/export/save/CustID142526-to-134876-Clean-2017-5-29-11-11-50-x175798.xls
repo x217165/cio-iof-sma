@@ -1,0 +1,142 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>0&nbsp;</TD>
+<TD NOWRAP>FROM CUSTOMER ID:  000142526 - test 12345&nbsp;</TD>
+<TD NOWRAP>TO CUSTOMER ID  :  000134876 - test123&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>ADDRESS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>266304&nbsp;</TD>
+<TD NOWRAP> 000142526&nbsp;</TD>
+<TD NOWRAP> 000134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CONTACT&nbsp;</TD>
+<TD NOWRAP>WORK_FOR_CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>212003&nbsp;</TD>
+<TD NOWRAP> 000142526&nbsp;</TD>
+<TD NOWRAP> 000134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+<TD NOWRAP>134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>test&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+<TD NOWRAP>142526&nbsp;</TD>
+<TD NOWRAP>test&nbsp;</TD>
+<TD NOWRAP>Amalgamated to test123 (134876) on MAY 29, 2017, 12:05 PM by x175798.  BN:( 000008592).  test&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>142526&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_CONTACT&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>184254&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_CONTACT&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>184255&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>288086&nbsp;</TD>
+<TD NOWRAP> 000142526&nbsp;</TD>
+<TD NOWRAP> 000134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>288087&nbsp;</TD>
+<TD NOWRAP> 000142526&nbsp;</TD>
+<TD NOWRAP> 000134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_SERVICE&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>1426961&nbsp;</TD>
+<TD NOWRAP> 000142526&nbsp;</TD>
+<TD NOWRAP> 000134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>NETWORK_ELEMENT&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>440017&nbsp;</TD>
+<TD NOWRAP> 000142526&nbsp;</TD>
+<TD NOWRAP> 000134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8592&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>SERVICE_LOCATION&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>198468&nbsp;</TD>
+<TD NOWRAP> 000142526&nbsp;</TD>
+<TD NOWRAP> 000134876&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+</table>

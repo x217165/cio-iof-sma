@@ -1,0 +1,78 @@
+﻿<%@  language="VBScript" %>
+<% Option Explicit %>
+<% on error resume next %>
+<!--#include file="smaConstants.inc"-->
+<!--#include file="databaseconnect.asp"-->
+<!--#include file="smaProcs.inc"-->
+<%
+   stop        
+'check user's rights
+stop
+dim sql, strWinMessage, rsPort, bolclone
+
+dim strAction
+strAction = Request("action")			'get the action code from caller
+if strAction = "" then
+	Response.write "No action requested"
+	Response.End						'no action requested
+end if
+
+If strAction = "clone" then
+   bolClone = true
+else
+   bolClone = false
+end if
+
+dim strMasterID
+strMasterID = Request("masterID")		'get master id
+dim strPortID
+strPortID = Request("PortID")			'get port id
+dim strRealUserID
+strRealUserID = Session("username")
+if err then
+	'unexpected error
+	DisplayError "BACK", "", 0, "UNEXPECTED ERROR", "Close port window to return to managed objects form."
+end if
+strLastUpdate = Request("hdnLastUpdate")
+
+' Setup Port Type drop-down list
+dim rsPortType
+dim strSQL, strSIteNameSQL,strOrganisationSQL
+
+strSQL = "select network_element_port_type_name" & _
+		 " from crp.network_element_port_type" & _
+		 " where record_status_ind = 'A'" & _
+		 " order by network_element_port_type_name"
+
+set rsPortType = Server.CreateObject("ADODB.Recordset")
+rsPortType.CursorLocation = adUseClient
+rsPortType.Open strSQL, objConn 
+    stop
+'set rsPortType.ActiveConnection = nothing
+
+' Setup Port Function drop-down list
+dim rsPortFunction , rsSiteNameFunction , rsOrganisationFunction
+
+strSQL = "SELECT ne_port_function_name, ne_port_function_lcode" & _
+		 " FROM crp.lcode_ne_port_function" & _
+		 " WHERE record_status_ind = 'A'" & _
+		 " ORDER BY ne_port_function_lcode"
+
+    strSIteNameSQL = "select site_id,site_name from CRP.SITE_NAME_CODE"
+
+    strOrganisationSQL="select ORGANIZATION_ID,ORGANIZATION_NAME   from CRP_SEC.CUSTOMER_ORGANIZATION"
+
+    set rsSiteNameFunction = Server.CreateObject("ADODB.Recordset")
+
+    rsSiteNameFunction.CursorLocation = adUseClient
+rsPortFunction.Open strSIteNameSQL, objConn
+
+
+       set rsOrganisationFunction = Server.CreateObject("ADODB.Recordset")
+
+    rsOrganisationFunction.CursorLocation = adUseClient
+rsOrganisationFunction.Open strOrganisationSQL, objConn
+
+set rsPortFunction = Server.CreateObject("ADODB.Recordset")
+rsPortFunction.CursorLocation = adUseClient
+rsPortFunction.Open strSQL, objConn

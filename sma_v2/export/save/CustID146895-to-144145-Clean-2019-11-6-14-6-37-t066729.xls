@@ -1,0 +1,92 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>0&nbsp;</TD>
+<TD NOWRAP>FROM CUSTOMER ID:  000146895 - BCIMC REALTY CORPORATION&nbsp;</TD>
+<TD NOWRAP>TO CUSTOMER ID  :  000144145 - QuadReal Property Group LP&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CONTACT&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>239922&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+<TD NOWRAP>146895&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>Amalgamated to QuadReal Property Group LP (144145) on NOV 06, 2019, 03:11 PM by t066729.  BN:( 000008681).  &nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>146895&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_CONTACT&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>214125&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_CONTACT&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>214124&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>306285&nbsp;</TD>
+<TD NOWRAP> 000146895&nbsp;</TD>
+<TD NOWRAP> 000144145&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8681&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>306284&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+</table>

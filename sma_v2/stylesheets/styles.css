@@ -1,0 +1,325 @@
+A
+{
+    COLOR: red;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-STYLE: normal;
+    TEXT-DECORATION: none
+}
+A.white
+{
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: none
+}
+A.black
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: none
+}
+A.blue
+{
+    COLOR: blue;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: none
+}
+A
+{
+    COLOR: #ff0000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: none
+}
+.red
+{
+    BACKGROUND-COLOR: #ff0000;
+    BORDER-BOTTOM: #ff0000 1pt solid;
+    BORDER-LEFT: #ff0000 1pt solid;
+    BORDER-RIGHT: #ff0000 1pt solid;
+    BORDER-TOP: #ff0000 1pt solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 1pt;
+    PADDING-LEFT: 1pt;
+    PADDING-RIGHT: 1pt;
+    PADDING-TOP: 1pt
+}
+.yellow
+{
+    BACKGROUND-COLOR: #ffff00;
+    BORDER-BOTTOM: #ffff00 1pt solid;
+    BORDER-LEFT: #ffff00 1pt solid;
+    BORDER-RIGHT: #ffff00 1pt solid;
+    BORDER-TOP: #ffff00 1pt solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 1pt;
+    PADDING-LEFT: 1pt;
+    PADDING-RIGHT: 1pt;
+    PADDING-TOP: 1pt
+}
+.green
+{
+    BACKGROUND-COLOR: #00ff00;
+    BORDER-BOTTOM: #00ff00 1pt solid;
+    BORDER-LEFT: #00ff00 1pt solid;
+    BORDER-RIGHT: #00ff00 1pt solid;
+    BORDER-TOP: #00ff00 1pt solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 1pt;
+    PADDING-LEFT: 1pt;
+    PADDING-RIGHT: 1pt;
+    PADDING-TOP: 1pt
+}
+.blue
+{
+    BACKGROUND-COLOR: #0066cc;
+    BORDER-BOTTOM: #0066cc 1pt solid;
+    BORDER-LEFT: #0066cc 1pt solid;
+    BORDER-RIGHT: #0066cc 1pt solid;
+    BORDER-TOP: #0066cc 1pt solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 1pt;
+    PADDING-LEFT: 1pt;
+    PADDING-RIGHT: 1pt;
+    PADDING-TOP: 1pt
+}
+.grey
+{
+    BACKGROUND-COLOR: #cccccc;
+    BORDER-BOTTOM: #cccccc 1pt solid;
+    BORDER-LEFT: #cccccc 1pt solid;
+    BORDER-RIGHT: #cccccc 1pt solid;
+    BORDER-TOP: #cccccc 1pt solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 1pt;
+    PADDING-LEFT: 1pt;
+    PADDING-RIGHT: 1pt;
+    PADDING-TOP: 1pt
+}
+.yellow
+{
+    BACKGROUND-COLOR: #ffffcc;
+    BORDER-BOTTOM: #ffffcc 1pt solid;
+    BORDER-LEFT: #ffffcc 1pt solid;
+    BORDER-RIGHT: #ffffcc 1pt solid;
+    BORDER-TOP: #ffffcc 1pt solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 1pt;
+    PADDING-LEFT: 1pt;
+    PADDING-RIGHT: 1pt;
+    PADDING-TOP: 1pt
+}
+BODY
+{
+    BACKGROUND-COLOR: white;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt
+}
+P
+{
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TABLE
+{
+    BACKGROUND-COLOR: #ffffcc;
+    BORDER-BOTTOM: black thin solid;
+    BORDER-LEFT: black thin solid;
+    BORDER-RIGHT: black thin solid;
+    BORDER-TOP: black thin solid;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: none;
+    WIDTH: 100%
+}
+TR
+{
+}
+TD
+{
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Cmdline
+{
+    BACKGROUND-COLOR: #cccccc;
+    BORDER-BOTTOM-COLOR: #cccccc;
+    BORDER-BOTTOM-WIDTH: 2pt;
+    BORDER-LEFT-COLOR: #cccccc;
+    BORDER-LEFT-WIDTH: 2pt;
+    BORDER-RIGHT-COLOR: #cccccc;
+    BORDER-RIGHT-WIDTH: 2pt;
+    BORDER-TOP-COLOR: #cccccc;
+    BORDER-TOP-WIDTH: 2pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none;
+    font-color: black
+}
+.SRHeading
+{
+    BACKGROUND-COLOR: #0066cc;
+    BORDER-BOTTOM-COLOR: #0066cc;
+    BORDER-BOTTOM-WIDTH: 2pt;
+    BORDER-LEFT-COLOR: #0066cc;
+    BORDER-LEFT-WIDTH: 2pt;
+    BORDER-RIGHT-COLOR: #0066cc;
+    BORDER-RIGHT-WIDTH: 2pt;
+    BORDER-TOP-COLOR: #0066cc;
+    BORDER-TOP-WIDTH: 2pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    HEIGHT: 21pt;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none;
+    WIDTH: 100%;
+    font-color: white
+}
+.Header
+{
+    BACKGROUND-COLOR: #0066cc;
+    BORDER-BOTTOM-COLOR: #0066cc;
+    BORDER-BOTTOM-WIDTH: 2pt;
+    BORDER-LEFT-COLOR: #0066cc;
+    BORDER-LEFT-WIDTH: 2pt;
+    BORDER-RIGHT-COLOR: #0066cc;
+    BORDER-RIGHT-WIDTH: 2pt;
+    BORDER-TOP-COLOR: #0066cc;
+    BORDER-TOP-WIDTH: 2pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none;
+    font-color: white
+}
+.pageborder
+{
+    BORDER-BOTTOM: #c1c100 5px solid;
+    BORDER-RIGHT: #000000 2px solid;
+    BORDER-TOP: #c1c100 5px solid
+}
+.BdrLR
+{
+    BORDER-BOTTOM-COLOR: black;
+    BORDER-LEFT: #000000 2px solid;
+    BORDER-RIGHT: #000000 4px solid;
+    BORDER-TOP-COLOR: black
+}
+.BdrTop
+{
+    BORDER-BOTTOM-COLOR: black;
+    BORDER-LEFT-COLOR: black;
+    BORDER-RIGHT-COLOR: black;
+    BORDER-TOP: #000000 2px solid
+}
+.BdrBottom
+{
+    BORDER-BOTTOM: #000000 2px solid;
+    BORDER-LEFT-COLOR: black;
+    BORDER-RIGHT-COLOR: black;
+    BORDER-TOP-COLOR: black
+}
+DIV
+{
+    CURSOR: hand
+}
+A:visited
+{
+    COLOR: #0000ff
+}
+A:link
+{
+    COLOR: #0000ff
+}
+A:hover
+{
+    COLOR: #ff0000
+}
+.Footer
+{
+    BACKGROUND-COLOR: #0066cc
+}
+SPAN
+{
+    CURSOR: hand
+}
+H2
+{
+    COLOR: #00974f;
+    FONT-FAMILY: Arial
+}
+H1
+{
+    COLOR: #00974f;
+    FONT-FAMILY: Arial
+}
+H3
+{
+    COLOR: #00974f;
+    FONT-FAMILY: Arial
+}
+THEAD
+{
+    BACKGROUND-COLOR: blanchedalmond;
+    BORDER-BOTTOM: black thin solid;
+    BORDER-LEFT: black thin solid;
+    BORDER-RIGHT: black thin solid;
+    BORDER-TOP: black thin solid;
+    COLOR: #50197b;
+    FONT-WEIGHT: bolder
+}
+TBODY
+{
+    BORDER-BOTTOM: black thin solid;
+    BORDER-LEFT: black thin solid;
+    BORDER-RIGHT: black thin solid;
+    BORDER-TOP: black thin solid;
+    COLOR: black
+}
+TFOOT
+{
+    BACKGROUND-COLOR: blanchedalmond;
+    COLOR: #50197b;
+    FONT-WEIGHT: bolder
+}
+CAPTION
+{
+    COLOR: #00974f;
+    FONT-FAMILY: Arial;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: left
+}
+TEXTAREA
+{
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+H4
+{
+    COLOR: #00974f;
+    FONT-FAMILY: Arial
+}
+H5
+{
+    COLOR: #00974f;
+    FONT-FAMILY: Arial
+}
+.button
+{
+    CURSOR: hand
+}

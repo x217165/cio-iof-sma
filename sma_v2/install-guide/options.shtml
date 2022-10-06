@@ -1,0 +1,83 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+		  "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>Morten's JavaScript Tree Menu -- Install guide -- Setting options</title>
+
+<script type="text/javascript">
+<!-- hide the script from old browsers
+
+if((navigator.appName == "Netscape" && parseInt(navigator.appVersion) >= 3 && navigator.userAgent.indexOf("Opera") == -1) || (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion) >= 4)) {
+
+  for(i = 0; i < parent.frames.length; i++) {
+    if(parent.frames[i].name == "code" && parent.frames[i].MTMLoaded) {
+      parent.frames[i].MTMTrack = true;
+      setTimeout("parent.frames[" + i + "].MTMDisplayMenu()", 250);
+      break;
+    }
+  }
+}
+
+// End of script hiding -->
+</script>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#330099" vlink="#666699" alink="red">
+<h2>Setting options</h2>
+
+<p>These options are all found in the file &quot;<em>code.html</em>&quot;.  Any other options, like changing the images can be done without touching the menu-code.  If you want other images just replace all the images you have now with some others.</p>
+
+<p>Ok... pull <em>code.html</em> up in your HTML authoring tool and have a look at it.  It probably looks pretty confusing at first, but setting options won't be difficult.  Right there close to the top you'll find the comment that says &quot;<em>User-configurable options</em>&quot;.  Here are the variables explained:</p>
+
+<dl>
+  <dt><code>var MTMTableWidth = &quot;100%&quot;;</code>
+  <dd><p>Width of the table that's used for the menu. Change this is you want a different width.  Setting it to a fixed pixel width by using a number without percentages is also possible.  Remember that if you set the width wider than the frame with the menu in it the users with get a scroll bar, and that looks kind of stupid.</p>
+  <dt><code>var MTMenuFrame = &quot;menu&quot;;</code>
+  <dd><p>This is the name of the frame where you want the menu to appear.  A smart thing is probably to keep calling the frame &quot;menu&quot; so you don't forget what it contains.</p>
+  <dt><code>var MTMSubsGetPlus = true;</code>
+  <dd><p>This controls plus-signs next to sub-menus.  The original script that Mike Hall wrote puts a plus-sign next to a sub-menu only when it contains other sub-menus.  I wanted a plus-sign next to all sub-menus, so I created this option.  Setting it to &quot;true&quot; gives a plus-sign next to all sub-menus, setting it to &quot;false&quot; will give the original script's behaviour.</p>
+  <dt><code>var MTMEmulateWE = false;</code>
+  <dd><p>This controls whether the menu will emulate Windows Explorer when a submenu has a URL attached to it.  If it's set to true all submenus will have a +/- sign and only the +/- sign will expand/collapse the submenu. The folder image and the item's text will point to the URL.  Set it to false and MTMSubsGetPlus will determine whether a +/- sign appears next to the submenu. A collapsed submenu will then expand &amp; the URL be shown when clicked on.  To collapse click either the +/- sign (if present) or the folder image.  The item text shows the URL.</p>
+  <dt><code>var MTMenuImageDirectory = &quot;menu-images/&quot;;</code>
+  <dd><p>The directory where you have the images for the menu.  This directory is relative to the directory where code.html resides.  The name <em>has to have</em> a trailing slash.  If you specify any images for a link remember that the URL of that image is relative to this directory.  If you have your images in the same directory as all your HTML-files use &quot;&quot; (two double-quotes).</p>
+  <dt><code>var MTMBGColor = &quot;#000033&quot;;<br>
+var MTMBackground = "blueback.jpg";<br>
+var MTMTextColor = &quot;#ffffcc&quot;;<br>
+var MTMLinkColor = &quot;lime&quot;;<br>
+var MTMAhoverColor = &quot;red&quot;;<br>
+var MTMTrackColor =&quot;yellow&quot;;<br>
+var MTMSubExpandColor = &quot;white&quot;<br>
+var MTMSubClosedColor = &quot;white&quot;</code>
+  <dd><p>This is the color and background image settings for the menu.  It's all regular HTML color coding (except for the background image), you'll have to change them to fit your own color schemes.  MTMBackground is to be set to &quot;&quot; if you don't have a background image.  The other options are: background color, text color for all non-item text, color for all menu items, hover color (when mouse pointer is over an item, only supported by IE4 &amp; IE5), tracked item color, color for a submenu when it has recently been expanded, and same for a closed submenu. The background image is to be put in the menu-image directory that was previously set.</p>
+  <dt><code>var MTMRootIcon = "menu_root.gif";<br>
+var MTMenuText = &quot;Site contents:&quot;;<br>
+var MTMRootColor = &quot;white&quot;;<br>
+var MTMRootFont = &quot;Arial, Helvetica, sans-serif&quot;;<br>
+var MTMRootCSSize = &quot;84%&quot;;<br>
+var MTMRootFontSize = &quot;-1&quot;;</code>
+  <dd><p>These six options control how the root icon, the text next to it, and the color and font the text has.  The font is specified using regular HTML font face attributes, a comma-separated list of fonts to use.  There's two options for specifying the font size, one for those with CSS support and one for those without. Just like for the background image the root icon resides in the menu-image directory.</p>
+  <dt><code>var MTMenuFont = &quot;Arial, Helvetica, sans-serif&quot;;<br>
+var MTMenuCSSize = &quot;84%&quot;;<br>
+var MTMenuFontSize = &quot;-1&quot;;</code>
+  <dd><p>The font and font size to be used for all menu items.  The color is previously defined.
+  <dt><code>var MTMLinkedSS = true;<br>
+var MTMSSHREF = &quot;style/menu.css&quot;;</code>
+  <dd><p>These two variables control the use of a linked style sheet.  I use style sheets quite a lot myself and therefore wanted the script to be able to use them too.  The first variable is a true/false variable.  &quot;True&quot; means that you want to use a linked style sheet, false means the script doesn't use style sheets (except that is makes all links not underlined).  If you set the variable to &quot;true&quot; you also have to set the URL of the style sheet.  This is of course done with the other variable, &quot;MTMSSHREF&quot;.  The URL is then written to a regular style sheet link in the menu.  Keep in mind that the URL to the linked style sheet is relative to the directory where code.html resides, just as with the menu images.</p>
+  <dt><code>var MTMSubsAutoClose = false;</code>
+  <dd><p>This option controls auto-closing of open sub-menus.  Set it to false and sub-menus are opened/closed as the user specifies.  Set it to true and the user will only be able to have one sub-menu open at a time.  The menu will automagically close open sub-menus when the user tries to open another sub-menu.</p>
+  <dt><code>var MTMTimeOut = 25;</code>
+  <dd><p><code>MTMTimeOut</code> specifies a timeout period in tenths of a second (1/10). The shown value of 25 thereby means 2.5 seconds. This value is only used when the menu is loaded for the first time (when the user enters your site) or when the frameset (and thereby code.html) is reloaded. The onload event in code.html calls a poll function which waits for the timeout to pass. Each 1/10 second it checks whether a content page has called <code>MTMDisplayMenu()</code> meaning that menu is shown to the user. If that hasn't happened, and the timeout period has passed, the poll function will call <code>MTMDisplayMenu()</code> and show the menu to the user.</p>
+</dl>
+
+<p>That's all the options currently available.  Once you've set all to the values you want to you can go on to <a href="the-menu.shtml">Part 3: Making the menu</a>.</p>
+
+<script type="text/javascript">
+if(parent.location.href == location.href) {
+  var searchString = "http://" + location.host + "/";
+  var docString = location.href.substring(searchString.length);
+  document.write('<div class="footer"><span id="noframes"><a href="/index.shtml?' + docString + '">No frames?</a></span></div>');
+}
+</script>
+</body>
+</html>

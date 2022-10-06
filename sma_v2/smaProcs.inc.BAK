@@ -1,0 +1,365 @@
+<%
+'******************************************************************************
+'	CheckLogon
+'
+'	Author: Daniel Nica
+'	Date: Aug. 15, 2000
+'
+'	Returns user's access level to the specified Business Area
+'	Param:  BAN - Business Area Name (check smaConstants.inc for details)
+'  
+'******************************************************************************
+public function CheckLogon(strBAN)
+dim x
+	x = 0
+	if strBAN <> strConst_Logon then
+		x = CInt(Request.Cookies("UserAccessLevel")(strBAN))
+		if x < 100 then
+			if Request.Cookies("UserAccessLevel")(strConst_Logon) = "" then
+				response.redirect "default.asp?redir=Y"
+			end if
+		end if
+		CheckLogon = x
+	else
+		if Request.Cookies("UserAccessLevel")(strBAN) = "" then
+			response.redirect "default.asp?redir=Y"
+		end if
+	end if
+end function
+
+
+'******************************************************************************
+'	routineHtmlString
+'
+'	Author: Oliver Kim
+'	Date: Sept. 24, 1999
+'
+'	Function will format strings for HTML.
+'	Param: inString is String to check
+'  Errors: 0301 = unexpected error
+'******************************************************************************
+Public Function routineHtmlString (inString)
+	Dim aString
+	
+	on error resume next
+	
+	if Len(inString) > 0 Then
+		aString = Replace(inString, ">", "&#62;")
+		aString = Replace(aString, "<", "&#60;")
+		aString = Replace(aString, "'", "&#39;")
+		aString = Replace(aString, """", "&#34;")
+		routineHtmlString = aString
+	Else
+		routineHtmlString = ""
+	End If
+	' handle any missed errors
+	if Err.number <> 0 then
+		Err.Raise 0301, "routineHtmlString()" ,"Unexpected Error: " & Err.description
+		Exit Function
+	end if
+End Function
+
+'*******************************************************************************
+'	routineJavascriptString
+'
+'	Author: Oliver Kim
+'	Date: don't know
+'	Modified: Sept. 24, 1999 - moved to routines.inc file (OK)
+'
+'	Function will format strings for Javascript.
+'	Param: inString is String to check
+'  Errors: 0301 = unexpected error
+'*******************************************************************************
+Public Function routineJavascriptString (inString)
+	Dim aString
+	
+	on error resume next
+	
+	if Len(inString) > 0 Then
+		aString = Replace(inString, Chr(13)+Chr(10), "\n")
+'		aString = Replace(aString, "'", "\'")
+		aString = Replace(aString, "'", " '")
+		aString = Replace(aString, """", "&#34;")
+		aString = Replace(aString, "+", "\n")
+		routineJavascriptString = aString
+	Else
+		routineJavascriptString = ""
+	End If
+	' handle any missed errors
+	if Err.number <> 0 then
+		Err.Raise 0301, "routineJavascriptString()" ,"Unexpected Error: " & Err.description
+		Exit Function
+	end if
+End Function
+
+
+'******************************************************************************
+'	routineOraString
+'	
+'	Author: Henry Kamstra
+'	Date: don't know
+'	Modified: Sept. 24, 1999 - moved to routines.inc file (OK)
+'
+'	Function will format strings for oracle SQL.
+'	Param: inString is String to check
+'  Errors: 0301 = unexpected error
+'******************************************************************************
+Public Function routineOraString(inString)
+	Dim aString
+	
+	on error resume next
+	
+	aString = Replace(inString, "'", "''")
+	routineOraString = aString
+	' handle any missed errors
+	if Err.number <> 0 then
+		Err.Raise 0301, "routineOraString()" ,"Unexpected Error: " & Err.description
+		Exit Function
+	end if
+End Function
+
+
+'******************************************************************************
+'	rrRmvSpChr
+'
+'	Author: Dan Ty
+'	Date: Feb 8, 2002
+'
+'	Function will enclose a given variable name with functions that will remove
+'      non-alphabet and non-numberic characters or special characters in the
+'      value of the given variable name or return the stripped value itself.
+'	Param: inVarName is the variable name to enclose with stripping fuctions or
+'              the value of the string.
+'          inCode indicate whether the return string is a code to strip the variable
+'              of special characters (Y) or a stripped value of variable itself (N).
+'  Errors: 0301 = unexpected error
+'******************************************************************************
+Public Function rtRmvSpChr (inVarName, inCode)
+
+	dim aString
+	on error resume next
+
+	if inCode = "Y" then
+		aString = "TRIM(UPPER(REPLACE(TRANSLATE(" & inVarName & ", '~`!@#$%^&*()_-+={}[]:,<>,.?/|\" & """" & "', '                                   '), ' ', '')))"
+	else
+		aString = inVarName
+
+		aString = REPLACE(aString, "~", "")
+		aString = REPLACE(aString, "`", "")
+		aString = REPLACE(aString, "!", "")
+		aString = REPLACE(aString, "@", "")
+		aString = REPLACE(aString, "#", "")
+		aString = REPLACE(aString, "$", "")
+		aString = REPLACE(aString, "%", "")
+		aString = REPLACE(aString, "^", "")
+		aString = REPLACE(aString, "&", "")
+		aString = REPLACE(aString, "*", "")
+		aString = REPLACE(aString, "(", "")
+		aString = REPLACE(aString, ")", "")
+		aString = REPLACE(aString, "_", "")
+		aString = REPLACE(aString, "-", "")
+		aString = REPLACE(aString, "+", "")
+		aString = REPLACE(aString, "=", "")
+		aString = REPLACE(aString, "{", "")
+		aString = REPLACE(aString, "}", "")
+		aString = REPLACE(aString, "[", "")
+		aString = REPLACE(aString, "]", "")
+		aString = REPLACE(aString, ":", "")
+		aString = REPLACE(aString, ";", "")
+		aString = REPLACE(aString, """", "")
+		aString = REPLACE(aString, "<", "")
+		aString = REPLACE(aString, ">", "")
+		aString = REPLACE(aString, ",", "")
+		aString = REPLACE(aString, ".", "")
+		aString = REPLACE(aString, "?", "")
+		aString = REPLACE(aString, "/", "")
+		aString = REPLACE(aString, "\", "")
+		aString = REPLACE(aString, "|", "")
+		aString = REPLACE(aString, "'", "")
+		aString = REPLACE(aString, """", "")
+
+	end if
+
+	rtRmvSpChr = aString
+	
+	' handle any missed errors
+	if Err.number <> 0 then
+		Err.Raise 0301, "rtRmvSpChr" ,"Unexpected Error: " & Err.description
+		Exit Function
+	end if
+end function
+
+'*****************************************************************************
+'	DateToYYYYMMDD
+'
+'	Author: Daniel Nica
+'	Date: April 10, 2000
+'
+'	Converts a date value in a YYYYMMDD string
+'
+'	Input:			date
+'	Return:			YYYYMMDD string representing entered date
+'
+'  Errors: 0301 = unexpected error
+'******************************************************************************
+function DateToYYYYMMDD(anyDate)
+	dim strTmp
+	
+	on error resume next
+	
+	if isNull(anyDate) then
+		DateToYYYYMMDD = ""
+	else
+		strTmp = CStr(Year(anyDate))
+		if Month(anyDate) < 10 then
+			strTmp = strTmp + "0"
+		end if
+		strTmp = strTmp + CStr(Month(anyDate))
+		if Day(anyDate) < 10 then
+			strTmp = strTmp + "0"
+		end if
+		strTmp = strTmp + CStr(Day(anyDate))
+		DateToYYYYMMDD = strTmp
+	end if
+	' handle any missed errors
+	if Err.number <> 0 then
+		Err.Raise 0301, "DateToYYYYMMDD()" ,"Unexpected Error: " & Err.description
+		Exit Function
+	end if
+end function
+
+'--------------------------------------------------------
+' Function DateTimeString(dtmDate)
+' Input:  A dtmDate value from the database
+' Returns: String - "MM/dd/YYYY 12H:MI:SS AM"
+' Errors: 0301 = unexpected error
+'--------------------------------------------------------
+Function DateTimeString(dtmDate)
+	on error resume next
+			
+	DateTimeString = Month(dtmDate) & "/" &_
+					 Day(dtmDate) & "/" &_
+					 Year(dtmDate) & " " &_
+					 FormatDateTime(dtmDate, vbLongTime)
+	if  (Err.number <> 0) then 
+		Err.Raise 0301, "DateTimeString()" , "Unexpected Error formatting date: " & Err.description
+		Exit function
+	end if
+End Function
+
+
+'--------------------------------------------------------
+' Function DateString(dtmDate)
+' Input:  A dtmDate value from the database
+' Returns: String - "MM/dd/YYYY"
+' Errors: 0301 = unexpected error
+'--------------------------------------------------------
+Function DateString(dtmDate)
+	on error resume next
+			
+	DateTimeString = Month(dtmDate) & "/" &_
+					 Day(dtmDate) & "/" &_
+					 Year(dtmDate) & " "
+	if  (Err.number <> 0) then 
+		Err.Raise 0301, "DateTimeString()" , "Unexpected Error formatting date: " & Err.description
+		Exit function
+	end if
+End Function
+
+
+'******************************************************************************
+'	DisplayError
+'
+'	Author: Daniel Nica
+'	Date: Aug. 22, 2000
+'
+'	Returns user's access level to the specified Business Area
+'	Param:  BAN - Business Area Name (check smaConstants.inc for details)
+'  
+'******************************************************************************
+function DisplayError(errAction, winLocation, errCode, errDesc, errExtra)
+	Response.Clear
+	if InStr(errExtra, "[Microsoft][ODBC driver for Oracle]") = 1 then
+		errExtra = Right(errExtra, Len(errExtra)-35)
+	end if
+	if InStr(errExtra, "[Oracle]") = 1 then
+		errExtra = Right(errExtra, Len(errExtra)-8)
+	end if
+	Response.Write "<script type=""text/javascript"">"&vbCrLf
+	Response.Write "var x;"&vbCrLf
+	Response.Write "var winLocation = '"&winLocation&"';"&vbCrLf
+	Response.Write "var errAction = '"&errAction&"'"&vbCrLf
+	Response.Write "x = 'SMA Error Manager'"&vbCrLf
+	Response.Write "x += String.fromCharCode(10);"&vbCrLf
+	Response.Write "x += "& "'" & errcode &" - '+unescape('" & escape(errDesc) & "');"&vbCrLf
+	Response.Write "x += String.fromCharCode(10);"&vbCrLf
+	Response.Write "x += String.fromCharCode(10);"&vbCrLf
+	Response.Write "x += unescape('" & escape(errExtra) & "');"&vbCrLf
+	Response.Write "x += String.fromCharCode(10);"&vbCrLf
+	Response.Write "x += String.fromCharCode(10);"&vbCrLf
+	Response.Write "if (errAction == 'REFRESH') {"
+	Response.Write "x += String.fromCharCode(10);"&vbCrLf
+	'Response.Write "x += 'Action: Click OK to refresh the page from the database or CANCEL to go back to the page without refreshing the data. You can always manually refresh a screen by clicking the RESET button at the bottom of the page.';"&vbCrLf
+	'Response.Write "  if (confirm(x)) {"&vbCrLf
+	Response.Write "    alert(x);" & vbCrLf
+	Response.Write "    top.text.document.location=winLocation;"&vbCrLf
+	'Response.Write "  }else{history.go(-1);}"&vbCrLf
+	Response.Write "} else if (errAction == 'CLOSE') {" & vbCrLf
+	Response.Write "   x += 'Action: Click OK button to close the window. You can try this function again after the window is closed.';"&vbCrLf
+	Response.write "   alert(x);" & vbCrLf
+	REsponse.write "   window.close();" & vbCrLf
+	Response.Write "} else {"&vbCrLf
+	Response.Write "alert(x);"&vbCrLf
+	Response.Write "history.go(-1);"&vbCrLf
+	Response.Write "}"&vbCrLf
+	Response.Write "</script>"&vbCrLf
+	Response.End
+end function
+
+'******************************************************************************
+'	SendMail
+'
+'	Author: Daniel Nica
+'	Date: Sept. 22, 2000
+'
+'	Sends email
+'	Param:  see function call below
+'  
+'******************************************************************************
+function SendEmail(strFrom, strTo, strCC, strBCC, strSubject, strBody)
+	dim objEmail
+	
+	set objEmail = Server.CreateObject("CDONTS.NewMail")
+	if err.number <> 0 then 
+		err.Raise 0601,, "Cannot create new email object."
+		exit function
+	end if
+
+	objEmail.MailFormat = 0 'CdoMailFormatMime
+	if err then
+		Err.Raise 0601,, "Error formatting new mail object."
+		exit function
+	end if
+	
+	objEmail.From = strFrom
+	objEmail.To = strTo
+	objEmail.Cc = strCC
+	objEmail.Bcc = strBCC
+	objEmail.Subject = strSubject
+	objEmail.Body = strBody
+
+	objEmail.Send
+	if err then
+		Err.Raise 0601,, "Error sending new email."
+		exit function
+	end if
+
+	set objEmail = nothing
+	if err then
+		Err.Raise err.number, , err.description
+		exit function
+	end if
+end function
+
+
+%>

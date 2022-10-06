@@ -1,0 +1,56 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+		  "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>Morten's JavaScript Tree Menu -- Install guide</title>
+
+<script type="text/javascript">
+<!-- hide the script from old browsers
+
+if((navigator.appName == "Netscape" && parseInt(navigator.appVersion) >= 3 && navigator.userAgent.indexOf("Opera") == -1) || (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion) >= 4)) {
+
+  for(i = 0; i < parent.frames.length; i++) {
+    if(parent.frames[i].name == "code" && parent.frames[i].MTMLoaded) {
+      parent.frames[i].MTMTrack = true;
+      setTimeout("parent.frames[" + i + "].MTMDisplayMenu()", 250);
+      break;
+    }
+  }
+}
+
+// End of script hiding -->
+</script>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#330099" vlink="#666699" alink="red">
+
+<h2>Installation guide</h2>
+
+<p>Ok, so you've ended up here.  You want to know how to get it running.  I'll tell you how...</p>
+
+<p>First, get a chicken.  Then, take 5 black candles and a pentagram.  Light up the candles and put the chicken on the pentagram... nah, I'm only kidding.  There's not much work to do, and no chickens, candles or pentagrams involved.  There's no fee either.</p>
+
+<p>First of all you need a bit of time.  Don't rush this installation process unless you're an accustomed hacker and can figure out how everything works just by looking at the code behind everything.  You'd also want to make sure you have some basic HTML skills, know what a frameset are and how they work.</p>
+
+<p>Secondly you may want to drop by the <a href="/download.shtml">download page</a>.  The files available there contains two small example web-sites using the menu, with instructions on how to make them work.  If you want to you can read everything from there (the instructions are the same as the ones here), or you can read on.</p>
+
+<p>This installation guide will go through the following items:</p>
+
+<ul>
+  <li><a href="frameset.shtml">The frameset</a></li>
+  <li><a href="options.shtml">Setting options</a></li>
+  <li><a href="the-menu.shtml">Making the menu</a></li>
+  <li><a href="icon-menu.shtml">The icon menu</a></li>
+  <li><a href="tracking-code.shtml">Tracking code</a></li>
+</ul>
+
+<script type="text/javascript">
+if(parent.location.href == location.href) {
+  var searchString = "http://" + location.host + "/";
+  var docString = location.href.substring(searchString.length);
+  document.write('<div class="footer"><span id="noframes"><a href="/index.shtml?' + docString + '">No frames?</a></span></div>');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,540 @@
+<%@ Language=VBScript %>
+<%
+option explicit
+on error resume next
+
+%>
+<!--
+********************************************************************************************
+* Page name:	CorrList.asp
+* Purpose:		Displays the correlation records according to the criteria.
+*				Results are displayed via CorrList.asp
+*
+* Created by:	Daniel Nica 8/31/2000 10:22pm (no kidding)
+* Updated by:  Nancy Mooney 10/27/2000
+********************************************************************************************
+
+        Date		Author			Changes/enhancements made
+        -----		------		------------------------------------------------------
+       27-Mar-01	 DTy		Fix problem related to customer names with apostrophe
+									resulting to 0 records found when '>' is clicked.
+	   20-Jul-01	 DTy		Add 'Active Only' variable.
+								When 'Active Only' is selected:
+		                          Exclude Customers that are marked as soft deleted.
+		                          Exclude Customer Services that are marked as soft deleted.
+		                          Exclude Service Locations that are marked as soft deleted.
+		                          Exclude Circuits that are marked as soft deleted.
+		                          Exclude Network Elements that are marked as soft deleted.
+		                          Exclude Customer Services that are marked as soft deleted.
+		                          Exclude Managed Correlation that are marked as soft deleted.
+       08-Feb-02	 DTy		Remove special characters on managed objects and customer service names
+                                  when extracting records.
+       18-Feb-02	 DTy		Active customers are those whose status is either
+                                  'Prospect', 'OnHold' or 'Current'.
+       28-Feb-02	 DTy		Include Customer Service Desc Alias when searching for Customer
+                                  Service names.
+       05-Aug-15   PSm    Optimized SQL
+********************************************************************************************
+-->
+
+<!--#include file="smaConstants.inc"-->
+<!--#include file="smaProcs.inc"-->
+<!--#include file="databaseconnect.asp" -->
+
+<%
+
+'check users access rights
+dim intAccessLevel
+intAccessLevel = CInt(CheckLogon(strConst_CorrelationCustomer))
+if intAccessLevel and intConst_Access_ReadOnly <> intConst_Access_ReadOnly then
+	DisplayError "BACK", "", 0, "ACCESS DENIED", "You don't have access to correlation management. Please contact your system administrator"
+end if
+
+dim aList, intPageNumber, intPageCount
+dim strRegion, strSupportGroup, strStatus, strCustServDesc, strObjName, strCustomerName, strCustServID, strActive
+dim binMO, binPVC, binRoot, binActive
+
+'get search criteria
+strRegion = Request("selRegion")
+strSupportGroup = Request("selSupportGroup")
+strStatus = Request("selStatus")
+strObjName = UCase(Trim(routineOraString(Request("txtObjectName"))))
+strCustServDesc = UCase(Trim(routineOraString(Request("txtCustomerServiceDesc"))))
+strCustomerName = UCase(Trim(Request("txtCustomerName")))
+strCustServID = UCase(Trim(Request("txtCustServID")))
+binActive = UCase(Request("ckhActive"))
+binMO = Request("chkMO")
+binPVC = Request("chkPVC")
+binRoot = Request("chkRoot")
+
+dim sql
+
+if strObjName = "" then
+	'for customer service only:
+	sql = "select "&_
+			"CS.CUSTOMER_SERVICE_ID, "&_
+			"CS.CUSTOMER_SERVICE_DESC, "&_
+			"CS.SERVICE_STATUS_CODE, "&_
+			"SL.SERVICE_LOCATION_NAME, "&_
+			"ST.SERVICE_TYPE_DESC, "&_
+			"CUS.CUSTOMER_NAME, "&_
+			"CUS.NOC_REGION_LCODE "&_
+		 "from "&_
+			"CRP.CUSTOMER_SERVICE CS, "&_
+				"CRP.SERVICE_LOCATION SL, "&_
+				"CRP.SERVICE_TYPE ST, "&_
+				"CRP.CUSTOMER CUS "&_
+		 "where "&_
+			"CS.CUSTOMER_ID = CUS.CUSTOMER_ID "&_
+			"AND CS.SERVICE_TYPE_ID = ST.SERVICE_TYPE_ID "&_
+			"AND CS.SERVICE_LOCATION_ID = SL.SERVICE_LOCATION_ID(+) "
+
+	if binActive = "ON" then
+		sql = sql & " and cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')" &_
+		      " AND CS.RECORD_STATUS_IND (+) = 'A' AND SL.RECORD_STATUS_IND (+) = 'A' AND CUS.RECORD_STATUS_IND = 'A'"
+	end if
+
+	if strCustServDesc <> "" then
+        sql = sql & " AND cs.customer_service_id in (" &_
+		            " select customer_service_id from crp.customer_service where " & rtRmvSpChr("customer_service_desc", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%' union" &_
+                    " select customer_service_id from crp.customer_service_desc_alias where " & rtRmvSpChr("customer_service_desc_alias", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%')"
+end if
+
+	if strCustServID <> "" then
+		sql = sql & " AND UPPER(CS.CUSTOMER_SERVICE_ID) = " & strCustServID & " "
+	end if
+
+	if strCustomerName <> "" then
+		sql = sql & " AND (UPPER(CUS.CUSTOMER_NAME) LIKE '" & routineOraString(strCustomerName) & "%' OR CS.CUSTOMER_ID IN (SELECT CUSTOMER_ID FROM CRP.CUSTOMER_NAME_ALIAS WHERE CUSTOMER_NAME_ALIAS_UPPER LIKE '" & routineOraString(strCustomerName) & "%' "
+		if binActive = "ON" then
+			sql = sql & " AND RECORD_STATUS_IND = 'A' AND cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')"
+		end if
+		sql = sql & ")) "
+	end if
+
+	if strRegion <> "ALL" then
+		sql = sql & " AND CUS.NOC_REGION_LCODE = '" & strRegion & "' "
+	end if
+
+	if strSupportGroup <> "ALL" then
+		sql = sql & " AND CS.REMEDY_SUPPORT_GROUP_ID = '" & strSupportGroup & "' "
+	end if
+
+	if strStatus <> "ALL" then
+		sql = sql & " AND CS.SERVICE_STATUS_CODE = '" & strStatus & "' "
+	else
+	    if binActive = "ON" then
+		   sql = sql & " and cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')" &_
+		        " AND UPPER(CS.SERVICE_STATUS_CODE) <> 'TERM'"
+		end if
+	end if
+
+	sql = sql & " ORDER BY UPPER(CS.CUSTOMER_SERVICE_DESC)"
+else
+	if strObjName <> "" then
+		'for managed objects:
+		if UCase(binMO) = "ON" then
+			sql =	"select "&_
+						"CS.CUSTOMER_SERVICE_ID, "&_
+						"UPPER(CS.CUSTOMER_SERVICE_DESC)	CSD, "&_
+						"CS.SERVICE_STATUS_CODE, "&_
+						"SL.SERVICE_LOCATION_NAME, "&_
+						"ST.SERVICE_TYPE_DESC, "&_
+						"CUS.CUSTOMER_NAME, "&_
+						"CUS.NOC_REGION_LCODE, "&_
+						"UPPER(MCN.NETWORK_ELEMENT_NAME)		OBJ_NAME, "&_
+						"MCN.NETWORK_ELEMENT_TYPE_CODE	OBJ_TYPE "&_
+					"from "&_
+						"CRP.MAN_CORR_NET_ELEMENT MCN, "&_
+						"CRP.CUSTOMER_SERVICE			CS, "&_
+						"CRP.SERVICE_LOCATION			SL, "&_
+						"CRP.SERVICE_TYPE				ST, "&_
+						"CRP.CUSTOMER					CUS "&_
+					"where "&_
+						"MCN.CUSTOMER_SERVICE_ID = CS.CUSTOMER_SERVICE_ID "&_
+						"AND CS.CUSTOMER_ID = CUS.CUSTOMER_ID "&_
+						"AND CS.SERVICE_TYPE_ID = ST.SERVICE_TYPE_ID "&_
+						"AND CS.SERVICE_LOCATION_ID = SL.SERVICE_LOCATION_ID(+) "
+			if binActive = "ON" then
+				sql = sql & " and cus.customer_status_lcode IN ('Prospect','Current', 'OnHold')" &_
+				      " AND MCN.MC_RECORD_STATUS_IND (+) = 'A' AND CS.RECORD_STATUS_IND (+) = 'A' AND SL.RECORD_STATUS_IND (+) = 'A' AND " &_
+				      "CUS.RECORD_STATUS_IND = 'A' AND MCN.NE_RECORD_STATUS_IND = 'A'"
+
+			end if
+			if strCustServDesc <> "" then
+		       sql = sql & " AND cs.customer_service_id in (" &_
+		            " select customer_service_id from crp.customer_service where " & rtRmvSpChr("customer_service_desc", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%' union" &_
+                    " select customer_service_id from crp.customer_service_desc_alias where " & rtRmvSpChr("customer_service_desc_alias", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%')"
+			end if
+
+			if strCustServID <> "" then
+				sql = sql & " AND UPPER(CS.CUSTOMER_SERVICE_ID) = " & strCustServID & " "
+			end if
+			if strCustomerName <> "" then
+				sql = sql & " AND (UPPER(CUS.CUSTOMER_NAME) LIKE '" & routineOraString(strCustomerName) & "%' OR CS.CUSTOMER_ID IN (SELECT CUSTOMER_ID FROM CRP.CUSTOMER_NAME_ALIAS WHERE CUSTOMER_NAME_ALIAS_UPPER LIKE '" & routineOraString(strCustomerName) & "%'"
+				if binActive = "ON" then
+					sql = sql & " AND RECORD_STATUS_IND = 'A' AND cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')"
+				end if
+				sql = sql & ")) "
+			end if
+			if strRegion <> "ALL" then
+				sql = sql & " AND CUS.NOC_REGION_LCODE = '" & strRegion & "' "
+			end if
+			if strSupportGroup <> "ALL" then
+				sql = sql & " AND CS.REMEDY_SUPPORT_GROUP_ID = '" & strSupportGroup & "' "
+			end if
+			if strStatus <> "ALL" then
+				sql = sql & " AND CS.SERVICE_STATUS_CODE = '" & strStatus & "' "
+			else
+			    if binActive = "ON" then
+				   sql = sql & " and cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')" &_
+				         " AND UPPER(CS.SERVICE_STATUS_CODE) <> 'TERM'"
+				end if
+			end if
+			sql = sql & " AND " & rtRmvSpChr("MCN.NETWORK_ELEMENT_NAME", "Y") & " LIKE '%" & rtRmvSpChr(strObjName, "N") & "%' "
+		end if
+
+		'for Circuits
+		if UCase(binPVC) = "ON" then
+			if sql <> "" then sql = sql & " UNION "
+			sql =	sql + "SELECT "&_
+						"CS.CUSTOMER_SERVICE_ID, "&_
+						"UPPER(CS.CUSTOMER_SERVICE_DESC) CSD, "&_
+						"CS.SERVICE_STATUS_CODE, "&_
+						"SL.SERVICE_LOCATION_NAME, "&_
+						"ST.SERVICE_TYPE_DESC, "&_
+						"CUS.CUSTOMER_NAME, "&_
+						"CUS.NOC_REGION_LCODE, "&_
+						"UPPER(MCC.CIRCUIT_NUMBER)		OBJ_NAME, "&_
+						"MCC.CIRCUIT_TYPE_CODE	OBJ_TYPE "&_
+					"from "&_
+						"CRP.MAN_CORR_CIRCUIT MCC, "&_
+						"CRP.CUSTOMER_SERVICE			CS, "&_
+						"CRP.SERVICE_LOCATION			SL, "&_
+						"CRP.SERVICE_TYPE				ST, "&_
+						"CRP.CUSTOMER					CUS "&_
+					"where "&_
+						"MCC.CUSTOMER_SERVICE_ID = CS.CUSTOMER_SERVICE_ID "&_
+						"AND CS.CUSTOMER_ID = CUS.CUSTOMER_ID "&_
+						"AND CS.SERVICE_TYPE_ID = ST.SERVICE_TYPE_ID "&_
+						"AND CS.SERVICE_LOCATION_ID = SL.SERVICE_LOCATION_ID(+) "
+			if binActive = "ON" then
+				sql = sql & " and cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')" &_
+				      " AND MCC.MC_RECORD_STATUS_IND (+) = 'A' AND CS.RECORD_STATUS_IND (+) = 'A' AND SL.RECORD_STATUS_IND (+) = 'A' AND " &_
+				      "CUS.RECORD_STATUS_IND = 'A' AND MCC.CI_RECORD_STATUS_IND = 'A'"
+			end if
+	 		if strCustServDesc <> "" then
+		        sql = sql & " AND cs.customer_service_id in (" &_
+		            " select customer_service_id from crp.customer_service where " & rtRmvSpChr("customer_service_desc", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%' union" &_
+                    " select customer_service_id from crp.customer_service_desc_alias where " & rtRmvSpChr("customer_service_desc_alias", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%')"
+
+			end if
+			if strCustServID <> "" then
+				sql = sql & " AND UPPER(CS.CUSTOMER_SERVICE_ID) = " & strCustServID & " "
+			end if
+			if strCustomerName <> "" then
+				sql = sql & " AND (UPPER(CUS.CUSTOMER_NAME) LIKE '" & routineOraString(strCustomerName) & "%' OR CS.CUSTOMER_ID IN (SELECT CUSTOMER_ID FROM CRP.CUSTOMER_NAME_ALIAS WHERE CUSTOMER_NAME_ALIAS_UPPER LIKE '" & routineOraString(strCustomerName) & "%'"
+				if binActive = "ON" then
+					sql = sql & " AND RECORD_STATUS_IND = 'A' AND cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')"
+				end if
+				sql = sql & ")) "
+			end if
+			if strRegion <> "ALL" then
+				sql = sql & " AND CUS.NOC_REGION_LCODE = '" & strRegion & "' "
+			end if
+			if strSupportGroup <> "ALL" then
+				sql = sql & " AND CS.REMEDY_SUPPORT_GROUP_ID = '" & strSupportGroup & "' "
+			end if
+			if strStatus <> "ALL" then
+				sql = sql & " AND CS.SERVICE_STATUS_CODE = '" & strStatus & "' "
+			else
+			    if binActive = "ON" then
+				   sql = sql & " and cus.customer_status_lcode IN ('Prospect' , 'Current', 'OnHold')" &_
+				        " AND UPPER(CS.SERVICE_STATUS_CODE) <> 'TERM'"
+				end if
+			end if
+			sql = sql & " AND (" & rtRmvSpChr("MCC.CIRCUIT_NUMBER", "Y") & " LIKE '%" & rtRmvSpChr(strObjName, "N") & "%' OR " & _
+			      rtRmvSpChr("MCC.CIRCUIT_NAME", "Y") & " LIKE '%" & rtRmvSpChr(strObjName, "N") & "%') "
+		end if
+
+		if UCase(binRoot) = "ON" then
+			'for Root Service
+			if sql <> "" then sql = sql & " UNION "
+			sql =	sql + "SELECT "&_
+						"CS.CUSTOMER_SERVICE_ID, "&_
+						"UPPER(CS.CUSTOMER_SERVICE_DESC)		CSD, "&_
+						"CS.SERVICE_STATUS_CODE, "&_
+						"SL.SERVICE_LOCATION_NAME, "&_
+						"ST.SERVICE_TYPE_DESC, "&_
+						"CUS.CUSTOMER_NAME, "&_
+						"CUS.NOC_REGION_LCODE, "&_
+						"UPPER(MCR.CUSTOMER_SERVICE_DESC)		OBJ_NAME, "&_
+						"'ROOT' "&_
+					"from "&_
+						"CRP.MAN_CORR_ROOT_CUST_SERV MCR, "&_
+						"CRP.CUSTOMER_SERVICE			CS, "&_
+						"CRP.SERVICE_LOCATION			SL, "&_
+						"CRP.SERVICE_TYPE				ST, "&_
+						"CRP.CUSTOMER					CUS "&_
+					"where "&_
+						"MCR.CUSTOMER_SERVICE_ID = CS.CUSTOMER_SERVICE_ID "&_
+						"AND CS.CUSTOMER_ID = CUS.CUSTOMER_ID "&_
+						"AND CS.SERVICE_TYPE_ID = ST.SERVICE_TYPE_ID "&_
+						"AND CS.SERVICE_LOCATION_ID = SL.SERVICE_LOCATION_ID(+) "
+			if binActive = "ON" then
+				sql = sql & " and cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')" &_
+				     " AND MCR.MC_RECORD_STATUS_IND (+) = 'A' AND CS.RECORD_STATUS_IND (+) = 'A' AND SL.RECORD_STATUS_IND (+) = 'A' AND " &_
+				      "CUS.RECORD_STATUS_IND = 'A' AND MCR.CS_RECORD_STATUS_IND (+) = 'A'"
+			end if
+			if strCustServDesc <> "" then
+		        sql = sql & " AND cs.customer_service_id in (" &_
+		            " select customer_service_id from crp.customer_service where " & rtRmvSpChr("customer_service_desc", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%' union" &_
+                    " select customer_service_id from crp.customer_service_desc_alias where " & rtRmvSpChr("customer_service_desc_alias", "Y") & " like '%" & rtRmvSpChr(strCustServDesc, "N") & "%')"
+			end if
+
+			if strCustServID <> "" then
+				sql = sql & " AND UPPER(CS.CUSTOMER_SERVICE_ID) = " & routineOraString(strCustServID) & " "
+			end if
+			if strCustomerName <> "" then
+				sql = sql & " AND (UPPER(CUS.CUSTOMER_NAME) LIKE '" & routineOraString(strCustomerName) & "%' OR CS.CUSTOMER_ID IN (SELECT CUSTOMER_ID FROM CRP.CUSTOMER_NAME_ALIAS WHERE CUSTOMER_NAME_ALIAS_UPPER LIKE '" & routineOraString(strCustomerName) & "%'"
+				if binActive = "ON" then
+					sql = sql & " AND RECORD_STATUS_IND = 'A' AND cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')"
+				end if
+				sql = sql & "))"
+			end if
+			if strRegion <> "ALL" then
+				sql = sql & " AND CUS.NOC_REGION_LCODE = '" & routineOraString(strRegion) & "' "
+			end if
+			if strSupportGroup <> "ALL" then
+				sql = sql & " AND CS.REMEDY_SUPPORT_GROUP_ID = '" & routineOraString(strSupportGroup) & "' "
+			end if
+			if strStatus <> "ALL" then
+				sql = sql & " AND CS.SERVICE_STATUS_CODE = '" & strStatus & "' "
+			else
+			    if binActive = "ON" then
+				   sql = sql & " and cus.customer_status_lcode IN ('Prospect', 'Current', 'OnHold')" &_
+				        " AND UPPER(CS.SERVICE_STATUS_CODE) <> 'TERM'"
+				end if
+			end if
+
+			if IsNumeric(strObjName) then
+				sql = sql & " and  MCR.root_customer_service_id =  " & strObjName
+			else
+				sql = sql & " AND " & rtRmvSpChr("MCR.CUSTOMER_SERVICE_DESC", "Y") & "LIKE '%" & rtRmvSpChr(strObjName, "N") & "%' "
+			end if
+			sql = sql & " ORDER BY OBJ_NAME, CSD"
+		end if
+
+	end if
+
+end if
+
+'response.write sql
+
+dim rsMC
+set rsMC = server.CreateObject("ADODB.Recordset")
+rsMC.Open sql, objConn
+if err then
+	DisplayError "BACK", "", err.Number, "Cannot create rsMC recordset.", err.Description
+end if
+
+if not rsMC.EOF then
+	aList = rsMC.GetRows
+else
+	Response.Write "0 records found"
+	Response.end
+end if
+
+'release and kill the recordset and the connection objects
+rsMC.Close
+set rsMC = nothing
+
+objConn.close
+set objConn = nothing
+
+'calculate page number
+intPageCount = Int(UBound(aList, 2) / intConstDisplayPageSize) + 1
+select case Request("Action")
+	case "<<"		intPageNumber = 1
+	case "<"		intPageNumber = Request("txtPageNumber") - 1
+					if intPageNumber < 1 then intPageNumber = 1
+	case ">"		intPageNumber = Request("txtPageNumber") + 1
+					if intPageNumber > intPageCount then intPageNumber = intPageCount
+	case ">>"		intPageNumber = intPageCount
+	case else		if Request("hdnExport") <> "" then
+						'get real userid
+						dim strRealUserID
+						strRealUserID = Session("username")
+						'determine export path
+						dim strExportPath, liLength
+						strExportPath = Request.ServerVariables("PATH_TRANSLATED")
+						While (Right(strExportPath, 1) <> "\" And Len(strExportPath) <> 0)
+							liLength = Len(strExportPath) - 1
+							strExportPath = Left(strExportPath, liLength)
+						Wend
+						strExportPath = strExportPath & "export\"
+
+						'create scripting object
+						dim objFSO, objTxtStream
+						set objFSO = server.CreateObject("Scripting.FileSystemObject")
+						'create export file (overwrite if exists)
+						set objTxtStream = objFSO.CreateTextFile(strExportPath&strRealUserID&"-correlation.xls", true, false)
+
+						if err then
+							DisplayError "CLOSE", "", err.Number, "CorrList.asp - Cannot create Excel spreadsheet file due to the following reasons. Please contact your website administrator.", err.Description
+						end if
+
+						with objTxtStream
+							.WriteLine "<table border=1>"
+
+							'export the header
+							.WriteLine "<TR>"
+							if strObjName <> "" then
+								.WriteLine "<TH>Object Name</TD>"
+								.WriteLine "<TH>Type</TH>"
+							end if
+							.WriteLine "<TH>Customer Service Name</TD>"
+							.WriteLine "<TH>Status</TD>"
+							.WriteLine "<TH>Service ID</TD>"
+							.WriteLine "<TH>Service Location</TD>"
+							.WriteLine "<TH>Service Type</TD>"
+							.WriteLine "<TH>Customer Name</TD>"
+							.WriteLine "<TH>Region</TD>"
+							.WriteLine "</TR>"
+
+							'export the body
+							for k = 0 to UBound(aList, 2)
+								.WriteLine "<TR>"
+								if strObjName <> "" then
+									.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(7,k))&"</TD>"
+									.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(8,k))&"</TD>"
+								end if
+								.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(1,k))&"</TD>"
+								.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(2,k))&"</TD>"
+								.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(0,k))&"</TD>"
+								.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(3,k))&"</TD>"
+								.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(4,k))&"</TD>"
+								.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(5,k))&"</TD>"
+								.WriteLine "<TD NOWRAP>"&routineHtmlString(aList(6,k))&"</TD>"
+								.WriteLine "</TR>"
+							next
+							.WriteLine "</table>"
+						end with
+						objTxtStream.Close
+						sql = "<script type=""text/javascript"">document.location=""export/"&strRealUserID&"-correlation.xls"";</script>"
+						Response.Write sql
+						Response.End
+'						Response.redirect "export/"&strRealUserID&"-correlation.xls"
+					elseif Request("txtGoToPageNo") <> "" then
+						intPageNumber = CInt(Request("txtGoToPageNo"))
+					else
+						intPageNumber = 1
+					end if
+end select
+
+if intPageNumber < 1 then intPageNumber = 1
+if intPageNumber > intPageCount then intPageNumber = intPageCount
+
+dim k, m, n
+m = (intPageNumber - 1 ) * intConstDisplayPageSize
+n = (intPageNumber) * intConstDisplayPageSize - 1
+if n > UBound(aList, 2) then
+	n = UBound(aList, 2)
+end if
+
+'check if the client is still connected just before sending any html to the browser
+if response.isclientconnected = false then
+	Response.End
+end if
+
+'catch any unexpected error
+if err then
+	DisplayError "BACK", "", err.Number, "Unexpected error", err.Description
+end if
+
+
+%>
+<html>
+<head>
+<meta NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Correlation Results</title>
+<link href="stylesheets/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<form name="frmCorrList" action="CorrList.asp" method="POST">
+<input type="hidden" name="selRegion" value="<%=strRegion%>">
+<input type="hidden" name="selSupportGroup" value="<%=strSupportGroup%>">
+<input type="hidden" name="selStatus" value="<%=strStatus%>">
+<input type="hidden" name="txtCustomerName" value="<%=strCustomerName%>">
+<input type="hidden" name="txtObjectName" value="<%=strObjName%>">
+<input type="hidden" name="txtCustomerServiceDesc" value="<%=strCustServDesc%>">
+<input type="hidden" name="chkMO" value="<%=binMO%>">
+<input type="hidden" name="chkPVC" value="<%=binPVC%>">
+<input type="hidden" name="chkRoot" value="<%=binRoot%>">
+<input type="hidden" name="hdnExport" value>
+
+<table border="1" cellspacing="0" cellpadding="2" width="100%">
+<thead>
+	<tr>
+		<%
+		if strObjName <> "" then
+			Response.Write "<TH>Object Name</TD>"&vbCrLf
+			Response.Write "<TH>Type</TH>"&vbCrLf
+		end if
+		%>
+		<th>Customer Service Name</td>
+		<th>Status</td>
+		<th>Service ID</td>
+		<th>Service Location</td>
+		<th>Service Type</td>
+		<th>Customer Name</td>
+		<th>Region</td>
+	</tr>
+</thead>
+<tbody>
+<%
+'display the table
+for k = m to n
+	'Alternate row background colour
+	if Int(k/2) = k/2 then
+		Response.write "<TR>"
+	else
+		Response.write "<TR bgcolor=White>"
+	end if
+	if strObjName <> "" then
+		Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(7,k))&"&nbsp;</a></TD>"&vbCrLf
+		Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(8,k))&"&nbsp;</a></TD>"&vbCrLf
+	end if
+	Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(1,k))&"&nbsp;</a></TD>"&vbCrLf
+	Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(2,k))&"&nbsp;</a></TD>"&vbCrLf
+	Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(0,k))&"&nbsp;</a></TD>"&vbCrLf
+	Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(3,k))&"&nbsp;</a></TD>"&vbCrLf
+	Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(4,k))&"&nbsp;</a></TD>"&vbCrLf
+	Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(5,k))&"&nbsp;</a></TD>"&vbCrLf
+	Response.Write "<TD NOWRAP><a target=""_parent"" href=""corrdetail.asp?CustomerServiceID="&aList(0,k)&""">"&routineHtmlString(aList(6,k))&"&nbsp;</a></TD>"&vbCrLf
+	Response.Write "</TR>"
+next
+%>
+</tbody>
+<tfoot>
+<tr>
+<td align="left" valign="middle" colSpan="9">
+	<input type="hidden" name="txtPageNumber" value="<%=intPageNumber%>">
+	<input type="submit" name="action" value="&lt;&lt;">
+	<input type="submit" name="action" value="&lt;">
+	<input type="text" name="txtGoToPageNo" onClick="document.frmCorrList.txtGoToPageNo.value=''" title="You can jump to a specific page by typing the page number in this box" value="page <%=intPageNumber%> of <%=intPageCount%>" style="HEIGHT: 22px; WIDTH: 150px">
+	<input type="submit" name="action" value="&gt;">
+	<input type="submit" name="action" value="&gt;&gt;">&nbsp;
+	<img SRC="images/excel.gif" onclick="document.frmCorrList.target='new';document.frmCorrList.hdnExport.value='xls';document.frmCorrList.submit();document.frmCorrList.hdnExport.value='';document.frmCorrList.target='_self';" WIDTH="32" HEIGHT="32">
+
+</td>
+</tr>
+</tfoot>
+<caption>Records <%=m+1%> to <%=n+1%> of <%=UBound(aList, 2)+1 & " records"%></caption>
+</table>
+</form>
+</body>
+</html>

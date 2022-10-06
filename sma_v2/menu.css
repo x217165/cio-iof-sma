@@ -1,0 +1,30 @@
+*			{ margin: 0; padding: 0; }
+a			{ font:15px Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif; text-decoration: none; color: white; }
+ul			{ list-style: none; }
+
+/* 
+	LEVEL ONE
+*/
+ul.dropdown                 { position: relative; }
+ul.dropdown li              { font-weight: normal; float: left; list-style-type: none;}
+ul.dropdown a:hover		      { color: red; }
+ul.dropdown a:active        { color: #ffa500; }
+ul.dropdown li a            { display: block; padding: 2px 8px; }
+ul.dropdown li:last-child a { border-right: none; }
+ul.dropdown li.hover,
+ul.dropdown li:hover        { position: relative; }
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul 							{ width: 160px; visibility: hidden; position: absolute; top: 100%; left: 0; }
+ul.dropdown ul li 					{ font-weight: normal; background: lightgrey; color: black; 
+									  					border-bottom: 1px solid grey; float: none; }
+ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block; color: black; background: lightgrey; } 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown ul ul a					{ color: black }
+ul.dropdown li:hover > ul 	{ visibility: visible; }

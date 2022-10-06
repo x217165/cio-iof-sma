@@ -1,0 +1,112 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>******************************&nbsp;</TD>
+<TD NOWRAP>0&nbsp;</TD>
+<TD NOWRAP>FROM CUSTOMER ID:  000138615 - Prime Signal/FormShape&nbsp;</TD>
+<TD NOWRAP>TO CUSTOMER ID  :  000128776 - WIBAND COMMUNICATIONS CORP&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER&nbsp;</TD>
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+<TD NOWRAP>138615&nbsp;</TD>
+<TD NOWRAP>Amalgamated to WIBAND COMMUNICATIONS CORP (128776) on SEP 28, 2017, 11:09 AM by T068206.  BN:( 000008612).  &nbsp;</TD>
+<TD NOWRAP>Amalgamated to WIBAND COMMUNICATIONS CORP (128776) on SEP 28, 2017, 11:09 AM by T068206.  BN:( 000008613).  Amalgamated to WIBAND COMMUNICATIONS CORP (128776) on SEP 28, 2017, 11:09 AM by T068206.  BN:( 000008612).  &nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>290542&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP> 000128776&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_ID&nbsp;</TD>
+<TD NOWRAP>290543&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP> 000128776&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS_UPPER&nbsp;</TD>
+<TD NOWRAP>290542&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>WIBAND COMMUNICATIONS CORP&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS_UPPER&nbsp;</TD>
+<TD NOWRAP>290543&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>WIBC&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>290543&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>290542&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>290531&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+<TR>
+<TD NOWRAP>8613&nbsp;</TD>
+<TD NOWRAP>CRP&nbsp;</TD>
+<TD NOWRAP>CUSTOMER_NAME_ALIAS&nbsp;</TD>
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+<TD NOWRAP>290530&nbsp;</TD>
+<TD NOWRAP>A&nbsp;</TD>
+<TD NOWRAP>D&nbsp;</TD>
+<TD NOWRAP>&nbsp;</TD>
+</TR>
+</table>

@@ -1,0 +1,105 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+		  "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>Morten's JavaScript Tree Menu -- Install guide -- Making the menu</title>
+
+<script type="text/javascript">
+<!-- hide the script from old browsers
+
+if((navigator.appName == "Netscape" && parseInt(navigator.appVersion) >= 3 && navigator.userAgent.indexOf("Opera") == -1) || (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion) >= 4)) {
+
+  for(i = 0; i < parent.frames.length; i++) {
+    if(parent.frames[i].name == "code" && parent.frames[i].MTMLoaded) {
+      parent.frames[i].MTMTrack = true;
+      setTimeout("parent.frames[" + i + "].MTMDisplayMenu()", 250);
+      break;
+    }
+  }
+}
+
+// End of script hiding -->
+</script>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#330099" vlink="#666699" alink="red">
+<h2>Making the menu</h2>
+
+<p>Now it's time to actually make the menu.  It's all done at the bottom of the file &quot;<em>code.html</em>&quot; where the code reads &quot;User-configurable menu&quot;.  You want to delete all the code from there on down to <code>&lt;/script&gt;</code> so you don't get any of my code clobbering up your stuff.</p>
+
+<p>First off is the top-level menu.  For this we use the global variable <code>menu</code>, like this:</p>
+
+<pre><code>var menu = null;
+menu = new MTMenu();</code></pre>
+
+<p>As Mike Hall writes on his page:</p>
+
+<blockquote><b>Note:</b> We first set <i>menu</i> to <b>null</b> before making it a <b>Menu</b>. Netscape seems to have a problem with not cleaning up memory for script variables when a page is reloaded. By setting all the menu variables to null before use, we can force the space to be released, preventing the browser from crashing. <i>Be sure to set all menu variables to <b>null</b> before use in your script!</i></blockquote>
+
+<p>Ok.  Now we create each item in the menu using <code>MTMenuItem()</code>.  You give <code>MTMenuItem()</code> one to four arguments. All menu items (links) have at least 3 of the options defined.  A submenu can have the first option defined, or also 3 or 4. It depends on whether the submenu points to a URL or not.  Here's teh four options:</p>
+
+<ul>
+  <li><code>text</code> - the text to show on the menu list
+  <li><code>URL</code> - the URL for a link
+  <li><code>target</code> - the target frame/window of the link
+  <li><code>icon</code> - (optional) what image/icon to use for this item
+</ul>
+
+<p>With my menu the code then looks like this:</p>
+
+<pre><code>menu.MTMAddItem(new MTMenuItem(&quot;News&quot;, &quot;menu/news.html&quot;, &quot;text&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Features etc.&quot;, &quot;menu/features.html&quot;, &quot;text&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Supp. browsers&quot;, &quot;menu/supported_browsers.html&quot;, &quot;text&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Why use it?&quot;, &quot;menu/why_mine.html&quot;, &quot;text&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Download&quot;, &quot;menu/download.html&quot;, &quot;text&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Install Guide&quot;, &quot;menu/install-guide.html&quot;, &quot;text&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Support&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Things learned&quot;, &quot;menu/things.html&quot;, &quot;text&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;How it works&quot;, &quot;menu/details.html&quot;, &quot;text&quot;));
+
+menu.MTMAddItem(new MTMenuItem(&quot;Morten's pages&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;M. Hall's pages&quot;));
+menu.MTMAddItem(new MTMenuItem(&quot;Home&quot;, &quot;main.html&quot;, &quot;text&quot;));</code></pre>
+
+<p>The first 5 items are regular items (links).  The 6<sup>th</sup> item will actually be a submenu, but you can't see that yet.  Later we will connect a submenu to this item, and then it'll show up as a submenu.  The 7th item will also become a submenu.  We can see that it's intended to become one since it doesn't have a URL.  Then follows two more items, two submenus and a link back to the main page (home).</p>
+
+<p>The main menu is now finished.  You won't be able to test it yet to see how it looks &amp; works, because no submenus are defined.  Let's add a submenu, I'll show you how &quot;Morten's pages&quot; is added.  we first create the actual menu, just like with the main menu:</p>
+
+<pre><code>var morten = null;
+morten = new MTMenu();
+morten.MTMAddItem(new MTMenuItem(&quot;Home page&quot;, &quot;../&quot;, &quot;_top&quot;));
+morten.MTMAddItem(new MTMenuItem(&quot;Who Am I?&quot;, &quot;../me/&quot;, &quot;_top&quot;));
+morten.MTMAddItem(new MTMenuItem(&quot;Backgammon&quot;, &quot;../gammon/&quot;, &quot;_top&quot;));
+morten.MTMAddItem(new MTMenuItem(&quot;Programming&quot;, &quot;../programming/&quot;, &quot;_top&quot;));
+morten.MTMAddItem(new MTMenuItem(&quot;Humour&quot;, &quot;../jokes/&quot;, &quot;_top&quot;));
+morten.MTMAddItem(new MTMenuItem(&quot;Guitar&quot;, &quot;../guitar/&quot;, &quot;_top&quot;));
+morten.MTMAddItem(new MTMenuItem(&quot;Other side&quot;, &quot;http://www.geocities.com/~nettrom/&quot;, &quot;_top&quot;));</code></pre>
+
+<p>As you can see we have defined 7 items with each its own link.  All links will open in the full browser window because target is set to &quot;_top&quot;.  Now we will have to attach/connect this submenu to the main menu.  This is done by referring to the item in the main menu that we want to attach the submenu to, and then use the method &quot;MTMakeSubmenu()&quot; to connect it:</p>
+
+<pre><code>menu.items[9].MTMakeSubmenu(morten);</code></pre>
+
+<p>Each item in a menu can be referred to by using &quot;menu_name.items[index]&quot; where 'menu_name' is the name of the menu (the main menu is called simply &quot;menu&quot;, the submenu is called &quot;morten&quot;).  'index' is the array index of the item.  To find the index start with the first item and count from 0.  &quot;Morten's pages&quot; is the 10th item, so its index is 9. We then use the method &quot;MTMakeSubmenu()&quot;, give it the submenu as the parameter, and it's connected automagically.</p>
+
+<p>If that was difficult to understand maybe you can try thinking it. I want the 10th item from 'menu' and connect 'morten' to it. It's not more complicated than that.</p>
+
+<p>You can attach submenus to other submenus (in other words, nest submenus). That is done by connecting to the right submenu instead of the main menu.  Simply replace 'menu' with the right name in the previous example, and it will be connected.  The .zip-file available in the download area shows this feature.  As an example, if I had a submenu called 'sub_menu' that I wanted to connect to the first item in &quot;Morten's pages&quot; it would be done like this:</p>
+
+<pre><code>morten.items[0].MTMakeSubmenu(sub_menu);</code></pre>
+
+<p>Again, I'm thinking: Take the first item in the menu 'morten' and connect 'sub_menu' to it.</p>
+
+<p>If you feel that this explanation of how the menu is made was difficult to understand you can also have a look at Mike Hall's <a href="http://www.brainjar.com/js/treemenu/tree.html" target="_top">tree menu page</a>, he's got a slightly different way of explaining it.</p>
+
+<p>Now that the menu is all set up you can continue on to <a href="icon-menu.shtml">checking the icon list</a> where you'll be able to determine the icons used for the menu items.</p>
+
+<script type="text/javascript">
+if(parent.location.href == location.href) {
+  var searchString = "http://" + location.host + "/";
+  var docString = location.href.substring(searchString.length);
+  document.write('<div class="footer"><span id="noframes"><a href="/index.shtml?' + docString + '">No frames?</a></span></div>');
+}
+</script>
+</body>
+</html>

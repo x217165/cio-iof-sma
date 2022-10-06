@@ -1,0 +1,732 @@
+<%@  language="VBScript" %>
+<% Option Explicit %>
+<% on error resume next %>
+<!--#include file="smaConstants.inc"-->
+<!--#include file="databaseconnect.asp"-->
+<!--#include file="smaProcs.inc"-->
+<!--
+*************************************************************************************
+* File Name:	ManObjPortDetail.asp
+*
+* Purpose:		To display Managed Object Port Name and LAN IP and allow user to make changes.
+*
+* Created by:	Dan S. Ty	03/13/2002
+*
+* Edited by:
+**************************************************************************************
+		 Date		Author		Changes/enhancements made
+		 2003/10/15	DTy			Add field required for IP Mediation:
+								Customer Service ID & Name & Billable Port.
+								Remove LAN IP as a mandatory field.
+								Validate LAN IP if entered.
+		 2006/11/27	Anthony Cheung		Add field required for Government of Ontario:
+								Reportable ?
+								Port Function
+		 2007/07/27     Anthony Cheung          Add free form test field required for Government of Ontario:
+								Managed Objects Unqiue ID (MSUID) or Port Identification
+		 2010/07/22	Anthony Cheung		Increase Port Name size to 50 from 25.
+**************************************************************************************
+-->
+
+<%
+
+'check user's rights
+dim intAccessLevel
+intAccessLevel = CInt(CheckLogon(strConst_ManagedObjects))
+if intAccessLevel and intConst_Access_ReadOnly <> intConst_Access_ReadOnly then
+	DisplayError "BACK", "", 0, "ACCESS DENIED", "You don't have access to managed object. Please contact your system administrator"
+end if
+
+dim sql, strWinMessage, rsPort, bolclone
+
+dim strAction
+strAction = Request("action")			'get the action code from caller
+if strAction = "" then
+	Response.write "No action requested"
+	Response.End						'no action requested
+end if
+
+If strAction = "clone" then
+   bolClone = true
+else
+   bolClone = false
+end if
+
+dim strMasterID
+strMasterID = Request("masterID")		'get master id
+dim strPortID
+strPortID = Request("PortID")			'get port id
+dim strRealUserID
+strRealUserID = Session("username")
+if err then
+	'unexpected error
+	DisplayError "BACK", "", 0, "UNEXPECTED ERROR", "Close port window to return to managed objects form."
+end if
+strLastUpdate = Request("hdnLastUpdate")
+
+' Setup Port Type drop-down list
+dim rsPortType
+dim strSQL
+strSQL = "select network_element_port_type_name" & _
+		 " from crp.network_element_port_type" & _
+		 " where record_status_ind = 'A'" & _
+		 " order by network_element_port_type_name"
+
+set rsPortType = Server.CreateObject("ADODB.Recordset")
+rsPortType.CursorLocation = adUseClient
+rsPortType.Open strSQL, objConn
+
+set rsPortType.ActiveConnection = nothing
+
+' Setup Port Function drop-down list
+dim rsPortFunction
+strSQL = "SELECT ne_port_function_name, ne_port_function_lcode" & _
+		 " FROM crp.lcode_ne_port_function" & _
+		 " WHERE record_status_ind = 'A'" & _
+		 " ORDER BY ne_port_function_lcode"
+
+set rsPortFunction = Server.CreateObject("ADODB.Recordset")
+rsPortFunction.CursorLocation = adUseClient
+rsPortFunction.Open strSQL, objConn
+
+set rsPortFunction.ActiveConnection = nothing
+
+'save changes?
+if strAction = "save" then
+	dim strPortName, strPortIP, strCSID, strBillable, strLastUpdate, strreportable, strMSUID
+	strMasterID     = Request("masterID")
+	strPortName     = Request("txtPortName")
+	strPortIP       = Request("txtPortIP")
+	strCSID         = Request("lngCSID")
+	strBillable     = Request("chkBillable")
+	strreportable   = Request("chkReportable")
+	strMSUID        = Request("MSUID")
+
+	if lcase(strBillable) = "on" then
+		strBillable = "Y"
+	else
+		strBillable = "N"
+	end if
+
+	if lcase(strreportable) = "on" then
+		strreportable = "Y"
+	else
+		strreportable = "N"
+	end if
+
+	'call stored proc to save the record
+	if (strPortID <> "") and (intAccessLevel and intConst_Access_Update = intConst_Access_Update) then
+		'create command object for update stored proc
+		dim cmdUpdateObj
+		set cmdUpdateObj = server.CreateObject("ADODB.Command")
+		set cmdUpdateObj.ActiveConnection = objConn
+		cmdUpdateObj.CommandType = adCmdStoredProc
+		cmdUpdateObj.CommandText = "sma_sp_userid.spk_sma_mo_inter.sp_mo_port_update"
+		'create params
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_user_id",         adVarChar,     adParamInput, 30, strRealUserID)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_port_id",         adNumeric,     adParamInput,   , CLng(strPortID))
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_ne_id",           adNumeric,     adParamInput,   , CLng(strMasterID))
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_port_name",       adVarChar,     adParamInput, 50, strPortName)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_port_ip",         adVarChar,     adParamInput, 50, strPortIP)
+		if strCSID <> "" then
+		   cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_CSID",         adNumeric,     adParamInput,   , Clng(strCSID))
+		else
+		   cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_CSID",         adNumeric,     adParamInput,   , null)
+		end if
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_billable_port",   adVarChar,     adParamInput,  1, strBillable)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_reportable",   adVarChar,     adParamInput,  1, strreportable)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_ne_port_function", adVarChar, adParamInput, 20, Request("selPortFunction"))	        'NE port function
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_msuid",         adVarChar,     adParamInput, 50, strMSUID) 'New free form MSUID
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_last_update_dt",  adDBTimeStamp, adParamInput,   , CDate(strLastUpdate))
+
+     cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_CTR_IN_ID", adVarChar, adParamInput,  1, strCTR_IN_ID)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_CTR_OUT_ID",   adVarChar,     adParamInput,  1, strCTR_OUT_ID)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_VN_NAME", adVarChar, adParamInput, 50, strVN_NAME)	        
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_VTR_OUT_ID",         adVarChar,     adParamInput, 50, strVTR_OUT_ID) 
+        cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_VTR_IN_ID", adVarChar, adParamInput,  30, strVTR_IN_ID)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_QOS_NAME",   adVarChar,     adParamInput,  50, strQOS_NAME)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_ETR_IN_ID", adVarChar, adParamInput, 20, strETR_IN_ID)	        
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_ETR_OUT_ID",         adVarChar,     adParamInput, 50, strETR_OUT_ID) 
+        cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_CI_STATUS_ID", adVarChar, adParamInput,  1, strCI_STATUS_ID)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_ORGANIZATION_ID",   adVarChar,     adParamInput,  1, strORGANIZATION_ID)
+		cmdUpdateObj.Parameters.Append cmdUpdateObj.CreateParameter("p_SITE_ID", adVarChar, adParamInput, 20, strRSITE_ID)	        
+		
+		'call the update stored proc
+		on error resume next
+		cmdUpdateObj.Execute
+		if objConn.Errors.Count <> 0 then
+			DisplayError "BACK", "x", objConn.Errors(0).NativeError, "CANNOT UPDATE OBJECT", objConn.Errors(0).Description
+			objConn.Errors.Clear
+		end if
+		strWinMessage = "Record saved successfully. You can now see the changes you made."
+	elseif (strPortID = "") and (intAccessLevel and intConst_Access_Create = intConst_Access_Create) then
+		'create command object for insert stored proc
+		dim cmdInsertObj
+		set cmdInsertObj = server.CreateObject("ADODB.Command")
+		set cmdInsertObj.ActiveConnection = objConn
+		cmdInsertObj.CommandType = adCmdStoredProc
+		cmdInsertObj.CommandText = "sma_sp_userid.spk_sma_mo_inter.sp_mo_port_insert"
+		'create params
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_user_id",       adVarChar, adParamInput, 30, strRealUserID)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_port_id",       adNumeric, adParamOutput)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_ne_id",         adNumeric, adParamInput,   , CLng(strMasterID))
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_port_name",     adVarChar, adParamInput, 50, strPortName)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_port_ip",       adVarChar, adParamInput, 50, strPortIP)
+		if strCSID <> "" then
+     	   cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_CSID",       adNumeric, adParamInput,   , CLng(strCSID))
+		else
+     	   cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_CSID",       adNumeric, adParamInput,   , null)
+		end if
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_billable_port", adVarChar, adParamInput,  1, strBillable)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_reportable",   adVarChar,     adParamInput,  1, strreportable)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_ne_port_function", adVarChar, adParamInput, 20, Request("selPortFunction"))	        'NE port function
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_msuid",         adVarChar,     adParamInput, 50, strMSUID) 'New free form MSUID
+        
+        cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_CTR_IN_ID", adVarChar, adParamInput,  1, strCTR_IN_ID)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_CTR_OUT_ID",   adVarChar,     adParamInput,  1, strCTR_OUT_ID)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_VN_NAME", adVarChar, adParamInput, 50, strVN_NAME)	        
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_VTR_OUT_ID",         adVarChar,     adParamInput, 50, strVTR_OUT_ID) 
+        cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_VTR_IN_ID", adVarChar, adParamInput,  30, strVTR_IN_ID)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_QOS_NAME",   adVarChar,     adParamInput,  50, strQOS_NAME)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_ETR_IN_ID", adVarChar, adParamInput, 20, strETR_IN_ID)	        
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_ETR_OUT_ID",         adVarChar,     adParamInput, 50, strETR_OUT_ID) 
+        cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_CI_STATUS_ID", adVarChar, adParamInput,  1, strCI_STATUS_ID)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_ORGANIZATION_ID",   adVarChar,     adParamInput,  1, strORGANIZATION_ID)
+		cmdInsertObj.Parameters.Append cmdInsertObj.CreateParameter("p_SITE_ID", adVarChar, adParamInput, 20, strRSITE_ID)	        
+		
+		'call the update stored proc
+		on error resume next
+		cmdInsertObj.Execute
+		if objConn.Errors.Count <> 0 then
+			DisplayError "BACK", "", objConn.Errors(0).NativeError, "CANNOT INSERT OBJECT", objConn.Errors(0).Description
+			objConn.Errors.Clear
+		end if
+		strPortID = cmdInsertObj.Parameters("p_port_id").Value	'set return parameter
+		if strPortID = "" then
+			DisplayError "BACK", "", 2100, "CANNOT DISPLAY NEW PORT INFORMATION.", "Most probably the new Port Information has been saved successfully even if there was an error retrieving the new id. Close the Port Information window to return to the managed objects screen."
+			objConn.Errors.Clear
+		end if
+		strWinMessage = "Record saved successfully. You can now see the changes you made."
+	else
+		DisplayError "BACK", "", err.Number, "ACCESS DENIED. PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.", err.Description
+	end if
+	if err then
+		DisplayError "BACK", "", err.Number, "CANNOT UPDATE PORT INFORMATION - TRY AGAIN", err.Description
+	end if
+end if
+
+'delete Port Information?
+if strAction = "delete" then
+	'call stor proc to delete current Port Information
+	if intAccessLevel and intConst_Access_Delete = intConst_Access_Delete then
+		'create command object for update stored proc
+		dim cmdDeleteObj
+		set cmdDeleteObj = server.CreateObject("ADODB.Command")
+		set cmdDeleteObj.ActiveConnection = objConn
+		cmdDeleteObj.CommandType = adCmdStoredProc
+		cmdDeleteObj.CommandText = "sma_sp_userid.spk_sma_mo_inter.sp_mo_port_delete"
+		'create params
+		cmdDeleteObj.Parameters.Append cmdDeleteObj.CreateParameter("p_port_id", adNumeric , adParamInput,, CLng(strPortID))
+		cmdDeleteObj.Parameters.Append cmdDeleteObj.CreateParameter("p_last_update_dt", adDBTimeStamp, adParamInput, , CDate(strLastUpdate))
+		'call the update stored proc
+		if objConn.Errors.Count <> 0 then
+	'		DisplayError "BACK", "", objConn.Errors(0).NativeError, "CANNOT DELETE OBJECT - PARAMETER ERROR", objConn.Errors(0).Description
+			objConn.Errors.Clear
+		end if
+		cmdDeleteObj.Execute
+		if objConn.Errors.Count <> 0 then
+			DisplayError "BACK", "", objConn.Errors(0).NativeError, "CANNOT DELETE OBJECT", objConn.Errors(0).Description
+			objConn.Errors.Clear
+		end if
+		strWinMessage = "Record deleted successfully. You can now create a new Port Information."
+	else
+		DisplayError "BACK", "", err.Number, "ACCESS DENIED. PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.", err.Description
+	end if
+	if err then
+		DisplayError "BACK", "", err.Number, "CANNOT DELETE PORT INFORMATION", err.Description
+	end if
+	'called from main form?
+	if Request("back") = "true" then
+		Response.Redirect "ManObjPort.asp?ne_id="+strMasterID
+	end if
+	'ready to enter a new Port Information?
+	strPortID=""
+	strAction="new"
+end if
+
+'display the Port Information info
+if strAction <> "new" then
+	sql =	"SELECT "&_
+				"NE.NETWORK_ELEMENT_PORT_ID, "&_
+				"NE.NETWORK_ELEMENT_ID, "&_
+				"NE.NETWORK_ELEMENT_PORT_NAME, "&_
+				"NE.NETWORK_ELEMENT_PORT_IP, "&_
+				"NE.CUSTOMER_SERVICE_ID, "&_
+				"NE.BILLABLE_PORT, "&_
+				"NE.CREATE_DATE_TIME, "&_
+				"sma_sp_userid.spk_sma_library.sf_get_full_username(NE.CREATE_REAL_USERID) as create_real_userid, "&_
+				"NE.UPDATE_DATE_TIME," &_
+				"sma_sp_userid.spk_sma_library.sf_get_full_username(NE.UPDATE_REAL_USERID) as update_real_userid, "&_
+				"NE.RECORD_STATUS_IND, "&_
+				"CS.CUSTOMER_SERVICE_DESC, " &_
+				"NE.REPORTABLE, " &_
+				"NE.NE_PORT_FUNCTION_LCODE, " &_
+				"NE.MSUID " &_
+                "NE.CTR_IN_ID," &_
+                 "NE.CTR_OUT_ID,"&_
+                 "NE.VN_NAME," &_
+          "NE.VTR_OUT_ID," &_
+          "NE.QOS_NAME," &_
+          "NE.ETR_IN_ID," &_
+          "NE.ETR_OUT_ID," &_
+          "NE.CI_STATUS_ID," &_
+          "CO.ORGANIZATION_NAME," &_
+          "CO.ORGANIZATION_CODE," &_
+          "NE.SITE_ID" &_
+          "SNC.SITE_CODE" &_
+          "NE.VTR_IN_ID," &_
+			
+    "FROM CRP.NETWORK_ELEMENT_PORT NE, CRP.CUSTOMER_SERVICE CS  , CRP_SEC.CUSTOMER_ORGANIZAION CO, CRP.SITE_NAME_CODE SNC"&_
+			"WHERE NE.CUSTOMER_SERVICE_ID = CS.CUSTOMER_SERVICE_ID(+) and NE.ORGANIZATION_ID = CO.ORGANIZATION_ID and NE.SITE_ID =SNC.SITE_ID  " &_
+			    "AND NETWORK_ELEMENT_PORT_ID = " & strPortID
+
+	set rsPort=server.CreateObject("ADODB.Recordset")
+	rsPort.CursorLocation = adUseClient
+	rsPort.Open sql, objConn
+	if err then
+		DisplayError "BACK", "", err.Number, "DATABASE ERROR", err.Description
+	end if
+	if rsPort.EOF then
+		DisplayError "BACK", "", err.Number, "CANNOT FIND PORT INFORMATION", err.Description
+	end if
+	set rsPort.ActiveConnection = nothing
+    strLastUpdate = rsPort.Fields("UPDATE_DATE_TIME").value
+
+end if
+
+%>
+<html>
+<head>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="GENERATOR" content="Microsoft Visual Studio 6.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <title>Port Information Detail</title>
+
+    <script type="text/javascript" src="GeneralJavaFunctions.js"></script>
+    <script type="text/javascript" src="AccessLevels.js"></script>
+    <script type="text/javascript">
+        var bolSaveRequired = false;
+        intAccessLevel = "<%=intAccessLevel%>";
+        var intConst_MessageDisplay = "<%=intConst_MessageDisplay%>";
+
+        function fct_onChange() {
+            bolSaveRequired = true;
+        }
+        function btnPopulate_onclick() {
+            var strSuggestPortName = document.frmPort.selPortType.value + document.frmPort.txtPortNumber.value;
+            fct_onChange();
+            document.frmPort.txtPortName.value = strSuggestPortName;
+        }
+        function btnNew_click() {
+            if ((intAccessLevel & intConst_Access_Create) != intConst_Access_Create) { alert('Access denied. Please contact your system administrator.'); return; }
+            var strMasterID = "<%=strMasterID%>";
+            document.location.href = "ManObjPortDetail.asp?action=new&masterID=" + strMasterID;
+        }
+
+        function fct_onDelete() {
+            if (document.frmPort.PortID.value != '') {
+                var strMasterID = "<%=strMasterID%>";
+                var strPortID = "<%=strPortID%>";
+                var strLastUpdate = "<%=strLastUpdate%>";
+
+                if (((intAccessLevel & intConst_Access_Delete) != intConst_Access_Delete) || (document.frmPort.txtRecordStatusInd.value == "D")) { alert('Access denied. Please contact your system administrator.'); return; }
+                if (confirm('Do you really want to delete this object?')) {
+                    document.location.href = "ManObjPortDetail.asp?action=delete&PortID=" + strPortID + "&masterID=" + strMasterID + "&hdnLastUpdate=" + strLastUpdate;
+                }
+            } else { fct_displayStatus('There is no need to delete an empty Port Information.'); }
+        }
+
+        function btnClose_onclick() {
+            window.close();
+        }
+
+        function frmPort_onsubmit() {
+            if ((((intAccessLevel & intConst_Access_Create) == intConst_Access_Create) && (document.frmPort.PortID.value == "")) || (((intAccessLevel & intConst_Access_Update) == intConst_Access_Update) && (document.frmPort.PortID.value != ""))) {
+
+
+                //		var strMSUIDComments = document.frmPort.MSUID.value ;
+                //		if (strMSUIDComments.length > 50 ) {
+                //			alert('The Port Identification (MSUID) can be at most 50 characters.\n\nYou entered ' + strMSUIDComments.length + ' character(s).');
+                //			document.frmPort.MSUID.focus();
+                //			bolSaveRequired = false;
+                //			return(false);
+                //		}
+                //If Billable port is yes, CSID must be provided
+                if ((document.frmPort.chkBillable.checked) &&
+                    (document.frmPort.txtCSName.value == '' || (document.frmPort.lngCSID.value == ''))) {
+                    alert("If port is billable, you must provide a Customer Service Name or ID. Please re-enter.");
+                    document.frmPort.txtCSName.focus();
+                    return (false);
+                }
+
+                //If reportable port is yes, CSID must be provided
+                if ((document.frmPort.chkReportable.checked) &&
+                    (document.frmPort.txtCSName.value == '' || (document.frmPort.lngCSID.value == ''))) {
+                    alert("If port is reportable, you must provide a Customer Service Name or ID. Please re-enter.");
+                    document.frmPort.txtCSName.focus();
+                    return (false);
+                }
+
+                //Validate LAN IP address.
+                var strPortIP = document.frmPort.txtPortIP.value;
+                if (strPortIP != "") {
+
+                    //Check if LAN IP address has the correct format.
+                    //var re = /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/;
+                    var re = /^((\d{1,3}\.){3}\d{1,3})|(([0-9,A-F]{0,4}:){2,7}[0-9,A-F]{0,4})$/i;
+                    var rv = strPortIP.search(re);
+                    if (rv != 0) {
+                        //alert('The standard format for LAN IP is:\n\tnnn.nnn.nnn.nnn\nwhere n is a digit. Please re-enter.');
+                        alert('The standard format for LAN IP is either \n\tnnn.nnn.nnn.nnn\nwhere n is a digit, or \n\tx:x:x:x:x:x:x:x\n where the x is the hexadecimal values, Please re-enter.');
+                        document.frmPort.txtPortIP.focus();
+                        return (false);
+                    }
+
+                    //check if IP address has 4 segments.
+                    re = /^((\d{1,3}\.){3}\d{1,3})$/;
+                    rv = strPortIP.search(re);
+                    if (rv == 0) {
+                        var IPOctet = strPortIP.split(".", 5);
+                        if (IPOctet.length != 4) {
+                            alert('The LAN IP should have 4 octets.\n\tPlease re-enter.');
+                            document.frmPort.txtPortIP.focus();
+                            return (false);
+                        }
+
+                        //Check the value range of each segment.
+                        for (var i = 0; i < IPOctet.length; i++) {
+                            if (IPOctet[i] < 0 || IPOctet[i] > 255) {
+                                alert('Invalid value in LAN IP Octet #' + (i + 1) + '.\nPlease re-enter.');
+                                document.frmPort.txtPortIP.focus();
+                                return (false);
+                            }
+                        }
+                    }
+                }
+
+                //Check if Port Name is filled
+                if (document.frmPort.txtPortName.value != "") {
+                    document.frmPort.action.value = "save";
+                    bolSaveRequired = false;
+                    document.frmPort.submit();
+                    return (true);
+                }
+                else {
+                    alert("You cannot save an empty Port Information record.  Please re-enter.");
+                    return (false);
+                }
+
+            }
+            else { alert('Access denied. Please contact your system administrator.'); return (false); }
+        }
+
+        function fct_clearStatus() {
+            window.status = "";
+        }
+
+        function fct_displayStatus(strMessage) {
+            window.status = strMessage;
+            setTimeout('fct_clearStatus()', intConst_MessageDisplay);
+        }
+
+        function body_onLoad(strWinStatus) {
+            var strWinStatus = '<%=strWinMessage%>';
+            fct_displayStatus(strWinStatus);
+        }
+
+        function body_onBeforeUnload() {
+            if (bolSaveRequired) {
+                event.returnValue = "There is unsaved data on the screen. To save changes, click CANCEL below then click SAVE on the main form.";
+            }
+        }
+
+        function btnReset_onclick() {
+            var strMasterID = '<%=strMasterID%>';
+            var strPortID = '<%=strPortID%>';
+            var action = '<%=strAction%>';
+
+            if (confirm('All changes will be lost. Do you really want to reset the page?')) {
+                bolSaveRequired = false;
+                document.location = "ManObjPortDetail.asp?action=" + action + "&PortID=" + strPortID + "&masterID=" + strMasterID;
+            }
+        }
+
+        function body_onUnload() {
+            opener.document.frmMODetails.btn_iFrame2Refresh.click();
+        }
+
+        function fct_CSLookup(CSKey) {
+            var strCSName = document.frmPort.txtCSName.value;
+            var strCSID = document.frmPort.lngCSID.value;
+
+
+            switch (CSKey) {
+                case 'CSID':
+                    SetCookie("CustomerService", "");
+                    SetCookie("CustomerServiceID", strCSID);
+                    break;
+
+                case 'CSName':
+                    SetCookie("CustomerService", strCSName);
+                    SetCookie("CustomerServiceID", "");
+                    break;
+            }
+
+            SetCookie("WinName", 'Popup');
+            SetCookie("ServiceEnd", 'D');
+            window.open('SearchFrame.asp?fraSrc=CustServ', 'Popup', 'top=150, left=150,  WIDTH=1000, HEIGHT=700');
+
+            document.frmPort.btnSave.disabled = false;
+        }
+
+    </script>
+</head>
+
+<body onload="body_onLoad();" onbeforeunload="body_onBeforeUnload();" onunload="body_onUnload();">
+    <form name="frmPort" language="javascript" onsubmit="return frmPort_onsubmit()">
+        <input type="hidden" name="action" value="">
+        <input type="hidden" name="hdnLastUpdate" value="<%Response.Write rsPort.Fields("UPDATE_DATE_TIME").value%>">
+        <input type="hidden" name="PortID" value="<%if strPortID <> "" and not bolclone then Response.Write rsPort("NETWORK_ELEMENT_PORT_ID")%>">
+        <input type="hidden" name="MasterID" value="<%=strMasterID%>">
+
+        <table border="0" width="100%">
+            <thead>
+                <tr>
+                    <td colspan="5">Port Information Detail</td>
+                </tr>
+            </thead>
+            <% stop %>
+            <tbody>
+                <tr>
+                    <td align="RIGHT" nowrap>Port Type/Port No.</td>
+                    <td align="LEFT">
+                        <select name="selPortType" onchange="fct_onChange();">
+                            <%Response.Write "<OPTION selected value=></option> vbCrLf"
+				  dim strPortNumber
+				  while not rsPortType.EOF
+					if ((rsPort(2) = Empty) or (mid(rsPort(2), 1, len(rsPortType(0))) <> rsPortType(0))) then
+					   Response.write "<OPTION  value=" & rsPortType(0) & ">" & rsPortType(0) & " </option> vbCrLf"
+					else
+					   Response.write "<OPTION  selected value=" & rsPortType(0) & ">" & rsPortType(0) & "</option> vbCrLf"
+					   strPortNumber = mid(rsPort(2), len(rsPortType(0))+1)
+					end if
+					rsPortType.MoveNext
+
+				  wend
+				  rsPortType.Close
+				  set rsPortType = nothing
+                            %>
+                        </select>
+                        <input size="30" maxlength="40" name="txtPortNumber" value="<%if strPortNumber <> "" then Response.Write strPortNumber%>" onchange="fct_onChange();">
+                        <input id="btnPopulate" name="btnPopulate" style="height: 22px; width: 65px" type="button" value="Populate" language="javascript" onclick="return btnPopulate_onclick()">
+                    </td>
+                    <td></td>
+                    <td align="RIGHT" nowrap>LAN IP</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtPortIP" value="<%if strPortID <> "" then Response.write rsPort("NETWORK_ELEMENT_PORT_IP")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="right">Port Name<font color="red">*</font></td>
+                    <td colspan="2">
+                        <input readonly style="color: silver" size="55" maxlength="50" name="txtPortName" value="<%if strPortID <> "" then Response.write rsPort("NETWORK_ELEMENT_PORT_NAME")%>" onchange="fct_onChange();"></td>
+                    <td align="right" nowrap>Billable Port?</td>
+                    <td align="left">
+                        <input id="chkBillable" name="chkBillable" type="checkbox" <%if (rsPort(5)= "N" or rsPort(5) = Empty) then Response.Write "unchecked" else Response.Write "checked"%> onclick="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td align="right" nowrap>Customer Service Name</td>
+                    <td colspan="2">
+                        <input id="txtCSName" name="txtCSName" style="height: 21px; width: 300px" value="<%if rsPort(4) <> 0 then  Response.Write rsPort(11)%>" onchange="fct_onChange();">
+                        <input name="btnCSLookup" type="button" onclick="fct_CSLookup('CSName'); fct_onChange();" value="..."></td>
+                    <td align="right" nowrap>Reporting Required?</td>
+                    <td align="left">
+                        <input id="chkReportable" name="chkReportable" type="checkbox" <%if (rsPort(12)= "N" or rsPort(12) = Empty) then Response.Write "unchecked" else Response.Write "checked"%> onclick="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+
+
+                <!--  New changes-->
+                <tr>
+                    <td align="RIGHT" nowrap>CTR_IN_ID</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtCTR_IN" value="<%if strCTR_IN <> "" then Response.write rsPort("CTR_IN")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>CTR_OUT_ID</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtCTR_OUT" value="<%if strCTR_OUT <> "" then Response.write rsPort("CTR_OUT")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>VN_NAME</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtVN_NAME" value="<%if strVN_NAME <> "" then Response.write rsPort("VN_NAME")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>VTR_IN_ID</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtVTR_IN" value="<%if strVTR_IN <> "" then Response.write rsPort("VTR_IN")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>VTR_OUT_ID</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtVTR_OUT" value="<%if strVTR_OUT <> "" then Response.write rsPort("VTR_OUT")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>QOS_NAME</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtQOS_NAME" value="<%if strQOS_NAME <> "" then Response.write rsPort("NQOS_NAME")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>ETR_IN_ID</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtETR_IN" value="<%if strETR_IN <> "" then Response.write rsPort("ETR_IN")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>ETR_OUT_ID</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtETR_OUT" value="<%if strETR_OUT <> "" then Response.write rsPort("ETR_OUT")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>CI_STATUS</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtCI_STATUS" value="<%if strCI_STATUS <> "" then Response.write rsPort("CI_STATUS")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <!--<td align="RIGHT" nowrap>ORGANIZATION_NAME</td>
+        <td>
+            <input size="50" maxlength="50" name="txtORGANIZATION_NAME" value="<%if strORGANIZATION_NAME <> "" then Response.write rsPort("ORGANIZATION_NAME")%>" onchange="fct_onChange();"></td>
+        <td></td>-->
+                    TD ALIGN=RIGHT NOWRAP>ORGANIZATION_NAME</TD>
+	<td valign="top">
+        <select id="setORGANIZATION_NAME" name="selORGANIZATION_NAME" onchange="fct_onChange();">
+            dim strORGANIZATION_NAME
+				<%
+			        while not rsPortFunction.EOF
+					Response.Write "<OPTION"
+					if strPortID <> "" then if CLng(rsPort(13)) = CLng(rsPortFunction(1)) then Response.write " selected"
+					   Response.write " value=" & rsPortFunction(1) & ">" & routineHtmlString(rsPortFunction(0)) & "</option>" &vbCrLf
+					rsPortFunction.MoveNext
+				wend
+				rsPortFunction.Close
+                %>
+        </select>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>ORGANIZATION_CODE</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtORGANIZATION_CODE" value="<%if strORGANIZATION_CODE <> "" then Response.write rsPort("ORGANIZATION_CODE")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>SITE_NAME</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtSITE_NAME" value="<%if strSITE_NAME <> "" then Response.write rsPort("SITE_NAME")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="RIGHT" nowrap>SITE_CODE</td>
+                    <td>
+                        <input size="50" maxlength="50" name="txtSITE_CODE" value="<%if strSITE_CODE <> "" then Response.write rsPort("SITE_CODE")%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td align="right" nowrap>Customer Service ID</td>
+                    <td>
+                        <input id="lngCSID" name="lngCSID" style="height: 21px; width: 75px" value="<%if rsPort(4) <> 0 then  Response.Write rsPort(4)%>" onchange="fct_onChange();">
+                        <input name="btnCSIDLookup" type="button" onclick="fct_CSLookup('CSID'); fct_onChange();" value="...">
+                    </td>
+                    <td></td>
+                    <td align="RIGHT" nowrap>Port Function</td>
+                    <td valign="top">
+                        <select id="selPortFunction" name="selPortFunction" onchange="fct_onChange();">
+                            dim strPortFunction
+				<%
+			        while not rsPortFunction.EOF
+					Response.Write "<OPTION"
+					if strPortID <> "" then if CLng(rsPort(13)) = CLng(rsPortFunction(1)) then Response.write " selected"
+					   Response.write " value=" & rsPortFunction(1) & ">" & routineHtmlString(rsPortFunction(0)) & "</option>" &vbCrLf
+					rsPortFunction.MoveNext
+				wend
+				rsPortFunction.Close
+                %>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td align="right" nowrap>Port Identification</td>
+                    <td>
+                        <input name="MSUID" size="50" maxlength="50" value="<% if rsPort(0) <> 0 then Response.write  rsPort(14) end if%>" onchange="fct_onChange();"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td align="right" colspan="5">
+                        <input type="button" name="btnClose" value="Close" style="width: 2cm" onclick="return btnClose_onclick();">&nbsp;&nbsp;
+	  	<input type="button" name="btnDelete" value="Delete" style="width: 2cm" <%if bolclone then Response.write " disabled " end if%> onclick="return fct_onDelete();">&nbsp;&nbsp;
+	  	<input type="button" name="btnReset" value="Reset" style="width: 2cm" onclick="return btnReset_onclick();">&nbsp;&nbsp;
+	  	<input type="button" name="btnNew" value="New" style="width: 2cm" <%if bolclone then Response.write " disabled " end if%> onclick="return btnNew_click();">&nbsp;&nbsp;
+	  	<input type="button" name="btnSave" value="Save" style="width: 2cm" onclick="return frmPort_onsubmit();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <fieldset>
+            <legend align="right"><b>Audit Information</b></legend>
+            <div size="8pt" align="RIGHT">
+                Record Status Indicator
+	<input align="left" name="txtRecordStatusInd" type="text" style="height: 20px; width: 18px" disabled value="<%if strPortID <> "" then Response.write rsPort("RECORD_STATUS_IND")%>">&nbsp;&nbsp;&nbsp;
+	Create Date&nbsp;<input align="center" name="txtCreateDateTime" type="text" style="height: 20px; width: 150px" disabled value="<%if strPortID <> "" then Response.write rsPort("CREATE_DATE_TIME")%>">&nbsp;
+	Created By&nbsp;
+                <input align="right" name="txtCreateRealUser" type="text" style="height: 20px; width: 200px" disabled value="<%if strPortID <> "" then Response.write rsPort("CREATE_REAL_USERID")%>"><br>
+                Update Date&nbsp;<input align="center" name="txtUpdateDateTime" type="text" style="height: 20px; width: 150px" disabled value="<%if strPortID <> "" then Response.write rsPort("UPDATE_DATE_TIME")%>">
+                Updated By&nbsp;
+                <input align="right" name="txtUpdateRealUser" type="text" style="height: 20px; width: 200px" disabled value="<%if strPortID <> "" then Response.write rsPort("UPDATE_REAL_USERID")%>">
+            </div>
+        </fieldset>
+        <%
+'Clean up our ADO objects
+if strPortID <> "" then
+	rsPort.close
+	set rsPort = Nothing
+	objConn.close
+	set objConn = Nothing
+end if
+        %>
+    </form>
+</body>
+</html>

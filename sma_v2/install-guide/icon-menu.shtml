@@ -1,0 +1,63 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+		  "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>Morten's JavaScript Tree Menu -- Install guide -- Icon menu</title>
+
+<script type="text/javascript">
+<!-- hide the script from old browsers
+
+if((navigator.appName == "Netscape" && parseInt(navigator.appVersion) >= 3 && navigator.userAgent.indexOf("Opera") == -1) || (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion) >= 4)) {
+
+  for(i = 0; i < parent.frames.length; i++) {
+    if(parent.frames[i].name == "code" && parent.frames[i].MTMLoaded) {
+      parent.frames[i].MTMTrack = true;
+      setTimeout("parent.frames[" + i + "].MTMDisplayMenu()", 250);
+      break;
+    }
+  }
+}
+
+// End of script hiding -->
+</script>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#330099" vlink="#666699" alink="red">
+<h2>Checking the menu's icons</h2>
+
+<p>Before you finish up there's some icons that need your attention.  First of all you'd want to have a look into the directory with menu images, particularly the file &quot;menu_link_default.gif&quot;.  The image with that filename is what will be shown if you do not specify an icon in the menu, or the item's URL matches something in the icon list.  On my site I have a document-like icon, but you can change it to whatever you like.</p>
+
+<p>Then there's the icon list. If you're happy with how the menu works already there's no need to alter it. You can instead read about how to add the <a href="tracking-code.shtml">tracking code</a> to the whole site. Those curious about how to define icons read on.</p>
+
+<p>When the menu system tries to determine what icon an item should have it first checks whether you specified one in the menu.  If you didn't specify any it checks each item's URL against the icon list to see if there are any matches.  If no match was found the item gets the default icon.  With the icon list you'll be able to change icons depending on quite a lot of things. Let's have a look at what the icon list looks like by default:</p>
+
+<pre><code>var MTMIconList = null;
+MTMIconList = new IconList();
+MTMIconList.addIcon(new MTMIcon(&quot;menu_link_external.gif&quot;, &quot;http://&quot;, &quot;pre&quot;));
+MTMIconList.addIcon(new MTMIcon(&quot;menu_link_pdf.gif&quot;, &quot;.pdf&quot;, &quot;post&quot;));
+</code></pre>
+
+<p>As you can see it looks more or less like a menu.  That's intentional.  The list contains items specifying the icon to be used, what you should try to find in the item's URL, and what kind of match we're looking for. In other words each line looks like this:</p>
+
+<pre><code>MTMIconList.addIcon(new MTMIcon(filename, match, type));</code></pre>
+
+<p>If we look at the first icon we add to the icon list it has the filename &quot;menu_link_external&quot;.  This is a picture of a globe. &quot;match&quot; is set to &quot;http://&quot; and type to &quot;pre&quot;.  The two latter variables tell the script to look for &quot;http://&quot; at the beginning of the item's URL.  The result is that all URLs that point to external web-sites get the globe icon.  Type &quot;pre&quot; can therefore be used when you want all menu items pointing to a specific site, or using a specific protocol (e.g. &quot;ftp://&quot;) to have the same icon.</p>
+
+<p>The next icon we add is of type &quot;post&quot;, which means that we look for &quot;match&quot; at the end of the menu item's URL.  In this case we look for &quot;.pdf&quot; which is the file extention for PDF (Portable Data Format) documents.  Type &quot;post&quot; therefore enables you to assign icons to menu items depending on their file extention.</p>
+
+<p>There is also another type available, but it isn't used in the default icon list.  This type is &quot;any&quot;.  It means that as long as the menu item's URL contains &quot;match&quot; it will use the specified icon.  This can for instance be used to give all menu items that point to the same directory the same icons.</p>
+
+<p>In other words, this is a powerful thing making you easily able to change icons for many menu items by only changing or adding one line to the icon list.  Remember to change the list so it suits your needs.</p>
+
+<p>Now it's on to the last part of the installation guide, <a href="tracking-code.html">tracking code</a>.</p>
+
+<script type="text/javascript">
+if(parent.location.href == location.href) {
+  var searchString = "http://" + location.host + "/";
+  var docString = location.href.substring(searchString.length);
+  document.write('<div class="footer"><span id="noframes"><a href="/index.shtml?' + docString + '">No frames?</a></span></div>');
+}
+</script>
+</body>
+</html>

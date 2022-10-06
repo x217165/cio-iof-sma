@@ -1,0 +1,155 @@
+<%@ Language=VBScript %>
+<%Option Explicit%>
+<%Response.Buffer = True%>
+<!--#include file = "smaConstants.inc"-->
+<!--#include file = "smaProcs.inc"-->
+<!--#include file = "databaseconnect.asp" -->
+<!--
+*****************************************************************************************
+* File Name:	STypeAttRpt.asp
+* Author:		Linda chen
+* Purpoase:		Display Service Attribute Report and Exportable to an Excel File 
+* Date:			August 2009
+******************************************************************************************
+-->
+
+<%
+Dim intAccessLevel, strRealUserID
+Dim strAttID, strSql, objUsageRs, strExport
+Dim strAttvID
+
+
+strExport = Request("hdnExport")
+intAccessLevel = CInt(CheckLogon(strConst_ServiceCatalogue))
+strAttID = Request("hdnselSTAtt")
+strAttvId = Request("hdnselSTAttv")
+'strSql ="select at.srvc_type_att_name att_name, av.srvc_type_att_val_name " &_
+'		"from crp.srvc_type_att at, " &_
+'    	"crp.srvc_type_att_val av, " &_
+'     	"crp.srvc_type_att_val_usage au "&_
+'		"where at.srvc_type_att_id = au.srvc_type_att_id "&_
+'		"and  av.srvc_type_att_val_id = au.srvc_type_att_val_id " &_
+'		"and au.RECORD_STATUS_IND = 'A' "
+		
+strSql ="select at.srvc_type_att_name att_name, av.srvc_type_att_val_name, " &_
+		"at.srvc_type_att_id " &_
+		"from crp.srvc_type_att at, " &_
+     	"crp.srvc_type_att_val av, " &_
+     	"crp.srvc_type_att_val_rule ar, "&_
+     	"crp.srvc_type_att_val_rule_stat ars " &_
+		"where at.srvc_type_att_id = ar.srvc_type_att_id "&_
+		"and  av.srvc_type_att_val_id = ar.srvc_type_att_val_id " &_
+		"and ar.srvc_type_att_val_rule_id = ars.srvc_type_att_val_rule_id " &_
+		"and ars.srvc_type_att_val_rule_stat_cd = 'A' " &_
+		"and (ars.eff_stop_ts > sysdate or ars.eff_stop_ts = NULL)"
+		
+if (strAttID <> 0) then
+	strSql = strSql  & "and ar.srvc_type_att_id = " & strAttID
+end if
+if (strAttvID <> 0) then
+	strSql = strSql  & " and ar.srvc_type_att_val_id = " & strAttvID
+end if
+
+
+
+strSql = strSql & " order by att_name"
+
+'response.write strSql
+'response.end
+
+set objUsageRs = objConn.Execute(strSql)
+%>
+
+<HTML>
+<head>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<LINK REL="stylesheet" TYPE="text/css" HREF="stylesheets/styles.css">
+<script type="text/javascript" SRC="GeneralJavaFunctions.js"></script>
+<script type="text/javascript" SRC="AccessLevels.js"></script>
+<TITLE>Service Attribute(s)</TITLE>
+<SCRIPT LANGUAGE=javascript>
+</SCRIPT>
+
+</head>
+
+<body>
+<form id=frmSTAttRpt name=frmSTAttRpt method=post action="STypeAttRpt.asp" >
+	<INPUT id="hdnExport" name="hdnExport" type=hidden  value="">
+	<input id="hdnselSTAtt" name="hdnselSTAtt" type=hidden 
+	value=<%if (strAttID <> "") then  Response.Write(strAttID) else Response.Write """""" end if%>>	
+	<input id="hdnselSTAttv" name="hdnselSTAttv" type=hidden 
+	value=<%if (strAttvID <> "") then  Response.Write(strAttvID) else Response.Write """""" end if%>>	
+
+	
+<% if strExport = "" then %>
+  <IMG src="images/excel.gif" onClick="target='new';hdnExport.value='xls';submit(); hdnExport.value=''; target='_self';" width="32" height="32">
+<% end if 
+if strExport <> "" then 
+'response.write(StrSql)
+'response.end
+
+	Response.Clear()
+	Response.Buffer = True
+	Response.AddHeader "Content-Disposition", "attachment;filename=AttReport.xls" 
+	Response.ContentType = "application/vnd.ms-excel"
+end if %>
+
+<table border=1 >
+	<thead>
+	<tr>
+		<td> Service Attribute(s)</td>
+		<td> Service Attribute Vlues</td>
+		<td> Displayed in SMA</td>
+		<td> Displayed in SRT</td>
+	</tr>
+	</thead>
+	<tbody>
+	<% Do while Not objUsageRs.EOF %>
+	<tr>
+		<td><% =objUsageRs(0) %></td>
+		<td><% =objUsageRs(1) %></td>
+		<% dim objAppRs, strDispApp
+		   strSQL = " select application_id from crp.appl_srvc_typ_att_rule ar, crp.appl_srvc_typ_att_rule_stat ars " &_
+					" where ar.srvc_type_att_id = " & objUsageRs(2) &_
+					" and ar.APPL_SRVC_TYP_ATT_RULE_ID = ars.APPL_SRVC_TYP_ATT_RULE_ID " &_
+					" AND ars.APPL_SRVC_TYP_ATT_RULE_STAT_CD = 'A' "&_ 
+					" and (ars.EFF_STOP_TS > sysdate or ars.EFF_STOP_TS=NULL) "
+		   set objAppRs = objConn.Execute(strSql)
+		   strDispApp=""
+		   Do While Not objAppRs.EOF
+		   		if Clng(objAppRs(0)) = 1 then
+		   			strDispApp = "SMA" & strDispApp 
+		   		end if
+		   		if Clng(objAppRs(0)) = 2 then
+		   			strDispApp = strDispApp & " SRT" 
+		   		end if
+		        objAppRs.MoveNext
+		  loop
+		  if InStr(strDispApp, "SMA") > 0 then
+			response.write("<td> Yes </td> ")
+		  else
+			response.write("<td> No </td> ")
+		  end if
+		  if InStr(strDispApp, "SRT") > 0 then
+			response.write("<td> Yes </td> ")
+		  else
+			response.write("<td> No </td> ")
+		  end if %>
+
+		    
+	</tr>
+	<% objUsageRs.MoveNext   
+	Loop %>	
+	</tbody>
+</table>
+</form>
+<%
+    objUsageRS.close
+    set objUsageRS = Nothing
+    objConn.close
+    set ObjConn = Nothing    
+%>
+
+</body>
+</html>

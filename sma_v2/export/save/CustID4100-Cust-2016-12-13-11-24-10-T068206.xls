@@ -1,0 +1,92 @@
+<table border=1>
+<THEAD>
+<TH>Customer ID</TH>
+<TH>Customer Record Status</TH>
+<TH>Status</TH>
+<TH>Customer Name</TH>
+<TH>Short Name</TH>
+<TH>Alias ID</TH>
+<TH>Alias</TH>
+<TH>Region</TH>
+<TH>Contact ID</TH>
+<TH>Contact Record Status</TH>
+<TH>Customer Service Manager</TH>
+<TH>TELUS Staff</TH>
+<TH>Work Phone</TH>
+<TH>Home Phone</TH>
+<TH>Cell Phone</TH>
+<TH>Pager</TH>
+<TH>Fax Number</TH>
+<TH>Email Address</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>4100&nbsp;</TD>
+
+<TD NOWRAP> &nbsp;</TD>
+
+<TD NOWRAP>Current&nbsp;</TD>
+
+<TD NOWRAP>ROYAL BANK&nbsp;</TD>
+
+<TD NOWRAP>ROYL&nbsp;</TD>
+
+<TD NOWRAP>15941&nbsp;</TD>
+
+<TD NOWRAP>ROYAL BANK&nbsp;</TD>
+
+<TD NOWRAP>BC&nbsp;</TD>
+
+<TD NOWRAP>168857&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>Van Wely, Claudia &nbsp;</TD>
+
+<TD NOWRAP> &nbsp;</TD>
+
+<TD NOWRAP>4168833095&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>4168927974&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>4100&nbsp;</TD>
+
+<TD NOWRAP> &nbsp;</TD>
+
+<TD NOWRAP>Current&nbsp;</TD>
+
+<TD NOWRAP>ROYAL BANK&nbsp;</TD>
+
+<TD NOWRAP>ROYL&nbsp;</TD>
+
+<TD NOWRAP>15942&nbsp;</TD>
+
+<TD NOWRAP>ROYL&nbsp;</TD>
+
+<TD NOWRAP>BC&nbsp;</TD>
+
+<TD NOWRAP>168857&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>Van Wely, Claudia &nbsp;</TD>
+
+<TD NOWRAP> &nbsp;</TD>
+
+<TD NOWRAP>4168833095&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>4168927974&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+</table>

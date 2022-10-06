@@ -1,0 +1,58 @@
+<%
+const strConstConnectString = "MIH3BgkrBgEEAYI3WAOggekwgeYGCisGAQQBgjdYAwGggdcwgdQCAwIAAQICZhACAgEABBAAAAAAAAAAAAAAAAAAAAAABBD30to6qFXyq3aPCrlFJ6LwBIGgCaxcigmKVVokql3sAiGE/cyiYhBbbK3F0NHtizROa6eIKav1+0MdsNzlJNATn1aF3V9u24f08t4l9NWj31sX8h6uysTipTeZ4EKt16FSn9mFWH/KZyEvuzEUQ76Gd9GxC9CeVbhrBLLqodoZiSjDziV9oFHkN4/hcOJUjCDd0MWzWQykvBc2aql+48LEHYGA8c25vxNoJo71EQ04NLoomw=="
+const strConstSConnectString ="MIH3BgkrBgEEAYI3WAOggekwgeYGCisGAQQBgjdYAwGggdcwgdQCAwIAAQICZhACAgEABBAAAAAAAAAAAAAAAAAAAAAABBCqB5JneLiKJs4anJDg4hoNBIGguDeHinpyrmJ0eIhuuail5wp513/eRmIsQNyX82dE7uE4rdY5PwwtpjV7+NEdat653lv6iYngynwRkqVlKYo9cka4VeS/f8HIUnrqkzBJLQb7UxCb3a/qOLutCoOI83fdjV5BIM+ucpriQmyDZcUgMd5tBWFy+1km7GKp0LE2wFZ8h5OjgmNlOYfAgsNNkOMZgwHAiG24tP3AQHBsmAB9EQ=="
+const APP_SMA_ALL_LCD="MIIBBwYJKwYBBAGCN1gDoIH5MIH2BgorBgEEAYI3WAMBoIHnMIHkAgMCAAECAmYQAgIBAAQQAAAAAAAAAAAAAAAAAAAAAAQQoQTMBY/ayc3zeeHmpFjWXwSBsI2IeCy4F2ubBi6l4UTSRLLUKZQfpS0TrPErsrxQJYjkFclIfqowiIY1PzVJO3vU7j92B0GlueCuMNZ0QEDdatp+yEQsGh25UEiZWkRshUTAJ6/sqMmBfTt06jgVhG+dZluMvFdwAJJCmkhSEzDqBeYmsepGAgwpRM1sdE1e1676nWJoiVBGF87jOJul5BAk+jwiYcqZi7V5YDYMQtGMPuwR9407tycWDHmup3X9w4Nc"
+const APP_SMA_GCNET="MIH3BgkrBgEEAYI3WAOggekwgeYGCisGAQQBgjdYAwGggdcwgdQCAwIAAQICZhACAgEABBAAAAAAAAAAAAAAAAAAAAAABBCj4RTjyLRgXjdL5w0wqBziBIGgNsBMpHUKS4tWlh9wAh9ixIAsOyA+G/TBLPrr+pzpolZgvktkxFQ2G72aIXPRVmO6BKRAPSIM+RZfR1D4fW4ZpTHV1DHuV+HQ++LKQSrH+aYnwACYOjf1zZKn/9cbF7dh5P411PPEPYpHmuyvEbqCQN0PuQwXINzOWrMRtulpkfvkyw+9L9ZqfB5673+o/42Kk8WSlJEUIhSin2XlvM3Jww=="
+const APP_SMA_OPSNAS="MIIBBwYJKwYBBAGCN1gDoIH5MIH2BgorBgEEAYI3WAMBoIHnMIHkAgMCAAECAmYQAgIBAAQQAAAAAAAAAAAAAAAAAAAAAAQQqiMf1IMTM2AdRZcfN2WE9QSBsH3lyI7/S6gaG5pATrDQN+VZovOwfEqA3JGyc5MuVgm+pwyvmUyqivaJebXky2tMyR1Cbcy4P1G23J2iODPlCqO+LtfqdU3+Rsf7v+/rvdCvbs8Mo/s4nDHuOMfAqF/pF8FiJuKTVs+H5g5zk0yB2LxHUUpDHrwIIL3IaNyBNiuZt7F9o6qeosohXRRtyUl5yNjEOu2A0C7rFI0xNT95iEl6DB0tOWBU2aSAKvgMrr1K"
+const APP_SMA_GOCWCS="MIIBBwYJKwYBBAGCN1gDoIH5MIH2BgorBgEEAYI3WAMBoIHnMIHkAgMCAAECAmYQAgIBAAQQAAAAAAAAAAAAAAAAAAAAAAQQxUvQR2Wkmi8YuPUFXlk8bASBsNpe+iPlBr4xL75NckZzUxiEueWBinE+dw3o48kFXm59WnGINzBdXKP/9Al6uSYiQcmNdlBl/xDZRqJfB4Fd3Dw6IswlW2287NNnsbesJI3tFzUdhvbKJ6DXTNdmKiwYgGJUzDuwMn53oXQyqi+seu3N41XMURGQ83yRHqzuejRKJqcFyET0unIu7ieTxcFbOd2Nrm9dtH6vA4ly7w5rsnCsAd8sPReE9cgiAYdHKPDz"
+const APP_SMA_GCGONET="MIIBBwYJKwYBBAGCN1gDoIH5MIH2BgorBgEEAYI3WAMBoIHnMIHkAgMCAAECAmYQAgIBAAQQAAAAAAAAAAAAAAAAAAAAAAQQCQOdNg/34yeiCIQ3UI1Y+gSBsFXJQkTuXivNRaLA3bFWnyu/XHMrxh7XeKdRTj2FDWe7tUP0nfWYT/yOQ/DvbycHKy5HlvBGzTjys6J3XrUXTcZbxp2tp+MXRQCCb8x3zLts1IJ15TAtRiqfZbXaW8HeR4L3/DaLMnAuxY284KNRM2FC/JB6fC02Ppl8uQy0N36DVOlULQYweP0UWd1U5+v5YUbluC8YnQmn3jO5HLdfd9zB0iWzHPW/9jKWaj1TMC3P"
+const APP_SMA_WCSGONET="MIIBGQYJKwYBBAGCN1gDoIIBCjCCAQYGCisGAQQBgjdYAwGggfcwgfQCAwIAAQICZhACAgEABBAAAAAAAAAAAAAAAAAAAAAABBAR6wKvlJQ3xsYqH9Jvi3mQBIHAMHpyRT9GPIQ3X1KVoE8LjK0g8OvXR5whgAro7sUdS/eDk1Xi1eOIoH/4FayNPV8DuldlTLCnkcj0RRB8ba2ZpUcTfTr6fxbNIJO8ZEvA6rY0cFC2XT0XeeRnUveAe9FlsUQI0sMwTIGjYR89u8M7Sb540NH8JwefS8Za+P1+tmn+nw8y+WmSZU3gukEM/bPCak/Yc8GlTFhUiNxYDvsH9/YIrB3x8eoFlLnE0hx7VGH8rCfXXlI/j+21KHwPzSdS"
+const APP_SMA_WCSGCNET="MIIBGQYJKwYBBAGCN1gDoIIBCjCCAQYGCisGAQQBgjdYAwGggfcwgfQCAwIAAQICZhACAgEABBAAAAAAAAAAAAAAAAAAAAAABBBBqHB7ZhepDfkA6Tz70iClBIHAn7yf5xp/ysv1SrB2s8uMNDuiMCMYKCLhOADXfp6jrLAXJz4CiOFfx5XUk9DmN++7lRLX8rpJEWQIDTVHO+TqgJXUktU7DLzHp8jFQUkTegTiI/aef/Q9L7tTav7IhoQ4K4Cn24mSa+UIdjAWFFbH7YegQUV7lmgQiMkov29wnE5m884njwlPZwTGgJLrKk595yc//+GluJ1NSHAxUiOMUN2Vvua0SjRyXX5+IInzCdqJWwdpFFbN9qSfvYX6+6gJ"
+
+'const strConstNetcrackerURL = "http://ln98485.ent.agt.ab.ca:23102/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'AT
+'const strConstNetcrackerURL = "http://ln98485.ent.agt.ab.ca:23122/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'AT new
+'const strConstNetcrackerURL = "http://ln98485.corp.ads:23122:/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'AT new Dec 2013
+'const strConstNetcrackerURL = "http://ln98485.corp.ads:23112:/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'PT new Dec 2013
+'const strConstNetcrackerURL = "http://ln98485.ent.agt.ab.ca:23122/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'PT
+		
+ const strConstNetcrackerURL = "http://ncrpr.tsl.telus.com/solutions/customers/telus/ed/navigate.jsp?to=si&byCSID="	'PR
+' LDAP Parameters (New)
+Const BypassLDAP = False
+'Const propLDAPURL = "LDAP://ldap-pr.tsl.telus.com:636/"
+'Const propLDAPURL = "LDAP://ldap-pr.tsl.telus.com:389/"
+Const propLDAPURL = "LDAP://ldap-pr.tsl.telus.com:389/"
+
+'Customer Profile Web Service
+'Const strCPURL = "http://cm-smbsvc-west-st02.tsl.telus.com/CMO/InformationMgmt/CustomerMgmtSvc/CustomerManagementService_v2_2?wsdl"
+'Const strCPURL = "http://cm-smbsvc-west-pr.tsl.telus.com/CMO/InformationMgmt/CustomerMgmtSvc/CustomerManagementService_v2_2?wsdl"
+'Const strCPURL = "https://servicemngr-st01.tsl.telus.com:443/CMO/InformationMgmt/CustomerMgmtSvc/CustomerManagementService_v2_2_vs0?wsdl"
+'Const strCPURL ="https://soa-mp-toll-pr.tsl.telus.com/CMO/InformationMgmt/CustomerMgmtSvc/CustomerManagementService_v2_2_1_vs0?wsdl"
+Const strCPURL =""
+'NC Web Service
+'Const strNCWSURL = "http://L032310.corp.ads:7001/VPNInventoryService_v1_0_VPNInventoryServicePortImpl/VPNInventoryService_v1_0?WSDL"
+'Const strNCWSURL = "http://ln98485.corp.ads:23062/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0?wsdl" ' pre-AT
+'Const strNCWSURL = "http://ln98485.corp.ads:23102/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0?wsdl" ' AT
+'Const strNCWSURL = "http://ln98486.corp.ads:23112/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0?wsdl" ' AT01
+
+'Const strNCWSURL = "https://servicemngr-dv03.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' DV
+'Const strNCWSURL = "https://servicemngr-pt61.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' AT01 virtual                      
+Const strNCWSURL = "https://soa-mp-rmsk-it01.tsl.telus.com/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_1_vs0?wsdl" ' AT01 virtual
+'Const strNCWSURL ="https://soa-mp-rmsk-it03.tsl.telus.com/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_1_vs0?wsdl"
+'Const strNCWSURL ="https://soa-mp-rmsk-it02.tsl.telus.com/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_1_vs0?wsdl"
+'Const strNCWSURL = "https://soa-mp-rmsk-pr.tsl.telus.com/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_1_vs0?wsdl"
+'Const strNCWSURL = "https://servicemngr-pt41.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' AT06 virtual
+'Const strNCWSURL = "https://servicemngr-st01.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' ST01 virtual
+'Const strNCWSURL = "https://servicemngr1-pr.tsl.telus.com:443/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_vs0?wsdl" ' PR virtual
+'Const strNCWSURL ="https://soa-mp-rmsk-is09.tsl.telus.com/RMO/InventoryMgmt/Inventory/VPNInventoryService_v1_0_1_vs0?wsdl"
+
+Const int_max_vpnpercustomer = 300                                         'Maximum number of vpns/customer records returned from the NC web service call (getVPNListByCustomer)
+'Const strPermItWSURL= "https://soa-mp-toll-pr.tsl.telus.com/EO/SecurityMgmt/AuthorizationPolicyService_v1_1_vs0?wsdl"
+'Const strPermItWSURL="http://ln98949.corp.ads:50010/EO/SecurityMgmt/Authz/AuthorizationPolicyService_v1_1?wsdl"
+Const strPermItWSURL = "https://soa-mp-toll-pt02.tsl.telus.com/EO/SecurityMgmt/AuthorizationPolicyService_v1_1_vs0?WSDL"
+'Const strPermItWSURL= "https://soa-mp-toll-pr.tsl.telus.com/EO/SecurityMgmt/AuthorizationPolicyService_v1_1_vs0?wsdl"
+
+
+const SRT2_URL="https://srt2.tsl.telus.com/" 		
+const ESD_REP_URL="http://tacabcbrs01v.corp.ads/ESDReports/"
+
+%>

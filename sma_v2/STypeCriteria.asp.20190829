@@ -1,0 +1,464 @@
+<%@  language="VBScript" %>
+<%Option Explicit%>
+<%Response.Buffer = True%>
+<!--#include file = "smaConstants.inc"-->
+<!--#include file = "smaProcs.inc"-->
+<!--#include file = "databaseconnect.asp" -->
+<!--
+******************************************************************************
+*
+*
+* In Param:		This pages reads following cookies
+*					STypeDescription
+*
+*******************************************************************************
+-->
+<%
+Dim strWinName, strBusinessID, strServiceCategoryID, strSTypeID, strSTypeDesc, strServiceLevelID, lIndex, strLANG
+Dim lRow, arrLOBList, pfRow, arrSCategoryList, arrSCategoryListEN, arrSLevelList, arrRevenueList
+Dim objRS, strSQL, strWhereClause
+Dim intAccessLevel
+
+
+	intAccessLevel = CInt(CheckLogon(strConst_ServiceCatalogue))
+	If (intAccessLevel And intConst_Access_ReadOnly) <> intConst_Access_ReadOnly Then
+		DisplayError "BACK", "", 0, "ACCESS DENIED", "You don't have access to Service Category. Please contact your system administrator"
+	End If
+
+	strWinName = Request.Cookies("WinName")
+
+	strBusinessID = Request.Cookies("BusinessID")
+	strServiceCategoryID = Request.Cookies("ServiceCategoryID")
+	strServiceLevelID = Request.Cookies("ServiceLevelID")
+	strSTypeID = Request.Cookies("ServiceType")
+	strSTypeDesc = Request.Cookies("STypeDesc")
+
+'TQ_INOSS
+	strLANG = Request.Cookies("UserInformation")("language_preference")
+	if (Len(strLANG) = 0) then strLANG = "EN"
+
+	strSQL =" SELECT LOB_ID, LOB_CODE, LOB_DESC " &_
+			" FROM CRP.V_LOB " &_
+			" WHERE lob_id NOT IN " &_
+		    " (SELECT lob_id " &_
+		    " FROM crp.v_lob " &_
+		    " WHERE language_preference_lcode = '" & strLANG & "' ) " &_
+			" AND LANGUAGE_PREFERENCE_LCODE = 'EN' " &_
+			" AND RECORD_STATUS_IND = 'A'" &_
+			" UNION SELECT LOB_ID, LOB_CODE, LOB_DESC " &_
+			" FROM crp.v_lob " &_
+			" WHERE language_preference_lcode = '" & strLANG & "' " &_
+			" AND RECORD_STATUS_IND = 'A' " &_
+			" ORDER BY LOB_DESC "
+'response.end
+	'Create Recordset object
+	Set objRS = Server.CreateObject("ADODB.Recordset")
+	objRS.Open strSQL, objConn, adOpenForwardOnly, adLockReadOnly, adCmdText
+	arrLOBList = objRS.GetRows
+
+	'Get SERVICE_CATEGORY
+	strLANG = Request.Cookies("UserInformation")("language_preference")
+
+	if (Len(strLANG) = 0) then strLANG = "EN"
+
+	strSQL = "SELECT SERVICE_CATEGORY_ID, LOB_ID, SERVICE_CATEGORY_DESC, LANGUAGE_PREFERENCE_LCODE " &_
+			"FROM CRP.V_SERVICE_CATEGORY "&_
+			"WHERE SERVICE_CATEGORY_ID NOT IN" &_
+			      	"(SELECT SERVICE_CATEGORY_ID " &_
+		      		"FROM CRP.V_SERVICE_CATEGORY " &_
+			      	"WHERE language_preference_lcode = '" & strLANG & "' ) " &_
+			"AND LANGUAGE_PREFERENCE_LCODE = 'EN'" &_
+			"AND RECORD_STATUS_IND = 'A'" &_
+			"UNION SELECT SERVICE_CATEGORY_ID, LOB_ID, SERVICE_CATEGORY_DESC, LANGUAGE_PREFERENCE_LCODE " &_
+			"FROM CRP.V_SERVICE_CATEGORY " &_
+			"WHERE language_preference_lcode = '" & strLANG & "'" &_
+			"AND RECORD_STATUS_IND = 'A' " &_
+			"ORDER BY SERVICE_CATEGORY_DESC"
+
+	'Create Recordset object
+	Set objRS = Server.CreateObject("ADODB.Recordset")
+	objRS.Open strSQL, objConn, adOpenForwardOnly, adLockReadOnly, adCmdText
+	arrSCategoryList = objRS.GetRows
+
+
+	' Get English versions
+	strSQL = " SELECT service_category_id, service_category_desc " &_
+			 " FROM crp.service_category " &_
+			 " WHERE record_status_ind = 'A' "
+
+	Set objRS = Server.CreateObject("ADODB.Recordset")
+	objRS.Open strSQL, objConn, adOpenForwardOnly, adLockReadOnly, adCmdText
+	arrSCategoryListEN = objRS.GetRows
+
+'	Response.Write (arrSCategoryList(0,0) & " " & arrSCategoryListEN(0,0))
+'	Response.End
+
+	for lRow = 0 to UBound(arrSCategoryList, 2)
+		if (strcomp(arrSCategoryList(3,lRow), "EN") <> 0 ) then
+			' For non-English entries only, append the English
+			for pfRow = 0 to UBound(arrSCategoryListEN, 2)
+				if (strcomp(arrSCategoryList(0,lRow), arrSCategoryListEN(0,pfRow)) = 0) then
+					if (strcomp(arrSCategoryList(2,lRow), arrSCategoryListEN(1,pfRow)) <> 0) then
+						' Append English version to the end of any translated service categories
+						arrSCategoryList(2,lRow) = arrSCategoryList(2,lRow) & " (" & arrSCategoryListEN(1,pfRow) & ")"
+						pfRow = UBound(arrSCategoryListEN, 2) + 1 ' Done: Skip out of the loop early
+					end if
+				end if
+			next
+		end if
+	next
+
+	'Get the Service Level Agreements
+	StrSql = "SELECT SERVICE_LEVEL_AGREEMENT_ID, AVAILABLE_SCHEDULE_ID, SERVICE_LEVEL_AGREEMENT_DESC "&_
+			"FROM CRP.SERVICE_LEVEL_AGREEMENT "&_
+			"WHERE RECORD_STATUS_IND = 'A' "&_
+			"ORDER BY SERVICE_LEVEL_AGREEMENT_DESC"
+
+	'Create Recordset object
+	Set objRS = Server.CreateObject("ADODB.Recordset")
+	objRS.Open strSQL, objConn, adOpenForwardOnly, adLockReadOnly, adCmdText
+	arrSLevelList = objRS.GetRows
+
+	StrSql = "SELECT REVENUE_REGION_LCODE, " &_
+	         "       REVENUE_REGION_DESC " &_
+			 "FROM SO.LCODE_REVENUE_REGION " &_
+			 "WHERE RECORD_STATUS_IND = 'A' "
+
+	'Create Recordset object
+	Set objRS = Server.CreateObject("ADODB.Recordset")
+	objRS.Open strSQL, objConn, adOpenForwardOnly, adLockReadOnly, adCmdText
+	arrRevenueList = objRS.Getrows
+%>
+<html>
+<head>
+    <meta name="Generator" content="Microsoft Visual Studio 6.0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <script type="text/javascript" language="javascript" src="AccessLevels.js"></script>
+    <script type="text/javascript" language="javascript" src="GeneralJavaFunctions.js"></script>
+    <script type="text/javascript" language="javascript" id="clientEventHandlersJS">
+<!--
+    var intAccessLevel = <%=intAccessLevel%>;
+    var strWinName = "<%=strWinName%>";
+
+    var arrLOBList = new Array();
+    var arrServiceCategoryList = new Array();
+
+    //set section title
+    setPageTitle("SMA - Service Type");
+
+
+    function window_onLoad() {
+        //****************************************************************************************
+        //
+        //
+        //
+        //
+        //****************************************************************************************
+        var intCounter;
+
+        arrLOBList[0] = "";
+        arrServiceCategoryList[0] = "";
+        //debugger;
+
+        //var doc;
+        //var iframeObject = document.getElementById('mainFrame'); // MUST have an ID
+        //if (iframeObject.contentDocument) { // DOM
+        //    doc = iframeObject.contentDocument;
+        //} 
+        //else if (iframeObject.contentWindow) { // IE win
+        //    doc = iframeObject.contentWindow.document;
+        //}
+
+        //  debugger;
+        var lobOptions = document.getElementById("selLOB").getElementsByTagName("option");
+        for (intCounter = 1; intCounter < lobOptions.length; intCounter++) {
+            var oOption = lobOptions[intCounter];
+            //Each array element holds LOB_ID|LOB_DESC
+            arrLOBList[intCounter] = (oOption.value + "|" + oOption.text);
+        }
+
+        var searchOptions = document.getElementById("selSCategory").getElementsByTagName("option");
+        for (intCounter = 1; intCounter < searchOptions.length; intCounter++) {
+            var oOption = searchOptions[intCounter];
+            //Each array element holds SERVICE_CATEGORY_ID|LOB_ID|SERVICE_CATEGORY_DESC
+            arrServiceCategoryList[intCounter] = (oOption.value + "|" + oOption.text);
+            var strValue = oOption.value;
+            var arrValue = strValue.split("|");
+            oOption.value = arrValue[0];
+        }
+        
+        
+        var  lob =  document.getElementById("selLOB") ;
+
+        if (lob.selectedIndex != 0
+                || document.getElementById("selSCategory").selectedIndex != 0
+                || document.getElementById("selSLevel").selectedIndex != 0
+                || document.getElementById("hdnSTypeID").value != ""
+                || document.getElementById("txtSTypeDescription").value != "") {
+
+
+            document.getElementById("hdnSTypeID").value != ""
+            //document.frmSTypeSearch.hdnSTypeID.value = "";
+            DeleteCookie("BusinessID");
+            DeleteCookie("ServiceCategoryID");
+            DeleteCookie("ServiceLevelID");
+            DeleteCookie("ServiceType");
+            DeleteCookie("STypeDesc");
+            DeleteCookie("WinName");
+            document.frmSTypeSearch.submit();
+        }
+    }
+
+    function fct_onChangeLOB() {
+        var intCounter = 1;
+        var strBusinessID;
+
+        if (document.frmSTypeSearch.selLOB.selectedIndex != 0) {
+            strBusinessID = document.frmSTypeSearch.selLOB.value;
+
+            //Remove all the OPTION tags from the Service Category
+            for (intCounter = document.frmSTypeSearch.selSCategory.length - 1; intCounter > 0; intCounter--) {
+                document.frmSTypeSearch.selSCategory.options.remove(intCounter);
+            }
+            //Add Service Categories that belong to the selected Line of Business
+            for (intCounter = 1; intCounter < arrServiceCategoryList.length; intCounter++) {
+                var strValue = arrServiceCategoryList[intCounter];
+                var arrValue = strValue.split("|");
+                if (arrValue[1] == strBusinessID) {
+                    var strElement = "<OPTION VALUE='" + arrValue[0] + "'>" + arrValue[2] + "</OPTION>";
+                    var oOption = document.createElement(strElement);
+                    document.frmSTypeSearch.selSCategory.options.add(oOption);
+                    oOption.innerText = arrValue[2];	//SERVICE_CATEGORY_DESC
+                    //				oOption.Value = arrValue[1];		//LOB_ID
+                    //				oOption.Value = arrValue[0];		//SERVICE_CATEGORY_ID
+                }
+            }
+        }
+        else {
+            //Remove all the OPTION tags from the Service Category
+            for (intCounter = document.frmSTypeSearch.selSCategory.length - 1; intCounter > 0; intCounter--) {
+                document.frmSTypeSearch.selSCategory.options.remove(intCounter);
+            }
+            //Add all the Service Categories
+            for (intCounter = 1; intCounter < arrServiceCategoryList.length; intCounter++) {
+                var strValue = arrServiceCategoryList[intCounter];
+                var arrValue = strValue.split("|");
+                var strElement = "<OPTION VALUE='" + arrValue[0] + "'>" + arrValue[2] + "</OPTION>";
+                var oOption = document.createElement(strElement);
+                document.frmSTypeSearch.selSCategory.options.add(oOption);
+                oOption.innerText = arrValue[2];	//SERVICE_CATEGORY_DESC
+                //			oOption.Value = arrValue[1];		//LOB_ID
+                //			oOption.Value = arrValue[0];		//SERVICE_CATEGORY_ID
+            }
+        }
+    }
+
+    function btnCalendar_onClick(intDateFieldNo) {
+        var NewWin;
+
+        SetCookie("Field", intDateFieldNo);
+        NewWin=window.open("TheCalendar.asp","NewWin","toolbar=no,status=no,width=260,height=225,menubar=no,resize=no");
+        //NewWin.creator=self;
+        NewWin.focus();
+    }
+
+    function btnNew_onClick() {
+        //************************************************************************************************
+        // Function:	btnAddNew_onClick()
+        //
+        // Purpose:		To bring up a blank Service Type Detail page so that user can enter a new ST.
+        //
+        // Created By:	Gilles Archer Oct 02 2000
+        //
+        // Updated By:
+        //************************************************************************************************
+        if ((intAccessLevel & intConst_Access_Create) != intConst_Access_Create) {
+            alert('You do not have permission to CREATE a Service Type.  Please contact your System Administrator.');
+            return false;
+        }
+        parent.document.location.href ="STypeDetail.asp?ServiceTypeID=NEW";
+    }
+
+    function fct_onChange() {
+        document.frmSTypeSearch.hdnSTypeID.value = "";
+    }
+
+    function btnClear_onClick() {
+        with (document.frmSTypeSearch) {
+            selLOB.selectedIndex = 0;
+            selSCategory.selectedIndex = 0;
+            selSLevel.selectedIndex = 0;
+            selday.selectedIndex = 0;
+            selmonth.selectedIndex = 0;
+            selyear.selectedIndex = 0;
+            selRevenue.selectedIndex=0 ;
+            hdnSTypeID.value = "";
+            txtSTypeDescription.value = "";
+            chkActiveOnly.checked = true;
+            chkPrefLangOnly.checked = true;
+        }
+    }
+
+    function fct_setDays(iIndex) {
+        var intDays = 31;
+        var strMonth = document.frmSTypeSearch.item("selmonth", iIndex).options[document.frmSTypeSearch.item("selmonth", iIndex).selectedIndex].value;
+        var strYear = document.frmSTypeSearch.item("selyear", iIndex).options[document.frmSTypeSearch.item("selyear", iIndex).selectedIndex].value;
+        var intCurrentDay = document.frmSTypeSearch.item("selday", iIndex).options[document.frmSTypeSearch.item("selday", iIndex).selectedIndex].value;
+        var intCounter = document.frmSTypeSearch.item("selday", iIndex).options.length;
+
+        switch (strMonth) {
+            case "02":						//February
+                if (strYear % 4 != 0) { intDays = 28; }
+                else if (strYear % 400 == 0) { intDays = 29; }
+                else if (strYear % 100 == 0) { intDays = 28; }
+                else { intDays = 29; }
+                break;
+            case "04": intDays = 30; break;	//April
+            case "06": intDays = 30; break;	//June
+            case "09": intDays = 30; break;	//September
+            case "11": intDays = 30; break;	//November
+            default: intDays = 31; break;	//January, March, May, July, August, October, December
+        }
+        if (intCounter <= intDays) {
+            while (intCounter <= intDays) {
+                var oOption = new Option(intCounter, intCounter);
+                document.frmSTypeSearch.item("selday", iIndex).options[intCounter++] = oOption;
+            }
+        }
+        else {
+            while (intCounter > intDays) {
+                document.frmSTypeSearch.item("selday", iIndex).options[intCounter--] = null;
+            }
+        }
+        if (intCurrentDay > intDays) {
+            document.frmSTypeSearch.item("selday", iIndex).selectedIndex = intDays;
+        }
+    }
+    //-->
+    </script>
+</head>
+<body language="javascript" onload="window_onLoad();">
+    <form id="frmSTypeSearch" name="frmSTypeSearch" method="post" action="STypeList.asp" target="fraResult">
+        <input type="hidden" id="hdnWinName" name="hdnWinName" value="<%=strWinName%>">
+        <table cols="4" width="100%">
+            <thead>
+                <th colspan="4" align="left">Service Type Search</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">Line of Business</td>
+                    <td align="left">
+                        <select id="selLOB" name="selLOB" style="width: 350px" onchange="fct_onChangeLOB();">
+                            <option></option>
+                            <%For lRow = LBound(arrLOBList, 2) To UBound(arrLOBList, 2)
+				If StrComp(strBusinessID, arrLOBList(0, lRow), 0) = 0 Then%>
+                            <option selected value="<%=arrLOBList(0, lRow)%>"><%=arrLOBList(1, lRow) & " - " & arrLOBList(2, lRow)%></option>
+                            <%Else%>
+                            <option value="<%=arrLOBList(0, lRow)%>"><%=arrLOBList(1, lRow) & " - " & arrLOBList(2, lRow)%></option>
+                            <%	End If
+			Next%>
+                        </select>
+                    </td>
+                    <td align="right" nowrap>Search Date</td>
+                    <td align="left">
+                        <select id="selmonth" name="selmonth" onchange="fct_setDays(0);">
+                            <option></option>
+                            <%For lIndex = 1 To 12
+			Response.Write "<OPTION "
+			If lIndex = Month(Now()) Then Response.Write "selected "
+			If lIndex < 10 Then	lIndex = "0" & lIndex
+			Response.Write "value='" & lIndex & "'>" & monthName(lIndex, False) & "</OPTION>"
+		Next%>
+                        </select>
+                        <select id="selday" name="selday" onchange="fct_setDays(0);">
+                            <option></option>
+                            <%For lIndex = 1 To 31
+			Response.Write "<OPTION "
+			If lIndex = Day(Now()) Then Response.Write "selected "
+			If lIndex < 10 Then	lIndex = "0" & lIndex
+			Response.Write "value='" & lIndex & "'>" & lIndex & "</OPTION>"
+		Next%>
+                        </select>
+                        <select id="selyear" name="selyear" onchange="fct_setDays(0);">
+                            <option></option>
+                            <%For lIndex = intBaseYear To Year(Now) + 7
+			Response.Write "<OPTION "
+			If lIndex = Year(Now()) Then Response.Write "selected "
+			Response.Write "value='" & lIndex & "'>" & lIndex & "</OPTION>"
+		Next%>
+                        </select>
+                        <input id="btnCalendar" name="btnCalendar" type="button" value="..." language="javascript" onclick="btnCalendar_onClick(0);"></td>
+                </tr>
+                <tr>
+                    <td align="right">Service Category</td>
+                    <td align="left">
+                        <select id="selSCategory" name="selSCategory" style="width: 350px">
+                            <option></option>
+                            <%For lRow = LBound(arrSCategoryList, 2) To UBound(arrSCategoryList, 2)
+				If StrComp(strServiceCategoryID, arrSCategoryList(0, lRow), 0) = 0 Then%>
+                            <option selected value="<%=arrSCategoryList(0, lRow)%>"><%=arrSCategoryList(2, lRow)%></option>
+                            <%Else%>
+                            <option value="<%=arrSCategoryList(0, lRow)%>"><%=arrSCategoryList(2, lRow)%></option>
+                            <%	End If
+			Next%>
+                        </select>
+                    </td>
+                    <td align="right">Revenue Region</td>
+                    <td align="left">
+                        <select id="selRevenue" name="selRevenue" style="width: 195px">
+                            <option></option>
+                            <%For lRow = LBound(arrRevenueList, 2) To UBound(arrRevenueList, 2) %>
+                            <option value="<%=arrRevenueList(0, lRow)%>"><%=arrRevenueList(1, lRow)%></option>
+                            <%Next%>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Service Type</td>
+                    <td align="left">
+                        <input type="hidden" id="hdnSTypeID" name="hdnSTypeID" value="<%=strSTypeID%>">
+                        <input type="text" id="txtSTypeDescription" name="txtSTypeDescription" value="<%=strSTypeDesc%>" maxlength="80" style="width: 350px" onkeypress="fct_onChange();">
+                    </td>
+                    <td>&nbsp;</td>
+                    <td align="left">Active&nbsp;Only&nbsp;<input id="chkActiveOnly" name="chkActiveOnly" tabindex="12" type="checkbox" value="YES" checked style="height: 24px; width: 24px">&nbsp;Pref'd Lang Only&nbsp;<input id="chkPrefLangOnly" name="chkPrefLangOnly" tabindex="12" type="checkbox" value="YES" checked style="height: 24px; width: 24px"></td>
+                </tr>
+                <tr>
+                    <td align="right">Service Level</td>
+                    <td align="left">
+                        <select id="selSLevel" name="selSLevel" style="width: 350px">
+                            <option></option>
+                            <%For lRow = LBound(arrSLevelList, 2) To UBound(arrSLevelList, 2)
+				If StrComp(strServiceLevelID, arrSLevelList(0, lRow), 0) = 0 Then%>
+                            <option selected value="<%=arrSLevelList(0, lRow)%>"><%=arrSLevelList(2, lRow)%></option>
+                            <%Else%>
+                            <option value="<%=arrSLevelList(0, lRow)%>"><%=arrSLevelList(2, lRow)%></option>
+                            <%	End If
+			Next%>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" align="right">
+                        <%If UCase(strWinName) <> UCase("Popup") Then%>
+                        <input id="btnNew" name="btnNew" type="button" value="New" style="width: 2cm" language="javascript" onclick="btnNew_onClick()">&nbsp;
+			<%End If%>
+                        <input id="btnClear" name="btnClear" type="button" value="Clear" style="width: 2cm" language="javascript" onclick="btnClear_onClick()">&nbsp;
+			<input id="btnSearch" name="btnSearch" type="submit" value="Search" style="width: 2cm" language="javascript">&nbsp;
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+<%
+	'Clean ADO Objects
+	objRS.Close
+	Set objRS = Nothing
+	objConn.Close
+	Set objConn = Nothing
+%>
+</html>

@@ -1,0 +1,39 @@
+<table border=1>
+<TR>
+<TH>Correlated Elements for Customer Service 5017567 : VANCBC06-SFDCC02_Additional</TH>
+</TR>
+<TR>
+<TD NOWRAP>ROOT = SFDCC_TOROON_SFDC CRMTESTING_CM-WAN L3 VPN - 100 MBPS_0001</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUTER = VANCBC06-SFDCC02</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIBRE = 1500221</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ETH-SW = CLGRAB21RE01</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ETH-SW = EYRKONAERE01</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ETH-SW = TOROONXNRE01</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ETH-SW = CLGRAB31RE01</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUTER = CLGRAB21VC02</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUTER = CLGRAB21VC01</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUTER = VANCBC06-SFDCC02</TD>
+</TR>
+<TR>
+<TD NOWRAP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIBRE = 1500221</TD>
+</TR>
+<tfoot><tr><td><BR>Each indented block represents a subset of elements that make up the element listed directly above.</td></tr></tfoot>
+</table>

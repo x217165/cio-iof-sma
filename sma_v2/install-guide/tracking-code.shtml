@@ -1,0 +1,64 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+		  "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>Morten's JavaScript Tree Menu -- Install guide -- Tracking code</title>
+
+<script type="text/javascript">
+<!-- hide the script from old browsers
+
+if((navigator.appName == "Netscape" && parseInt(navigator.appVersion) >= 3 && navigator.userAgent.indexOf("Opera") == -1) || (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion) >= 4)) {
+
+  for(i = 0; i < parent.frames.length; i++) {
+    if(parent.frames[i].name == "code" && parent.frames[i].MTMLoaded) {
+      parent.frames[i].MTMTrack = true;
+      setTimeout("parent.frames[" + i + "].MTMDisplayMenu()", 250);
+      break;
+    }
+  }
+}
+
+// End of script hiding -->
+</script>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#330099" vlink="#666699" alink="red">
+<h2>Tracking code</h2>
+
+<p>What is left is to add some code to the files that are to appear in the right frame (the content frame, in our example called &quot;text&quot;), and also checking all pages to make sure everything's right.  Lets look at the code we need to add first.</p>
+
+<p>The code is needed for the tracking. If you forget to insert this the tracking won't work. You'll also see that submenus with URLs will not expand like they should. In the page-header (between <code>&lt;HEAD&gt;</code> and <code>&lt;/HEAD&gt;</code>) you have to insert this little script:</p>
+
+<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!-- hide the script from old browsers
+
+if((navigator.appName == &quot;Netscape&quot; && parseInt(navigator.appVersion) &gt;= 3 && navigator.userAgent.indexOf(&quot;Opera&quot;) == -1) || (navigator.appName == &quot;Microsoft Internet Explorer&quot; && parseInt(navigator.appVersion) &gt;= 4)) {
+
+  for(i = 0; i &lt; parent.frames.length; i++) {
+    if(parent.frames[i].name == &quot;code&quot; && parent.frames[i].MTMLoaded) {
+      parent.frames[i].MTMTrack = true;
+      setTimeout(&quot;parent.frames[&quot; + i + &quot;].MTMDisplayMenu()&quot;, 250);
+      break;
+    }
+  }
+}
+
+// End of script hiding --&gt;
+&lt;/script&gt;</pre></code>
+
+<p>This code checks what browser the visitor has, and if it's either of the ones who get the dynamic menu we call the function to update the menu, with a slight delay of 250ms to make fetching documents from the cache a little quicker.</p>
+
+<p>That should be about all there is to do.  If you've used my pages as a basis for your pages you might want to remember that I use style sheets for my pages, and that each page therefore has a stylesheet linked.  This link needs to be removed if you don't use stylesheets.</p>
+
+<p>If you find that the script doesn't work as it should, go through what you've done and make sure it looks like it should do.  Also remember that the above script needs to be present in <em>all</em> pages that are to be loaded in the main frame (&quot;text&quot; in our example) for the tracking to work correctly.</p>
+
+<script type="text/javascript">
+if(parent.location.href == location.href) {
+  var searchString = "http://" + location.host + "/";
+  var docString = location.href.substring(searchString.length);
+  document.write('<div class="footer"><span id="noframes"><a href="/index.shtml?' + docString + '">No frames?</a></span></div>');
+}
+</script>
+</body>
+</html>

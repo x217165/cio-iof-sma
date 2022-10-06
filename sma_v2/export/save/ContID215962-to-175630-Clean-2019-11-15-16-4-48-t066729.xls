@@ -1,0 +1,63 @@
+<table border=1>
+<THEAD>
+<TH>Batch Number</TH>
+<TH>Schema</TH>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Record ID</TH>
+<TH>Previous Value</TH>
+<TH>Current Value</TH>
+<TH>Error Message</TH>
+</THEAD>
+<TR>
+<TD NOWRAP>8708&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>******************************&nbsp;</TD>
+
+<TD NOWRAP>0&nbsp;</TD>
+
+<TD NOWRAP>FROM CONTACT ID:  000215962 - RUN TEAM, SXMCA &nbsp;</TD>
+
+<TD NOWRAP>TO CONTACT ID  :  000175630 - Amalgamation, Employee B&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8708&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>COMMENTS&nbsp;</TD>
+
+<TD NOWRAP>215962&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD>
+
+<TD NOWRAP>Amalgamated to Amalgamation, Employee B (175630) on NOV 15, 2019, 05:11 PM by t066729.  BN:( 000008708).  &nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+<TR>
+<TD NOWRAP>8708&nbsp;</TD>
+
+<TD NOWRAP>CRP&nbsp;</TD>
+
+<TD NOWRAP>CONTACT&nbsp;</TD>
+
+<TD NOWRAP>RECORD_STATUS_IND&nbsp;</TD>
+
+<TD NOWRAP>215962&nbsp;</TD>
+
+<TD NOWRAP>A&nbsp;</TD>
+
+<TD NOWRAP>D&nbsp;</TD>
+
+<TD NOWRAP>&nbsp;</TD></TR>
+
+</table>
